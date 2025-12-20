@@ -1,5 +1,7 @@
 {
   "spider": "./spider.jar;md5;71dcabb1ce2be95bb3ba5706a29964c9",
+  "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
+  "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
   "sites": [
     {
       "key": "豆瓣",
@@ -31,16 +33,6 @@
       "filterable": 0
     },
     {
-      "key": "电影天堂",
-      "name": "天堂",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./py/APPV2.py",
-      "ext": "http://cmstt.lyyytv.cn"
-    },
-    {
        "key": "看客联盟",
        "name": "看客",
        "type": 3,
@@ -49,17 +41,6 @@
            "host": "https://kankelm.cn:2024/appdomain.txt",
 	   "key": "ygcnbcvybqqckwqy",
 	   "iv": "1583560747143708"
-       }
-    },
-    {
-      "key": "即看影视",
-      "name": "即看",
-      "type": 3,
-      "api": "./py/skapp.py",
-      "ext": {
-          "host": "https://skyappdata-1321528676.cos.accelerate.myqcloud.com/4kapp/appipr.txt",
-          "key": "ygcnbckhcuvygdyb",
-          "iv": "4023892775143708"
        }
     },
     {
@@ -90,7 +71,7 @@
       "key": "吉米",
       "name": "吉米",
       "type": 3,
-      "api": "csp_AppFox",
+      "api": "./py/AppFox.py",
       "ext": {
         "host": "http://fox.tvmao.top"
       }
@@ -99,7 +80,7 @@
       "key": "二三",
       "name": "二三",
       "type": 3,
-      "api": "csp_AppFox",
+      "api": "./py/AppFox.py",
       "ext": {
         "host": "http://a.cfys.xn--fiqs8s"
       }
@@ -108,7 +89,7 @@
       "key": "恋鱼",
       "name": "恋鱼",
       "type": 3,
-      "api": "csp_AppFox",
+      "api": "./py/AppFox.py",
       "ext": {
         "host": "https://173220859-1333208043.cos.ap-shanghai.myqcloud.com/1.json",
         "ver": 2
@@ -118,7 +99,7 @@
       "key": "木瓜",
       "name": "木瓜",
       "type": 3,
-      "api": "csp_AppFox",
+      "api": "./py/AppFox.py",
       "ext": {
         "host": "http://www.yezitv.top"
       }
@@ -141,9 +122,10 @@
       "type": 3,
       "searchable": 1,
       "changeable": 1,
-      "api": "csp_AppQi",
+      "api": "./py/AppGet2.py",
       "ext": {
-        "site": "https://dtqj1.gg1080.com:443/dtjp.txt",
+        "host": "https://dtqj1.gg1080.com:443/dtjp.txt",
+        "api": "/api.php/qijiappapi",
         "dataKey": "kecbio48dsq131ed",
         "dataIv": "kecbio48dsq131ed"
       }
@@ -152,12 +134,13 @@
       "key": "爱盈",
       "name": "爱盈",
       "type": 3,
-      "api": "csp_AppQi",
+      "api": "./py/AppGet2.py",
       "changeable": "1",
       "quickSearch": 0,
       "filterable": 1,
       "ext": {
-        "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj3.txt",
+        "host": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj3.txt",
+        "api": "/api.php/qijiappapi",
         "dataKey": "sda1231sasddad21",
         "dataIv": "sda1231sasddad21",
         "ua": "okhttp/3.10.0"
@@ -167,12 +150,13 @@
       "key": "顾我",
       "name": "顾我",
       "type": 3,
-      "api": "csp_AppQi",
+      "api": "./py/AppGet2.py",
       "changeable": "1",
       "quickSearch": 0,
       "filterable": 1,
-      "ext": {
+      "host": {
         "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/guwo.txt",
+        "api": "/api.php/qijiappapi",
         "dataKey": "ca94b06ca3c7d80e",
         "dataIv": "ca94b06ca3c7d80e",
         "ua": "okhttp/3.10.0"
@@ -183,9 +167,10 @@
       "name": "仓鼠",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppQi",
+      "api": "./py/AppGet2.py",
       "ext": {
-        "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
+        "host": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
+        "api": "/api.php/qijiappapi",
         "dataKey": "da61247f5b662597",
         "dataIv": "da61247f5b662597",
         "version": "120"
@@ -196,9 +181,10 @@
       "name": "鲸鱼",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppQi",
+      "api": "./py/AppGet2.py",
       "ext": {
-        "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
+        "host": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
+        "api": "/api.php/qijiappapi",
         "dataKey": "AAdgrdghjfgswerA",
         "dataIv": "AAdgrdghjfgswerA"
       }
@@ -208,9 +194,10 @@
       "name": "小猪",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppQi",
+      "api": "./py/AppGet2.py",
       "ext": {
-        "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
+        "host": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
+        "api": "/api.php/qijiappapi",
         "dataKey": "seb5tq9mykp2w9ry",
         "dataIv": "seb5tq9mykp2w9ry",
         "ua": "okhttp/3.10.0"
@@ -221,9 +208,10 @@
       "name": "云云",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppQi",
+      "api": "./py/AppGet2.py",
       "ext": {
-        "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
+        "host": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
+        "api": "/api.php/qijiappapi",
         "dataKey": "staraugust123456",
         "dataIv": "staraugust123456",
         "version": "120"
@@ -235,9 +223,10 @@
       "type": 3,
       "searchable": 1,
       "changeable": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "site": "http://php.itcxo.cn/txt/1.txt",
+        "host": "http://php.itcxo.cn/txt/1.txt",
+        "api": "/api.php/getappapi",
         "dataKey": "PoiUytRedFghjklm",
         "dataIv": "PoiUytRedFghjklm"
       }
@@ -248,9 +237,10 @@
       "type": 3,
       "searchable": 1,
       "changeable": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "http://103.109.20.117:6699",
+        "host": "http://103.109.20.117:6699",
+        "api": "/api.php/getappapi",
         "dataKey": "xxm9N4P9rS2zjdyz",
         "dataIv": "xxm9N4P9rS2zjdyz"
       }
@@ -261,9 +251,10 @@
       "type": 3,
       "searchable": 1,
       "changeable": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "site": "https://zjm-1302383509.cos.ap-guangzhou.myqcloud.com/zjm.txt",
+        "host": "https://zjm-1302383509.cos.ap-guangzhou.myqcloud.com/zjm.txt",
+        "api": "/api.php/getappapi",
         "dataKey": "zjmznbl2026zcxgb",
         "dataIv": "zjmznbl2026zcxgb"
       }
@@ -274,9 +265,10 @@
       "type": 3,
       "searchable": 1,
       "changeable": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "https://wiffxm.cn",
+        "host": "https://wiffxm.cn",
+        "api": "/api.php/getappapi",
         "dataKey": "AvwBFPUtGTEYPbY4",
         "dataIv": "AvwBFPUtGTEYPbY4"
       }
@@ -287,9 +279,10 @@
       "type": 3,
       "searchable": 1,
       "changeable": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "https://www.jumengwu.com",
+        "host": "https://www.jumengwu.com",
+        "api": "/api.php/getappapi",
         "dataKey": "1f0a873caf2550a5",
         "dataIv": "1f0a873caf2550a5"
       }
@@ -300,9 +293,10 @@
       "type": 3,
       "searchable": 1,
       "changeable": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "https://www.zipfve.cn",
+        "host": "https://www.zipfve.cn",
+        "api": "/api.php/getappapi",
         "dataKey": "1234567890987654",
         "dataIv": "1234567890987654"
       }
@@ -313,9 +307,10 @@
       "type": 3,
       "searchable": 1,
       "changeable": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "http://49.235.114.19:150",
+        "host": "http://49.235.114.19:150",
+        "api": "/api.php/getappapi",
         "dataKey": "q7gj4f9br3fls6nh",
         "dataIv": "q7gj4f9br3fls6nh"
       }
@@ -326,9 +321,10 @@
       "type": 3,
       "searchable": 1,
       "changeable": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "http://43.154.4.75",
+        "host": "http://43.154.4.75",
+        "api": "/api.php/getappapi",
         "dataKey": "HDk-7CnlK8SQUGLg",
         "dataIv": "HDk-7CnlK8SQUGLg"
       }
@@ -337,9 +333,10 @@
       "key": "冷心",
       "name": "冷心",
       "type": 3,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "https://dy.58ys.vip",
+        "host": "https://dy.58ys.vip",
+        "api": "/api.php/getappapi",
         "dataKey": "JEWibY1AgWF0V1xx",
         "dataIv": "JEWibY1AgWF0V1xx"
       }
@@ -348,9 +345,10 @@
       "key": "火猫",
       "name": "火猫",
       "type": 3,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "http://103.23.148.70:14500",
+        "host": "http://103.23.148.70:14500",
+        "api": "/api.php/getappapi",
         "dataKey": "J6AIORKJ3PQOJKM8",
         "dataIv": "J6AIORKJ3PQOJKM8"
       }
@@ -361,9 +359,10 @@
       "type": 3,
       "searchable": 1,
       "changeable": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "https://www.mfsp4k.top",
+        "host": "https://www.mfsp4k.top",
+        "api": "/api.php/getappapi",
         "dataKey": "1234567887654321",
         "dataIv": "1234567887654321"
       }
@@ -374,9 +373,10 @@
       "type": 3,
       "searchable": 1,
       "changeable": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "site": "http://xywlkj.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2024/12/1.txt",
+        "host": "http://xywlkj.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2024/12/1.txt",
+        "api": "/api.php/getappapi",
         "dataKey": "xmyxmyxywlkjxywl",
         "dataIv": "xmyxmyxywlkjxywl"
       }
@@ -386,9 +386,10 @@
       "name": "瑞奇",
       "type": 3,
       "searchable": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "http://rqxk.gdata.fun",
+        "host": "http://rqxk.gdata.fun",
+        "api": "/api.php/getappapi",
         "dataKey": "yangruiqiYsapp00",
         "dataIv": "yangruiqiYsapp00"
       }
@@ -398,9 +399,10 @@
       "name": "优势",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "http://zxy-ys.810211.dpdns.org",
+        "hust": "http://zxy-ys.810211.dpdns.org",
+        "api": "/api.php/getappapi",
         "dataKey": "1234567890123456",
         "dataIv": "1234567890123456"
       }
@@ -410,9 +412,10 @@
       "name": "茉莉",
       "type": 3,
       "searchable": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
+        "host": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
+        "api": "/api.php/getappapi",
         "dataKey": "88689667dce61725",
         "dataIv": "88689667dce61725"
       }
@@ -422,9 +425,10 @@
       "name": "坚果",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "site": "https://qiliniao-1331306839.cos.ap-chengdu.myqcloud.com/jg.txt",
+        "host": "https://qiliniao-1331306839.cos.ap-chengdu.myqcloud.com/jg.txt",
+        "api": "/api.php/getappapi",
         "dataKey": "2015692015692015",
         "dataIv": "2015692015692015"
       }
@@ -434,9 +438,10 @@
       "name": "星空",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "http://xkcms.xkgzs.xyz",
+        "host": "http://xkcms.xkgzs.xyz",
+        "api": "/api.php/getappapi",
         "dataKey": "AJcdjkAjkdJDkvcd",
         "dataIv": "AJcdjkAjkdJDkvcd"
       }
@@ -446,9 +451,10 @@
       "name": "数字",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "http://app1-0-0.87333.cc",
+        "host": "http://app1-0-0.87333.cc",
+        "api": "/api.php/getappapi",
         "dataKey": "VwsHxkCViDXEExWa",
         "dataIv": "VwsHxkCViDXEExWa"
       }
@@ -458,9 +464,10 @@
       "name": "火锅",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "https://ios.hgyx.vip",
+        "host": "https://ios.hgyx.vip",
+        "api": "/api.php/getappapi",
         "dataKey": "062dec75d039980e",
         "dataIv": "062dec75d039980e",
         "ua": "Dart/3.5 (dart:io)"
@@ -471,9 +478,10 @@
       "name": "八天",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "https://dy.8ttv.cn",
+        "host": "https://dy.8ttv.cn",
+        "api": "/api.php/getappapi",
         "dataKey": "1111111111111111",
         "dataIv": "1111111111111111"
       }
@@ -483,9 +491,10 @@
       "name": "紫金",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "http://www.zjcvod.com",
+        "host": "http://www.zjcvod.com",
+        "api": "/api.php/getappapi",
         "dataKey": "ab4e9a421675f14b",
         "dataIv": "ab4e9a421675f14b"
       }
@@ -495,9 +504,10 @@
       "name": "星星",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "http://starani.qcanime.xyz",
+        "host": "http://starani.qcanime.xyz",
+        "api": "/api.php/getappapi",
         "dataKey": "123456789StarAni",
         "dataIv": "123456789StarAni",
         "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
@@ -508,9 +518,10 @@
       "name": "稀饭",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "https://app.xifanys.com",
+        "host": "https://app.xifanys.com",
+        "api": "/api.php/getappapi",
         "dataKey": "HM6Ly9yeS4ya3dvL",
         "dataIv": "HM6Ly9yeS4ya3dvL"
       }
@@ -520,9 +531,10 @@
       "name": "五八",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "https://dy.58ys.vip",
+        "host": "https://dy.58ys.vip",
+        "api": "/api.php/getappapi",
         "dataKey": "JEWibY1AgWF0V1xx",
         "dataIv": "JEWibY1AgWF0V1xx"
       }
@@ -532,9 +544,10 @@
       "name": "驿站",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
+        "host": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
+        "api": "/api.php/getappapi",
         "dataKey": "dyyztvapiappyyds",
         "dataIv": "dyyztvapiappyyds"
       }
@@ -544,9 +557,10 @@
       "name": "莱米",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "site": "http://laiget-1313189639.cos.ap-guangzhou.myqcloud.com/laimi.txt",
+        "host": "http://laiget-1313189639.cos.ap-guangzhou.myqcloud.com/laimi.txt",
+        "api": "/api.php/getappapi",
         "dataKey": "ce032244d093b3e2",
         "dataIv": "ce032244d093b3e2"
       }
@@ -556,9 +570,10 @@
       "name": "灵虎",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "site": "https://bind.315999.xyz/89.txt",
+        "host": "https://bind.315999.xyz/89.txt",
+        "api": "/api.php/getappapi",
         "dataKey": "#getapp@TMD@2025",
         "dataIv": "#getapp@TMD@2025",
         "version": "120"
@@ -569,9 +584,10 @@
       "name": "旗星",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "ext": {
-        "url": "http://ys.qist.top",
+        "host": "http://ys.qist.top",
+        "api": "/api.php/getappapi",
         "dataKey": "2SWSPFxugBLPPOKo",
         "dataIv": "2SWSPFxugBLPPOKo",
         "version": "120"
@@ -650,28 +666,20 @@
       "name": "优质",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./XBPQ/优质资源.json"
+      "ext": "./XBPQ/优质.json"
     },
     {
-      "key": "浮世影院",
-      "name": "浮世",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/浮世影院.json"
-    },
-    {
-      "key": "太乙影视",
-      "name": "太乙",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/太乙影视.json"
-    },
-    {
-      "key": "泡菜影视",
-      "name": "泡菜",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/泡菜影视.json"
+      "key":"电影小镇",
+      "name":"小镇",
+      "type":3,
+      "api":"csp_XBPQ",
+      "searchable":1,
+      "ext":{
+        "主页url":"http://www.du88.cc",
+        "分类":"电影&电视剧&综艺&动漫&福利&伦理",
+        "分类值":"1&2&4&3&5&6",
+        "分类url":"http://www.du88.cc/list/{cateId}_{catePg}.html"
+      }
     },
     {
       "key":"枝枝影视",
@@ -686,11 +694,22 @@
       }
     },
     {
-      "key": "番茄短剧",
-      "name": "番茄",
+      "key": "8090高清",
+      "name": "8090",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/FQDJ.json"
+      "ext": "./XBPQ/8090高清.json"
+    },
+    {
+       "key": "小鸭子看看",
+       "name": "看看",
+       "type": 4,
+       "api": "http://zhangqun1818.serv00.net:5052/?sp=小鸭子看看",
+       "style": {
+	  "type": "rect",
+	  "ratio": 1.33
+	},
+	  "changeable": 1
     },
     {
       "key": "厂长影视",
@@ -781,37 +800,6 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/MXYS.json"
-    },
-    {
-      "key": "8090高清",
-      "name": "8090",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/8090高清.json"
-    },
-    {
-      "key":"电影小镇",
-      "name":"小镇",
-      "type":3,
-      "api":"csp_XBPQ",
-	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",	
-      "searchable":1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",      
-        "分类url":"http://dyxz.tv/;;!H"
-      }
-    }
-    {
-      "key": "小鸭子看看",
-      "name": "鸭鸭",
-      "type": 4,
-      "api": "http://zhangqun1818.serv00.net:5052/?sp=小鸭子看看",
-      "style": {
-	  "type": "rect",
-	  "ratio": 1.33
-       },
-       "changeable": 1
     },
     {
       "key": "采集之王",
@@ -1247,12 +1235,87 @@
     },
     {
       "key": "push_agent",
-      "name": "Push",
+      "name": "推送",
       "type": 3,
       "api": "csp_Push",
       "searchable": 0,
-      "changeable": 0,
-      "timeout": 60
+      "filterable": 0,
+      "changeable": 0
+    }
+  ],
+  "rules": [
+    {
+      "name": "农民",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "火山",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "抖音",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "磁力广告",
+      "hosts": [
+        "magnet"
+      ],
+      "regex": [
+        "更多",
+        "请访问",
+        "example",
+        "社 區",
+        "x u u",
+        "直 播",
+        "更 新",
+        "社 区",
+        "有趣",
+        "有 趣",
+        "英皇体育",
+        "全中文AV在线",
+        "澳门皇冠赌场",
+        "哥哥快来",
+        "美女荷官",
+        "裸聊",
+        "新片首发",
+        "UUE29"
+      ]
+    },
+    {
+      "name": "饭团点击",
+      "hosts": [
+        "dadagui",
+        "freeok",
+        "dadagui"
+      ],
+      "script": [
+        "document.querySelector(\"#playleftiframe\").contentWindow.document.querySelector(\"#start\").click();"
+      ]
+    },
+    {
+      "name": "毛驴点击",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"
+      ]
     }
   ],
   "doh": [
@@ -1273,30 +1336,230 @@
         "2606:4700:4700::1111",
         "2606:4700:4700::1001"
       ]
-    }
-  ],
-  "rules": [
+    },
     {
-      "name": "sniffer",
-      "hosts": [
-        "api.52wyb.com"
-      ],
-      "regex": [
-        "m3u8?pt=m3u8"
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
       ]
     },
     {
-      "name": "click",
-      "hosts": [
-        "www.maolvys.com"
-      ],
-      "script": [
-        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
+    }
+  ],
+  "flags": [
+    "youku",
+    "优酷",
+    "优 酷",
+    "优酷视频",
+    "qq",
+    "腾讯",
+    "腾 讯",
+    "腾讯视频",
+    "iqiyi",
+    "qiyi",
+    "奇艺",
+    "爱奇艺",
+    "爱 奇 艺",
+    "m1905",
+    "xigua",
+    "letv",
+    "leshi",
+    "乐视",
+    "乐 视",
+    "sohu",
+    "搜狐",
+    "搜 狐",
+    "搜狐视频",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "芒果",
+    "imgo",
+    "芒果TV",
+    "芒 果 T V",
+    "bilibili",
+    "哔 哩",
+    "哔 哩 哔 哩"
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
       ]
     }
   ],
   "ads": [
-    "static-mozai.4gtv.tv",
-    "s3t3d2y8.afcdn.net"
+    "static-mozai.4gtv.tv"
   ]
 }

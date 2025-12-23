@@ -225,12 +225,12 @@
       "name":"小镇",
       "type":3,
       "api":"csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "searchable":1,
       "ext":{
-        "主页url":"http://www.du88.cc",
-        "分类":"电影&电视剧&综艺&动漫&福利&伦理",
-        "分类值":"1&2&4&3&5&6",
-        "分类url":"http://www.du88.cc/list/{cateId}_{catePg}.html"
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",       
+        "分类url":"http://www.du88.cc/;;!"
       }
     },
     {
@@ -238,27 +238,14 @@
       "name":"8090",
       "type":3,
       "api":"csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "searchable":1,
       "ext":{
-        "主页url":"https://www.hd8090.cc/",
-        "分类":"电影&电视剧&综艺&动漫&短剧大全&特色片",
-        "分类值":"1&2&5&3&4&22",
-        "分类url":"https://www.hd8090.cc/vodshow/{cateId}--------{catePg}---.html;;!"
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",       
+        "分类url":"https://www.hd8090.cc/;;!"
       }
-    },
-    {
-      "key":"吃瓜影视",
-      "name":"吃瓜",
-      "type":3,
-      "api":"csp_XBPQ",
-      "searchable":1,
-      "ext":{
-        "主页url":"https://www.airuok.com/",
-        "分类":"电影$1#连续剧$2#综艺$3#动漫$4#",
-        "搜索url": "https://www.airuok.com/index.php/vod/search/page/{pg}/wd/{wd}.html",
-        "分类url":"https://www.airuok.com/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html"
-      }
-    },
+    },	  
     {
       "key": "地瓜影院",
       "name": "地瓜",
@@ -359,6 +346,12 @@
         "动画片"
       ]
     },
+	{
+	  "key": "猫眼资源",
+	  "name": "猫眼",
+	  "type": 1,
+	  "api": "https://api.maoyanapi.top/api.php/provide/vod"
+	},	  
     {
       "key": "阿里盘搜",
       "name": "阿里",
@@ -680,3 +673,4 @@
   ]
 
 }
+

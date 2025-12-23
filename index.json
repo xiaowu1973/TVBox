@@ -42,6 +42,26 @@
       "filterable": 0
     },
     {
+      "key": "爱优腾",
+      "name": "爱优腾",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "./py/APPV2.py",
+      "ext": "http://114.66.55.28:4816/"
+    },
+    {
+      "key": "电影天堂",
+      "name": "天堂",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "./py/APPV2.py",
+      "ext": "http://cmstt.lyyytv.cn"
+    },
+    {
       "key": "瓜子影视",
       "name": "瓜子",
       "type": 3,
@@ -178,6 +198,18 @@
       }
     },
     {
+      "key":"枝枝影视",
+      "name":"枝枝",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://zzoc.cc/;;!"
+      }
+    },
+    {
       "key":"电影小镇",
       "name":"小镇",
       "type":3,
@@ -200,7 +232,7 @@
         "主页url":"https://www.hd8090.cc/",
         "分类":"电影&电视剧&综艺&动漫&短剧大全&特色片",
         "分类值":"1&2&5&3&4&22",
-        "分类url":"https://www.hd8090.cc/vodshow/{cateid}-{area}---{lang}----{catepg}---.html"
+        "分类url":"https://www.hd8090.cc/vodshow/{cateId}--------{catePg}---.html;;!"
       }
     },
     {
@@ -241,6 +273,17 @@
        "api": "https://cdn.jsdmirror.com/gh/wzxxcz/tvbox@main/py/AppToV5.py",
        "ext": "http://101.35.85.16:5555"
     },
+    {
+      "key": "小鸭子看看",
+      "name": "鸭鸭",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net:5052/?sp=小鸭子看看",
+      "style": {
+         "type": "rect",
+	 "ratio": 1.33
+       },
+	  "changeable": 1
+    }, 
     {
       "key": "量子资源",
       "name": "量子",

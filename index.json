@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;6807e1964e2df807097ca45d3816c638",
+  "spider": "./spider.jar;md5;a00d8a393d9db6c539805065179ee367",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -32,16 +32,6 @@
       "filterable": 0
     },
     {
-      "key": "爱优腾",
-      "name": "爱优腾",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./py/APPV2.py",
-      "ext": "http://114.66.55.28:4816/"
-    },
-    {
       "key": "电影天堂",
       "name": "天堂",
       "type": 3,
@@ -51,6 +41,28 @@
       "api": "./py/APPV2.py",
       "ext": "http://cmstt.lyyytv.cn"
     },
+    {
+      "key": "看客联盟",
+      "name": "看客",
+      "type": 3,
+      "api": "./py/skapp.py",
+      "ext": {
+	  "host": "https://kankelm.cn:2024/appdomain.txt",
+	  "key": "ygcnbcvybqqckwqy",
+	  "iv": "1583560747143708"
+      }
+    },
+    {
+      "key": "即看影视",
+      "name": "即看",
+      "type": 3,
+      "api": "./py/skapp.py",
+      "ext": {
+          "host": "https://skyappdata-1321528676.cos.accelerate.myqcloud.com/4kapp/appipr.txt",
+	  "key": "ygcnbckhcuvygdyb",
+	  "iv": "4023892775143708"
+      }
+    }, 
     {
       "key": "瓜子影视",
       "name": "瓜子",
@@ -66,6 +78,47 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/优质资源.json"
+    },
+    {
+       "key": "蔬菜",
+       "name": "蔬菜",
+       "type": 3,
+       "quickSearch": 1,
+       "api": "csp_AppGet",
+       "ext": {
+           "url": "http://huohu.yihn.cc",
+           "site": "",
+           "dataKey": "huohushipingetap",
+           "dataIv": "huohushipingetap",
+           "deviceId": "",
+           "version": "140",
+           "ua": ""
+        }
+    },
+    {
+      "key": "和友",
+      "name": "和友",
+      "type": 3,
+      "api": "csp_AppSy",
+      "ext": {
+        "site": "http://qcb.sxtzg.com/api.txt",
+        "siteKey": "rectangleadsadxa",
+        "listKey": "gHSLmx3JQRasgztO",
+        "parsesKey": "gHSLmx3JQRasgztO"
+      }
+    },
+    {
+      "key": "云云",
+      "name": "云云",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "ext": {
+        "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
+        "dataKey": "staraugust123456",
+        "dataIv": "staraugust123456",
+        "version": "120"
+      }
     },
     {
       "key": "仓鼠_APP",
@@ -110,6 +163,36 @@
         "api": "/api.php/qijiappapi",
         "datakey": "37kj83zs1q16jk6t",
         "dataiv": "37kj83zs1q16jk6t"
+      }
+    },
+    {
+      "key": "白鸽",
+      "name": "白鸽",
+      "type": 3,
+      "api": "./py/AppGet.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://cy.baige.asia",
+        "api": "/api.php/getappapi",
+        "datakey": "599D0FE5178642FD",
+        "dataiv": "599D0FE5178642FD"
+      }
+    },
+    {
+      "key": "奇奇",
+      "name": "奇奇",
+      "type": 3,
+      "api": "./py/AppGet.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://103.236.61.192:8006",
+        "api": "/api.php/getappapi",
+        "datakey": "123456789abcdefg",
+        "dataiv": "123456789abcdefg"
       }
     },
     {
@@ -191,19 +274,19 @@
       "key": "采集之王[合]",
       "name": "采王",
       "type": 3,
-      "api": "./js/drpy2.min.js",
+      "api": "https://gitee.com/abac1984/another-d/raw/master/js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
-      "ext": "./js/采集之王.js?type=url&params=../json/采集静态.json$1"
+      "ext": "https://gitee.com/abac1984/another-d/raw/master/movie/js/CJZW.js?type=url&params=https://gitee.com/abac1984/another-d/raw/master/movie/json/CJJT.json$1$1"
     },	  
     {
       "key":"枝枝影视",
       "name":"枝枝",
       "type":3,
       "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "jar":"./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",
@@ -215,7 +298,7 @@
       "name":"小镇",
       "type":3,
       "api":"csp_XBPQ",
-	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+	  "jar":"./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "searchable":1,
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
@@ -228,7 +311,7 @@
       "name":"8090",
       "type":3,
       "api":"csp_XBPQ",
-	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+	  "jar":"./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "searchable":1,
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
@@ -253,13 +336,6 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/PTT.json"
-    },
-    {
-       "key": "聚搜",
-       "name": "聚搜",
-       "type": 3,
-       "api": "https://cdn.jsdmirror.com/gh/wzxxcz/tvbox@main/py/AppToV5.py",
-       "ext": "http://101.35.85.16:5555"
     },
     {
       "key": "小鸭子看看",
@@ -336,12 +412,27 @@
         "动画片"
       ]
     },
-	{
-	  "key": "猫眼资源",
-	  "name": "猫眼",
-	  "type": 1,
-	  "api": "https://api.maoyanapi.top/api.php/provide/vod"
-	},	  
+    {
+      "key": "猫眼资源",
+      "name": "猫眼",
+      "type": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "科幻片",
+        "恐怖片",
+        "战争片",
+        "纪录片",
+        "历史片",
+        "国产剧",
+        "香港剧",
+        "惊悚片",
+        "悬疑片",
+        "伦理片"
+      ]
+    },	  
     {
       "key": "阿里盘搜",
       "name": "阿里",

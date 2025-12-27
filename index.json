@@ -1059,7 +1059,7 @@
       "name": "养生",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./XBPQ/YST.json",
+      "ext": "./XBPQ/养生堂.json",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -1112,6 +1112,7 @@
     }
   ]
 }
+
 
 
 

@@ -92,34 +92,6 @@
       }
     },
     {
-      "key": "吉米",
-      "name": "吉米",
-      "type": 3,
-      "api": "csp_AppFox",
-      "ext": {
-        "host": "http://fox.tvmao.top"
-      }
-    },
-    {
-      "key": "二三",
-      "name": "二三",
-      "type": 3,
-      "api": "csp_AppFox",
-      "ext": {
-        "host": "http://a.cfys.xn--fiqs8s"
-      }
-    },
-    {
-      "key": "恋鱼",
-      "name": "恋鱼",
-      "type": 3,
-      "api": "csp_AppFox",
-      "ext": {
-        "host": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
-        "ver": 2
-      }
-    },
-    {
       "key": "麒麟",
       "name": "麒麟",
       "type": 3,
@@ -1112,6 +1084,7 @@
     }
   ]
 }
+
 
 
 

@@ -597,16 +597,17 @@
       }
     },
     {
+      "key": "零度影视",
+      "name": "零度",
+      "type": 3,
+      "api": "./py/零度影视.py"
+    },
+    {
       "key": "采集之王",
       "name": "采王",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./js/采集之王.js?type=url&params=../json/采集静态.json$1$1"
-    },	  
+      "api": "./py/采集之王.py"
+    },	  	  
     {
       "key":"枝枝影视",
       "name":"枝枝",
@@ -1084,6 +1085,7 @@
     }
   ]
 }
+
 
 
 

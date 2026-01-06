@@ -485,6 +485,18 @@
       "api": "./js/drpy2.min.js",
       "ext": "./js/鬼片影视.js"
     },
+	{
+	  "key": "采集合集py",
+	  "name": "采集",
+	  "type": 3,
+	  "api": "./py/采集合集.py",
+	  "searchable": 1,
+	  "quickSearch": 1,
+	  "filterable": 1,
+	  "changeable": 1,
+	  "playerType": 2,
+	  "ext": "0"
+	},	  
     {
       "key": "采集之王",
       "name": "采王",
@@ -949,6 +961,7 @@
     }
   ]
 }
+
 
 
 

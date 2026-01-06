@@ -479,8 +479,8 @@
       "api": "./py/零度影视.py"
     },
     {
-      "key": "采集之王",
-      "name": "采王",
+      "key": "鬼片影视",
+      "name": "鬼片",
       "type": 3,
       "api": "./js/drpy2.min.js",
       "ext": "./js/鬼片影视.js"
@@ -489,8 +489,8 @@
       "key": "采集之王",
       "name": "采王",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/采集之王.js?type=url&params=../json/采集静态.json$1$1"
+      "api": "https://gitee.com/abac1984/another-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/abac1984/another-d/raw/master/movie/js/CJZW.js?type=url&params=https://gitee.com/abac1984/another-d/raw/master/movie/json/CJJT.json$1$1"
     },	  
     {
       "key":"枝枝影视",
@@ -949,6 +949,7 @@
     }
   ]
 }
+
 
 
 

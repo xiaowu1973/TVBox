@@ -54,7 +54,6 @@ class Spider(Spider):
                 {"name": "TV-无尽资源3", "api": "https://api.wujinapi.net/api.php/provide/vod", "detail": "", "bz": "1", "paichu": "1,2,3,4,5"},
                 {"name": "TV-旺旺短剧", "api": "https://wwzy.tv/api.php/provide/vod", "detail": "https://wwzy.tv", "bz": "1", "paichu": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"},
                 {"name": "TV-旺旺资源", "api": "https://api.wwzy.tv/api.php/provide/vod", "detail": "https://api.wwzy.tv", "bz": "1", "paichu": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"},
-                {"name": "TV-猫眼资源", "api": "https://api.maoyanapi.top/api.php/provide/vod", "detail": "", "bz": "1", "paichu": "1,2,3,4"},
                 {"name": "TV-最大点播", "api": "http://zuidazy.me/api.php/provide/vod", "detail": "http://zuidazy.me", "bz": "1", "paichu": "1,2,3,4"},
                 {"name": "TV-最大资源", "api": "https://api.zuidapi.com/api.php/provide/vod", "detail": "https://api.zuidapi.com", "bz": "1", "paichu": "1,2,3,4"},
                 {"name": "TV-樱花资源", "api": "https://m3u8.apiyhzy.com/api.php/provide/vod", "detail": "", "bz": "0", "paichu": "1,2,3,4,5"},

@@ -33,6 +33,45 @@
       "filterable": 0
     },
     {
+      "key": "电影天堂",
+      "name": "天堂",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "./py/APPV2.py",
+      "ext": "http://cmstt.lyyytv.cn"
+    },
+    {
+      "key": "看客联盟",
+      "name": "看客",
+      "type": 3,
+      "api": "./py/skapp.py",
+      "ext": {
+	  "host": "https://kankelm.cn:2024/appdomain.txt",
+	  "key": "ygcnbcvybqqckwqy",
+	  "iv": "1583560747143708"
+      }
+    },
+    {
+      "key": "即看影视",
+      "name": "即看",
+      "type": 3,
+      "api": "./py/skapp.py",
+      "ext": {
+          "host": "https://skyappdata-1321528676.cos.accelerate.myqcloud.com/4kapp/appipr.txt",
+	  "key": "ygcnbckhcuvygdyb",
+	  "iv": "4023892775143708"
+      }
+    },
+    {
+      "key": "优质资源",
+      "name": "优质",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/优质资源.json"
+    }, 
+    {
       "key": "热播影视",
       "name": "热播",
       "type": 3,
@@ -72,7 +111,7 @@
       "changeable": 0,
       "api": "csp_AppFox",
       "ext": {
-        "host": "host": "https://yzysap.oss-cn-hangzhou.aliyuncs.com/yzysapp.json",
+        "host": "https://yzysap.oss-cn-hangzhou.aliyuncs.com/yzysapp.json",
         "ver": 2
       }
     },
@@ -139,7 +178,7 @@
       "quickSearch": 1,
       "api": "csp_AppQi",
       "ext": {
-        "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi430.txt",
+        "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
         "dataKey": "7sKhdca8HXGuyZ4x",
         "dataIv": "7sKhdca8HXGuyZ4x",
         "version": "120"
@@ -419,6 +458,21 @@
       }
     },
     {
+      "key": "夸克",
+      "name": "夸克",
+      "type": 3,
+      "api": "csp_PanWebShareCloudKK",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+          "https://www.quarktv.cc"
+        ]
+      }
+    },
+    {
       "key": "夸父",
       "name": "夸父",
       "type": 3,
@@ -529,18 +583,11 @@
       "key": "星芽短剧",
       "name": "星芽",
       "type": 3,
-      "api": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/py/XYDJ.py",
+      "api": "./py/XYDJ.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "番茄短剧",
-      "name": "番茄",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/FQDJ.json"
     },
     {
       "key": "厂长影视",
@@ -617,20 +664,6 @@
       "type": 3,
       "api": "csp_Wwys",
       "ext": "https://vip.wwgz.cn:5200"
-    },
-    {
-      "key": "莫小影视",
-      "name": "莫小",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/MoXiaoYS.json"
-    },
-    {
-      "key": "明星影视",
-      "name": "明星",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/MXYS.json"
     },
     {
       "key": "采集之王",

@@ -80,6 +80,47 @@
       "ext": "./XBPQ/优质资源.json"
     },
     {
+      "key": "T4-mengtaiqi",
+      "name": "蒙太奇",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/mengtaiqi.php"
+    },
+    {
+      "key": "T4-fenxiang",
+      "name": "粉象",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/fenxiang.php"
+    },
+    {
+      "key": "T4-jumeng",
+      "name": "聚梦",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/jumeng.php"
+    },
+    {
+      "key": "T4-huaxiaozhu111",
+      "name": "花猪",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/huaxiaozhu.php"
+    },
+    {
+      "key": "T4-jimi",
+      "name": "吉米",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/jimi.php"
+    },
+    {
+      "key": "py_xiongdi",
+      "name": "兄弟",
+      "type": 3,
+      "api": "./py/兄弟影视.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 0,
+      "timeout": 60
+    },	  
+    {
       "key": "热播影视",
       "name": "热播",
       "type": 3,
@@ -961,6 +1002,7 @@
     }
   ]
 }
+
 
 
 

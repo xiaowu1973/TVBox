@@ -73,23 +73,10 @@
       "filterable": 1
     },	  
     {
-      "key": "优质资源",
-      "name": "优质",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/优质资源.json"
-    },
-    {
       "key": "T4-mengtaiqi",
       "name": "蒙太奇",
       "type": 4,
       "api": "https://catbox.n13.club/t9/mengtaiqi.php"
-    },
-    {
-      "key": "T4-fenxiang",
-      "name": "粉象",
-      "type": 4,
-      "api": "https://catbox.n13.club/t9/fenxiang.php"
     },
     {
       "key": "T4-jumeng",
@@ -606,6 +593,13 @@
       }
     },
     {
+      "key": "优质资源",
+      "name": "优质",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/优质资源.json"
+    },	  
+    {
       "key": "追剧大师",
       "name": "追剧",
       "type": 3,
@@ -1013,6 +1007,7 @@
     }
   ]
 }
+
 
 
 

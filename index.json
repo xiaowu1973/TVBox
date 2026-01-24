@@ -107,12 +107,6 @@
       "filterable": 0,
       "timeout": 60
     },
-    {
-      "key": "海龟",
-      "name": "海龟",
-      "type": 3,
-      "api": "./js/海龟.js"
-    },
 	{
 	  "key": "官方采集",
 	  "name": "采集",
@@ -333,17 +327,6 @@
       }
     },
     {
-      "key": "天峰",
-      "name": "天峰",
-      "type": 3,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "http://zxy-ys.810211.dpdns.org",
-        "dataKey": "1234567890123456",
-        "dataIv": "1234567890123456"
-      }
-    },
-    {
       "key": "气球",
       "name": "气球",
       "type": 3,
@@ -450,19 +433,6 @@
         "site": "https://bind.315999.xyz/89.txt",
         "dataKey": "#getapp@TMD@2025",
         "dataIv": "#getapp@TMD@2025",
-        "version": "120"
-      }
-    },
-    {
-      "key": "旗星",
-      "name": "旗星",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "http://ys.qist.top",
-        "dataKey": "2SWSPFxugBLPPOKo",
-        "dataIv": "2SWSPFxugBLPPOKo",
         "version": "120"
       }
     },        	  
@@ -997,6 +967,7 @@
     }
   ]
 }
+
 
 
 

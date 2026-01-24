@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;2dd7991e8b4b0761265cb1c1a35012fd",
+  "spider": "./spider.jar;md5;f8e89f42f5dc64433fdfa946fd6f35be",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -106,7 +106,23 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60
-    },	  
+    },
+    {
+      "key": "海龟",
+      "name": "海龟",
+      "type": 3,
+      "api": "./js/海龟.js"
+    },
+	{
+	  "key": "官方采集",
+	  "name": "采集",
+	  "type": 3,
+	  "api": "./js/官方采集.min.js",
+	  "searchable": 1,
+	  "quickSearch": 0,
+	  "filterable": 0,
+	  "changeable": 0
+	},	  
     {
       "key": "热播影视",
       "name": "热播",
@@ -269,6 +285,17 @@
         "dataIv": "123456789abcdefg"
       }
     },
+    {
+      "key": "火狐",
+      "name": "火狐",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": {
+        "site": "http://122.114.171.79:568/huohushipin.txt",
+        "dataKey": "huohushipingetap",
+        "dataIv": "huohushipingetap"
+      }
+    },	  
     {
       "key": "看呗",
       "name": "看呗",
@@ -959,6 +986,7 @@
     }
   ]
 }
+
 
 
 

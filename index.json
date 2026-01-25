@@ -173,6 +173,22 @@
         "ver": 2
       }
     },
+    {
+      "key": "顾我",
+      "name": "顾我",
+      "type": 3,
+      "api": "csp_AppQi",
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/pgqj.json",
+        "dataKey": "kj37zs29q22jk96t",
+        "dataIv": "kj37zs29q22jk96t",
+        "init": "initV122",
+        "ua": "okhttp/3.10.0"
+      }
+    },	  
 	{
 	  "key":"奇奇",
 	  "name":"奇奇",
@@ -280,6 +296,17 @@
       }
     },
     {
+      "key": "芬奇",
+      "name": "芬奇",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": {
+        "site": "https://wsapi.dafenqi.mom/yuming.txt",
+        "dataKey": "bH5mI8iK0tK7aQ5x",
+        "dataIv": "bH5mI8iK0tK7aQ5x"
+      }
+    },	  
+    {
       "key": "火狐",
       "name": "火狐",
       "type": 3,
@@ -303,6 +330,17 @@
       }
     },
     {
+      "key": "优兔",
+      "name": "优兔",
+      "type": 3,
+      "api": "csp_AppQi",
+      "ext": {
+        "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
+        "dataKey": "UrWKPnmQWJA8AQzd",
+        "dataIv": "UrWKPnmQWJA8AQzd"
+      }
+    },	  
+    {
       "key": "小猫影视",
       "name": "小猫",
       "type": 3,
@@ -314,6 +352,18 @@
         "dataIv": "xmyxmyxywlkjxywl"
       }
     },
+    {
+      "key": "小白",
+      "name": "小白",
+      "type": 3,
+      "searchable": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://uutu.efjhl.cn",
+        "dataKey": "uXVVRRuaPnjEfsX5",
+        "dataIv": "uXVVRRuaPnjEfsX5"
+      }
+    },	  
     {
       "key": "火锅",
       "name": "火锅",
@@ -435,7 +485,20 @@
         "dataIv": "#getapp@TMD@2025",
         "version": "120"
       }
-    },        	  
+    },
+    {
+      "key": "旗星",
+      "name": "旗星",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://ys.qist.top",
+        "dataKey": "2SWSPFxugBLPPOKo",
+        "dataIv": "2SWSPFxugBLPPOKo",
+        "version": "120"
+      }
+    },	  
     {
       "key": "蔬菜",
       "name": "蔬菜",
@@ -967,6 +1030,7 @@
     }
   ]
 }
+
 
 
 

@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;f8e89f42f5dc64433fdfa946fd6f35be",
+  "spider": "./spider.jar",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -1030,6 +1030,7 @@
     }
   ]
 }
+
 
 
 

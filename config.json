@@ -476,6 +476,21 @@
       }
     },
     {
+      "key": "数字",
+      "name": "数字",
+      "type": 3,
+      "api": "./py/AppGet.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://app1-0-0.87333.cc",
+        "api": "/api.php/getappapi",
+        "datakey": "VwsHxkCViDXEExWa",
+        "dataiv": "VwsHxkCViDXEExWa"
+      }
+    },	  
+    {
       "key": "夸克",
       "name": "夸克",
       "type": 3,

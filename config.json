@@ -796,10 +796,10 @@
 	  "changeable": 1
     },
     {
-      "key": "py_妲己",
+      "key": "妲己视频",
       "name": "妲己",
       "type": 3,
-      "api": "./py/妲己.py",
+      "api": "./py/妲己视频.py",
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,

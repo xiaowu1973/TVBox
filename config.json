@@ -66,9 +66,9 @@
       "type": 3,
       "api": "./py/skapp.py",
       "ext": {
-	  "host": "https://kankelm.cn:2024/appdomain.txt",
-	  "key": "ygcnbcvybqqckwqy",
-	  "iv": "1583560747143708"
+	    "host": "https://kankelm.cn:2024/appdomain.txt",
+	    "key": "ygcnbcvybqqckwqy",
+	    "iv": "1583560747143708"
       }
     },
     {
@@ -77,11 +77,29 @@
       "type": 3,
       "api": "./py/skapp.py",
       "ext": {
-          "host": "https://skyappdata-1321528676.cos.accelerate.myqcloud.com/4kapp/appipr.txt",
-	  "key": "ygcnbckhcuvygdyb",
-	  "iv": "4023892775143708"
+        "host": "https://skyappdata-1321528676.cos.accelerate.myqcloud.com/4kapp/appipr.txt",
+	    "key": "ygcnbckhcuvygdyb",
+	    "iv": "4023892775143708"
       }
     },
+	{
+	  "key": "团夕影视",
+	  "name": "团夕",
+	  "type": 3,
+	  "api": "./py/APPV2.py",
+	  "ext": {
+		"api": "http://yjyi.juyongjiu.com/icciu_api.php/v1.vod",
+		"datasignkey": "6QQNUsP3PkD2ajJCPCY8",
+		"apisignkey": "lvdoutv-1.0.0"
+	  }
+	},
+	{
+	  "key": "旗星影视",
+	  "name": "旗星",
+	  "type": 3,
+	  "api": "csp_AppYs", 
+	  "ext": "http://yjyi.juyongjiu.com/icciu_api.php/v1.vod"
+	},	  
     {
       "key": "热播影视",
       "name": "热播",

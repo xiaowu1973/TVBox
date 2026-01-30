@@ -696,6 +696,13 @@
       "ext": "https://vip.wwgz.cn:5200"
     },
     {
+      "key": "ZC4K",
+      "name": "ZC4K",
+      "type": 3,
+      "api": "csp_ZC4K",
+      "jar": "./jars/ZC4K.jar"
+    },	  
+    {
       "key":"枝枝影视",
       "name":"枝枝",
       "type":3,

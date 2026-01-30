@@ -696,12 +696,16 @@
       "ext": "https://vip.wwgz.cn:5200"
     },
     {
-      "key": "ZC4K",
-      "name": "ZC4K",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "./jars/ZC4K.jar"
-    },	  
+	  "key":"猎狼影视",
+	  "name":"猎狼",
+	  "type":3,
+	  "api":"csp_XBPQ",
+	  "ext":{
+		"简介":"detail-content\" style=*>&&",
+		"分类url":"https://lielangys.top/index.php/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+		"分类":"短剧$4#电视剧$2#电影$1#动漫$3"
+	  }
+	}, 	  
     {
       "key":"枝枝影视",
       "name":"枝枝",

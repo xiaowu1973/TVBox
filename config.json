@@ -752,13 +752,6 @@
       "ext": "./XBPQ/优质资源.json"
     },
     {
-      "key": "小镇影视",
-      "name": "小镇",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/小镇影视.json"
-    },
-    {
        "key": "采集合集py",
        "name": "采集",
        "type": 3,
@@ -841,13 +834,6 @@
       ]
     },	  
     {
-      "key": "追剧大师",
-      "name": "追剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/PTT.json"
-    },
-    {
       "key": "小鸭子看看",
       "name": "鸭鸭",
       "type": 4,
@@ -869,6 +855,17 @@
       "filterable": 0,
       "timeout": 60
     },
+    {
+      "key": "花都影院",
+      "name": "花都",
+      "type": 3,
+      "api": "./py/花都影院.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 0,
+      "timeout": 60
+    },	  
     {
       "key": "阿里云盘",
       "name": "阿里",

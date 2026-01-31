@@ -705,7 +705,29 @@
 		"分类url":"https://lielangys.top/index.php/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
 		"分类":"短剧$4#电视剧$2#电影$1#动漫$3"
 	  }
-	}, 	  
+	},
+    {
+	  "key":"扁豆影院",
+	  "name":"扁豆",
+	  "type":3,
+	  "api":"csp_XBPQ",
+	  "ext":{
+		"简介":"简介：&&</div>",
+		"分类url":"https://xayfsj.com/vodshow/{cateId}--------{catePg}---{year}.html",
+		"分类":"电影$1#电视剧$2#综艺$3#动漫$4#动画片$35#短剧$36#"
+	  }
+	},
+    {
+	  "key":"星星影院",
+	  "name":"星星",
+	  "type":3,
+	  "api":"csp_XBPQ",
+	  "ext":{
+		"简介":"yp_context\">&&</div>",
+		"分类url":"https://www.joiar.com/joiarsw/{cateId}--------{catePg}---{year}.html",
+		"分类":"电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#"
+	  }
+	},	  
     {
       "key":"枝枝影视",
       "name":"枝枝",

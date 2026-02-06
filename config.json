@@ -707,6 +707,30 @@
       "ext": "https://vip.wwgz.cn:5200"
     },
     {
+	  "key":"嘟嘟影院",
+	  "name":"嘟嘟",
+	  "type":3,
+	  "api":"csp_XBPQ",
+	  "ext":{
+		"简介":"简介：&&</div>",
+		"搜索url": "https://www.tygsqws.com/ss/wd/{wd}/page/{pg}.html",
+		"搜索模式": "1",  
+		"分类url":"https://www.tygsqws.com/dds/{cateId}/page/{catePg}.html",
+		"分类":"嘟嘟电影$dianying#国产剧$guochanju#天天美剧$meiju#韩剧大全$hanju#日剧全集$riju#动画片$dongman#综艺秀$zongyi#"
+	  }
+	},
+    {
+	  "key":"酷影聚",
+	  "name":"酷影",
+	  "type":3,
+	  "api":"csp_XBPQ",
+	  "ext":{
+		"简介":"简介：&&</div>",
+		"分类url":"https://kuyingju.com/index.php/vod/show/id/{cateId}/page/{catePg}/year/{year}.html",
+		"分类":"电影$1#连续剧$2#综艺$3#动漫$4#短剧$46#"
+	  }
+	},	  
+    {
 	  "key":"猎狼影视",
 	  "name":"猎狼",
 	  "type":3,

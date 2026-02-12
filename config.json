@@ -276,20 +276,6 @@
       }
     },
     {
-      "key": "旗星",
-      "name": "旗星",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "filterable": 1,
-      "ext": {
-        "site": "http://ys.qist.top/dtym.txt",
-        "dataKey": "2SWSPFxugBLPPOKo",
-        "dataIv": "2SWSPFxugBLPPOKo"
-      }
-    },
-    {
       "key": "缘梦",
       "name": "缘梦",
       "type": 3,
@@ -440,14 +426,14 @@
       "type": 3,
       "api": "csp_XYQHiker",
       "ext": "./XYQHiker/剧圈影视.json"
-    },	  
+    },
     {
       "key": "来看影视",
       "name": "来看",
       "type": 3,
       "api": "csp_XYQHiker",
       "ext": "./XYQHiker/来看影视.json"
-    },	  
+    },    	  
     {
 	  "key": "爱瓜影视",
 	  "name": "爱瓜",

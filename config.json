@@ -466,8 +466,8 @@
       "key": "来看影视",
       "name": "来看",
       "type": 3,
-      "api": "csp_XYQHiker",
-      "ext": "./XYQHiker/来看影视.json"
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/来看点播.js"
     },    	  
     {
 	  "key": "爱瓜影视",

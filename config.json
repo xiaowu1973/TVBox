@@ -807,19 +807,7 @@
 		"分类url":"https://xayfsj.com/vodshow/{cateId}--------{catePg}---{year}.html",
 		"分类":"电影$1#电视剧$2#综艺$3#动漫$4#动画片$35#短剧$36#"
 	  }
-	},
-    {
-      "key":"星星影院",
-      "name":"星星",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",
-        "分类url":"https://www.joiar.com/;;!"
-      }
-    },	  
+	},	  
     {
       "key":"枝枝影视",
       "name":"枝枝",

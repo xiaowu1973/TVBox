@@ -147,6 +147,36 @@
       "ext": "https://www.zjcvod.com"
     },
     {
+      "key": "老鹰",
+      "name": "老鹰",
+      "type": 3,
+      "api": "csp_AppQi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt",
+        "dataKey": "zxPtEUDGVllIUhDB",
+        "dataIv": "zxPtEUDGVllIUhDB",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+    {
+      "key": "顾我",
+      "name": "顾我",
+      "type": 3,
+      "api": "csp_AppQi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "http://117.50.204.35:520",
+        "dataKey": "ca94b06ca3c7d80e",
+        "dataIv": "ca94b06ca3c7d80e",
+        "search": "gftvvvvklod",
+        "init": "initV122",
+        "ua": "okhttp/3.10.0"
+      }
+    },	  
+    {
       "key": "爱盈",
       "name": "爱盈",
       "type": 3,

@@ -1092,6 +1092,54 @@
 	  "changeable": 1
     },
     {
+      "key":"枝枝影视",
+      "name":"枝枝",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://zzoc.cc/;;!"
+      }
+    },
+    {
+      "key":"电影小镇",
+      "name":"小镇",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "searchable":1,
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",       
+        "分类url":"http://www.du88.cc/;;!"
+      }
+    },	  
+    {
+      "key": "地瓜影院",
+      "name": "地瓜",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext":{
+        "简介": "+detail-content\" style=*>&&</span>",
+        "分类url": "http://22hre.dgzhongde.com/show/{cateId}--------{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$30#伦理片$36"
+      }
+    },
+    {
+      "key":"外国",
+      "name":"外国",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://eroticmv.com/;;!H"
+      }
+    },	  
+    {
       "key": "妲己视频",
       "name": "妲己",
       "type": 3,

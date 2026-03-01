@@ -1096,7 +1096,6 @@
       "name":"枝枝",
       "type":3,
       "api":"csp_XBPQ",
-      "jar":"./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",
@@ -1108,7 +1107,6 @@
       "name":"小镇",
       "type":3,
       "api":"csp_XBPQ",
-      "jar":"./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "searchable":1,
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
@@ -1132,7 +1130,7 @@
       "name":"外国",
       "type":3,
       "api":"csp_XBPQ",
-      "jar":"./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",

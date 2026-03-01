@@ -1138,7 +1138,19 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60
-    },  
+    },
+	{
+	  "key":"法普豪斯",
+	  "name":"豪斯",
+	  "type": 3,
+	  "api":"csp_XBPQ",
+	  "searchable":0,
+	  "quickSearch":0,
+	  "ext": {
+		"分类url":"https://faphouse2.com/zh/c/{cateId}/videos?page={catePg}",
+		"分类":"人母$mom#成熟$mature#大奶$big-tits#天然$big-natural-tits#饥渴熟女$cougar#家庭主妇$housewife#复古$vintage#合集$compilation#故事情节$story#下垂$saggy-tits#厨房$kitchen#怀旧$retro#外星人$alien#中世纪$medieval#农场$farm#英雄$superhero#吸血鬼$vampire"
+	  }
+	},
     {
       "key": "阿里云盘",
       "name": "阿里",

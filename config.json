@@ -82,6 +82,33 @@
 	    "key": "ygcnbckhcuvygdyb",
 	    "iv": "4023892775143708"
       }
+    },
+    {
+      "key": "无水印采集",
+      "name": "纯净",
+      "type": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+		"惊悚片",  
+        "战争片",
+        "记录片",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "海外剧",
+		"港台×X",
+		"韩国××",
+		"日本×X",
+		"西方X×" 
+      ]
     },	  
     {
       "key": "热播影视",
@@ -963,33 +990,6 @@
       "type": 3,
       "api": "./js/drpy2.min.js",
       "ext": "./js/采集之王.js?type=url&params=../json/采集静态.json$1$1"
-    },
-    {
-      "key": "无水印采集",
-      "name": "纯净",
-      "type": 1,
-      "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-		"惊悚片",  
-        "战争片",
-        "记录片",
-        "台湾剧",
-        "香港剧",
-        "欧美剧",
-        "海外剧",
-		"港台×X",
-		"韩国××",
-		"日本×X",
-		"西方X×" 
-      ]
     },	  
     {
       "key": "茅台资源",
@@ -1076,6 +1076,17 @@
       "filterable": 0,
       "timeout": 60
     },
+    {
+      "key": "禁片天堂",
+      "name": "禁片",
+      "type": 3,
+      "api": "./py/禁片天堂.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 0,
+      "timeout": 60
+    },	  
     {
       "key": "阿里云盘",
       "name": "阿里",

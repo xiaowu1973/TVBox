@@ -965,6 +965,33 @@
       "ext": "./js/采集之王.js?type=url&params=../json/采集静态.json$1$1"
     },
     {
+      "key": "无水印采集",
+      "name": "纯净",
+      "type": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+		"惊悚片",  
+        "战争片",
+        "记录片",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "海外剧",
+		"港台×X",
+		"韩国××",
+		"日本×X",
+		"西方X×" 
+      ]
+    },	  
+    {
       "key": "茅台资源",
       "name": "茅台",
       "type": 1,

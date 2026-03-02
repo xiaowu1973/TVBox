@@ -142,6 +142,16 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.nntv.in/api.php/v1.vod"
+    },
+    {
+      "key": "闪影",
+      "name": "闪影",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
     },	  
     {
       "key": "麒麟",
@@ -1074,17 +1084,6 @@
       "name": "Vf",
       "type": 3,
       "api": "./py/Vf.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "filterable": 0,
-      "timeout": 60
-    },
-    {
-      "key": "禁片天堂",
-      "name": "禁片",
-      "type": 3,
-      "api": "./py/禁片天堂.py",
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,

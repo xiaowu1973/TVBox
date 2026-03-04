@@ -179,15 +179,6 @@
       }
     },	  
     {
-      "key": "搜搜",
-      "name": "搜搜",
-      "type": 3,
-      "api": "csp_AppFox",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://www.zjcvod.com"
-    },
-    {
       "key": "奇奇",
       "name": "奇奇",
       "type": 3,
@@ -308,6 +299,47 @@
         "dataIv": "UrWKPnmQWJA8AQzd"
       }
     },
+    {
+      "key": "蓝鹰",
+      "name": "蓝鹰",
+      "type": 3,
+      "api": "csp_AppQi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
+        "dataKey": "ca94b06ca359d80e",
+        "dataIv": "ca94b06ca359d80e",
+        "init": "initV120",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+    {
+      "key": "段友",
+      "name": "段友",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://shangjihuoke.com",
+        "dataKey": "8E2DC386FD452D05",
+        "dataIv": "8E2DC386FD452D05"
+      }
+    },
+    {
+      "key": "灵虎",
+      "name": "灵虎",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://bind.315999.xyz/89.txt",
+        "dataKey": "#getapp@TMD@2025",
+        "dataIv": "#getapp@TMD@2025"
+      }
+    },	  
     {
       "key": "爱影",
       "name": "爱影",
@@ -478,45 +510,6 @@
         "url": "https://vv.229d.cn",
         "dataKey": "8888888888888888",
         "dataIv": "8888888888888888"
-      }
-    },
-    {
-      "key": "白鸽",
-      "name": "白鸽",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://cy.baige.asia",
-        "dataKey": "599D0FE5178642FD",
-        "dataIv": "599D0FE5178642FD"
-      }
-    },
-    {
-      "key": "魔方",
-      "name": "魔方",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "site": "https://snysw.xyz/mf4kzs327.txt",
-        "dataKey": "1234567887654321",
-        "dataIv": "1234567887654321"
-      }
-    },
-    {
-      "key": "瑞奇",
-      "name": "瑞奇",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "http://rqxk.gdata.fun",
-        "dataKey": "yangruiqiYsapp00",
-        "dataIv": "yangruiqiYsapp00"
       }
     },
     {

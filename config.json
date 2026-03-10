@@ -35,8 +35,8 @@
       "type": 0,
       "url": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/json/藏龙🐉搁.txt",
       "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "epg": "",
+      "logo": ""
     },
     {
       "name": "潘多拉",

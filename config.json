@@ -830,7 +830,21 @@
 		"分类url":"https://xayfsj.com/vodshow/{cateId}--------{catePg}---{year}.html",
 		"分类":"电影$1#电视剧$2#综艺$3#动漫$4#动画片$35#短剧$36#"
 	  }
-	},	  
+	},
+	{
+	  "key":"麻豆影视",
+	  "name":"麻豆",
+	  "type": 3,
+	  "api":"csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "ext": {
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8", 		  
+		"分类url":"https://www.maduomod.cc/;;!H"
+	  }
+	},
     {
       "key":"枝枝影视",
       "name":"枝枝",
@@ -855,7 +869,35 @@
         "编码":"UTF-8",       
         "分类url":"http://www.du88.cc/;;!"
       }
-    },	  
+    },
+	{
+	  "key":"追剧大师",
+	  "name":"追剧",
+	  "type": 3,
+	  "api":"csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "ext": {
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8", 		
+		"分类url":"https://ptt.red/;;!H"
+	  }
+	},
+	{
+	  "key":"91神马",
+	  "name":"神马",
+	  "type": 3,
+	  "api":"csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "ext": {
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8", 		
+		"分类url":"https://www.91smdy.com/;;!H"
+	  }
+	},	  
     {
       "key": "地瓜影院",
       "name": "地瓜",
@@ -977,7 +1019,31 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60
-    },	  
+    },
+	{
+	  "key":"花都影视",
+	  "name":"花都",
+	  "type":3,
+	  "playerType":2,
+	  "api":"csp_XBPQ",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "filterable":1,
+	  "ext":{
+		"站名":"花都影视",
+		"主页url":"https://rb.huaduys.org",
+		"数组":"w-thumb img-shadow&&/a>",
+		"图片":"data-original=\"&&\"",
+		"标题":"title=\"&&\"",
+		"副标题":"💞",
+		"链接":"href=\"&&\"[替换:voddetail>>vodplay#.html>>-1-1.html]",
+		"跳转播放链接":"var playUrl = '&&'",
+		"直接播放":"1",
+		"嗅探词":"index.m3u8",
+		"分类":"有码$1#中字有码$6#骑兵有码$7#无码$2#中字无码$8#步兵无码$9#国产$3#糖心$13#国产传媒$11#国产精品$10#欧美$4#动漫$5#中字动漫$14#3D动漫$15",
+		"分类url":"/vodshow/{cateId}-----{letter}---{catePg}---.html"
+	  }
+	},
     {
       "key": "阿里云盘",
       "name": "阿里",

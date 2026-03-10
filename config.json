@@ -881,7 +881,7 @@
 	  "ext": {
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8", 		
-		"分类url":"https://www.91smdy.com/;;!"
+		"分类url":"https://www.91smdy.com/"
 	  }
 	},	  
     {
@@ -989,7 +989,7 @@
       "name": "PTT",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./XBPQ/PTT.json"
+      "ext": "./XBPQ/追剧大师.json"
     },	  
     {
       "key": "妲己视频",

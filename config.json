@@ -537,6 +537,24 @@
         "dataKey": "dyyztvapiappyyds",
         "dataIv": "dyyztvapiappyyds"
       }
+    },
+    {
+      "key": "秒看",
+      "name": "秒看",
+      "type": 3,
+      "api": "./py/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://mk1080.top/get.txt",
+		"指定域名": "1",
+        "接口版本": "/api.php/getappapi",
+        "数据密钥": "c60d88b2eep53za8",
+        "数据向量": "c60d88b2eep53za8",
+		"登录类型": "token",
+		"认证令牌": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"
+      }
     },	  
     {
       "key": "数字",

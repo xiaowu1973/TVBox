@@ -854,7 +854,7 @@
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",
-        "分类url":"https://zzoc.cc/;;!"
+        "分类url":"https://zzoc.cc/;;!H"
       }
     },
     {
@@ -867,12 +867,12 @@
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",       
-        "分类url":"http://www.du88.cc/;;!"
+        "分类url":"http://www.du88.cc/;;!H"
       }
     },
 	{
-	  "key":"91神马",
-	  "name":"神马",
+	  "key":"8090电影",
+	  "name":"8090",
 	  "type": 3,
 	  "api":"csp_XBPQ",
 	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
@@ -881,7 +881,7 @@
 	  "ext": {
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8", 		
-		"分类url":"https://www.91smdy.com/"
+		"分类url":"https://www.8090cc.com/;;!H"
 	  }
 	},	  
     {

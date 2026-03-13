@@ -360,6 +360,19 @@
       }
     },
     {
+       "key": "仓鼠",
+       "name": "仓鼠",
+       "type": 3,
+       "api": "csp_AppGet",
+       "searchable": 1,
+       "changeable": 1,
+       "ext": {
+         "url": "https://cs450appcms.cs4k.top",
+         "dataKey": "cD7wZ7iY6qN3sU1z",
+         "dataIv": "cD7wZ7iY6qN3sU1z"
+       }
+    },	  
+    {
       "key": "茉莉",
       "name": "茉莉",
       "type": 3,

@@ -131,14 +131,6 @@
       ]
     },
 	{
-	  "key":"蛋蛋魔法",
-	  "name":"蛋蛋",
-	  "type":1,
-	  "api":"https://ddmf.net/api.php/provide/vod",
-	  "searchable":1,
-	  "quickSearch":1
-	},
-	{
 	  "key":"无忧影视",
 	  "name":"无忧",
 	  "type":1,
@@ -197,17 +189,16 @@
       "ext": "http://app.hktvyb.cc"
     },
     {
-      "key": "秒看",
-      "name": "秒看",
+      "key": "星河",
+      "name": "星河",
       "type": 3,
-      "api": "csp_AppGet",
+      "api": "csp_AppQi",
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "site": "https://mk1080.top/get.txt",
-        "dataKey": "c60d88b2eep53za8",
-        "dataIv": "c60d88b2eep53za8",
-        "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"
+        "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxhqj.txt",
+        "dataKey": "kj37zs29q22jk96t",
+        "dataIv": "kj37zs29q22jk96t"
       }
     },
     {
@@ -256,19 +247,19 @@
       }
     },
     {
-      "key": "顾我",
-      "name": "顾我",
-      "type": 3,
-      "api": "csp_AppQi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "url": "http://117.50.204.35:520",
-        "dataKey": "ca94b06ca3c7d80e",
-        "dataIv": "ca94b06ca3c7d80e",
-        "search": "gftvvvvklod",
-        "init": "initV122",
-        "ua": "okhttp/3.10.0"
+       "key": "顾我",
+       "name": "顾我",
+       "type": 3,
+       "api": "csp_AppQi",
+       "searchable": 1,
+       "changeable": 1,
+       "ext": {
+         "url": "http://117.50.204.35:520",
+         "dataKey": "ca94b06ca3c7d80e",
+         "dataIv": "ca94b06ca3c7d80e",
+         "search": "gftvvvvklod",
+         "init": "initV122",
+         "ua": "okhttp/3.10.0"
       }
     },
     {
@@ -301,16 +292,16 @@
       }
     },
     {
-      "key": "小猪",
-      "name": "小猪",
+      "key": "花猪",
+      "name": "花猪",
       "type": 3,
       "api": "csp_AppQi",
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/xinjian.txt",
-        "dataKey": "k5t2fp3h9d25hn9y",
-        "dataIv": "k5t2fp3h9d25hn9y",
+        "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/wenxintishi.txt",
+        "dataKey": "h2t8fjo964j2sl6a",
+        "dataIv": "h2t8fjo964j2sl6a",
         "ua": "okhttp/3.10.0"
       }
     },
@@ -360,6 +351,57 @@
       }
     },
     {
+      "key": "小羊",
+      "name": "小羊",
+      "type": 3,
+      "api": "csp_AppQi",
+      "ext": {
+        "url": "https://qjappcms410.xy4k.com",
+        "dataKey": "mC6kG4mI1uM8tS4o",
+        "dataIv": "mC6kG4mI1uM8tS4o"
+      }
+    },
+    {
+      "key": "星空",
+      "name": "星空",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://xkos1.xkgzs.xyz",
+        "dataKey": "77jkcdvdodfcdkjk",
+        "dataIv": "77jkcdvdodfcdkjk"
+      }
+    },
+    {
+      "key": "火狐",
+      "name": "火狐",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "http://huohu.yihn.cc",
+        "dataKey": "huohushipingetap",
+        "dataIv": "huohushipingetap"
+      }
+    },
+    {
+      "key": "秒看",
+      "name": "秒看",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://mk1080.top/get.txt",
+        "dataKey": "c60d88b2eep53za8",
+        "dataIv": "c60d88b2eep53za8",
+        "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"
+      }
+    },
+    {
        "key": "仓鼠",
        "name": "仓鼠",
        "type": 3,
@@ -367,11 +409,11 @@
        "searchable": 1,
        "changeable": 1,
        "ext": {
-         "url": "https://cs450appcms.cs4k.top",
-         "dataKey": "cD7wZ7iY6qN3sU1z",
-         "dataIv": "cD7wZ7iY6qN3sU1z"
+           "url": "https://cs450appcms.cs4k.top",
+           "dataKey": "cD7wZ7iY6qN3sU1z",
+           "dataIv": "cD7wZ7iY6qN3sU1z"
        }
-    },	  
+    },
     {
       "key": "茉莉",
       "name": "茉莉",
@@ -425,17 +467,6 @@
       }
     },
     {
-      "key": "小羊",
-      "name": "小羊",
-      "type": 3,
-      "api": "csp_AppQi",
-      "ext": {
-        "url": "https://qjappcms410.xy4k.com",
-        "dataKey": "mC6kG4mI1uM8tS4o",
-        "dataIv": "mC6kG4mI1uM8tS4o"
-      }
-    },
-    {
       "key": "七壹",
       "name": "七壹",
       "type": 3,
@@ -460,7 +491,7 @@
         "dataKey": "yangruiqiYsapp00",
         "dataIv": "yangruiqiYsapp00"
       }
-    },	  
+    },    	  
     {
       "key": "数字",
       "name": "数字",

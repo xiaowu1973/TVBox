@@ -778,6 +778,18 @@
       }
     },
     {
+      "key":"皮皮影视",
+      "name":"皮皮",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://www.xzweiheng.com/;;!H"
+      }
+    },	  
+    {
       "key":"电影小镇",
       "name":"小镇",
       "type":3,
@@ -790,6 +802,18 @@
         "分类url":"http://www.du88.cc/;;!H"
       }
     },
+    {
+      "key":"PTT视频",
+      "name":"PTT",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://ptt.red/;;!H"
+      }
+    },	  
 	{
 	  "key":"8090电影",
 	  "name":"8090",
@@ -821,13 +845,6 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/速影TV.json"
-    },
-    {
-      "key": "皮皮影视",
-      "name": "皮皮",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/皮皮影视.json"
     },	  
 	{
 	  "key": "小鸭子看看",
@@ -947,6 +964,17 @@
       "filterable": 0,
       "timeout": 60
     },
+    {
+      "key": "熊猫秒播",
+      "name": "熊猫",
+      "type": 3,
+      "api": "./py/熊猫秒播.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 0,
+      "timeout": 60
+    },	  
     {
       "key": "Vf视频",
       "name": "Vf",

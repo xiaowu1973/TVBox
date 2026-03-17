@@ -130,6 +130,28 @@
 		"西方伦理" 
       ]
     },
+    {
+      "key": "量子资源",
+      "name": "量子",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "海外剧"
+      ]
+    },	  
 	{
 	  "key":"无忧影视",
 	  "name":"无忧",
@@ -776,18 +798,6 @@
         "编码":"UTF-8",
         "分类url":"https://zzoc.cc/;;!H"
       }
-    },
-    {
-      "key":"皮皮影视",
-      "name":"皮皮",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",
-        "分类url":"https://www.xzweiheng.com/;;!H"
-      }
     },	  
     {
       "key":"电影小镇",
@@ -800,18 +810,6 @@
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",       
         "分类url":"http://www.du88.cc/;;!H"
-      }
-    },
-    {
-      "key":"PTT视频",
-      "name":"PTT",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",
-        "分类url":"https://ptt.red/;;!H"
       }
     },	  
 	{
@@ -945,13 +943,6 @@
         "悬疑片",
         "伦理片"
       ]
-    },
-    {
-      "key": "追剧大师",
-      "name": "追剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/PTT.json"
     },	  
     {
       "key": "妲己视频",
@@ -977,7 +968,7 @@
     },	  
     {
       "key": "Vf视频",
-      "name": "Vf",
+      "name": "VF",
       "type": 3,
       "api": "./py/Vf.py",
       "searchable": 1,

@@ -648,16 +648,6 @@
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "零度影视",
-      "name": "零度",
-      "type": 3,
-      "api": "./py/零度影视.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },	  
     {
       "key": "木兮影视",
@@ -819,11 +809,12 @@
       "name": "地瓜",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext":{
-        "简介": "+detail-content\" style=*>&&</span>",
-        "分类url": "http://22hre.dgzhongde.com/show/{cateId}--------{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$30#伦理片$36"
-      }
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",		
+	  "ext": {
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8", 		
+		"分类url":"http://22hre.dgzhongde.com/;;!H"
+	  }      
     },
     {
       "key": "速影TV",

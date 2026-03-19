@@ -2,16 +2,22 @@
   "spider": "./spider.jar",
   "lives": [
     {
-        "name": "前缘",
-        "type": 0,
-        "url": "https://gitee.com/jin-xueling/cinematography/raw/master/json.txt",
-        "ua": "okhttp/5.3.2"
+      "name": "前缘",
+      "type": 0,
+      "url": "https://gitee.com/jin-xueling/cinematography/raw/master/json.txt",
+      "ua": "okhttp/5.3.2"
     },
     {
-        "name": "Kimentanm",
-        "type": 0,
-        "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-        "playerType": 2
+      "name": "酒店",
+      "type": 0,
+      "url": "http://129.211.14.102:50085/sub?tv.sohu.blog=txt",
+      "ua": "okhttp/5.3.2"
+    },
+    {
+      "name": "壹米",
+      "type": 0,
+      "ua": "okhttp/5.3.2",
+      "url": "https://gitee.com/yimi321/tv/raw/master/tv.png"
     },
     {
       "name": "提督直播",
@@ -502,6 +508,16 @@
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+       "key": "乌云影视",
+       "name": "乌云",
+       "type": 4,
+       "api": "https://api.uumnet.com/tvbox/php/wooyun.php",
+       "playUrl": "",
+       "searchable": 1,
+       "quickSearch": 1,
+       "filterable": 1
     },
     {
       "key": "人人",

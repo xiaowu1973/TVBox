@@ -2,6 +2,12 @@
   "spider": "./spider.jar",
   "lives": [
     {
+        "name": "前缘",
+        "type": 0,
+        "url": "https://gitee.com/jin-xueling/cinematography/raw/master/json.txt",
+        "ua": "okhttp/5.3.2"
+    },
+    {
         "name": "Kimentanm",
         "type": 0,
         "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
@@ -16,15 +22,6 @@
       "ua": "okhttp/3.15,AptvPlayer/1.4.0",
       "playerType": 1,
       "timeout": 10
-    },
-    {
-      "name": "夏夜咪咕",
-      "type": 0,
-      "url": "http://qt.183933.xyz:9671/mgzb/zb.txt",
-      "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-      "timeout": 20,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "全能直播",
@@ -71,16 +68,6 @@
       "api":"https://catbox.n13.club/t9/suishenting.php",
       "searchable":0,
       "quickSearch":0
-    },
-    {
-      "key": "书音FM",
-      "name": "书音",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./XBPQ/书音FM.json"
     },
     {
       "key": "爱听音乐",
@@ -150,13 +137,37 @@
       "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
     },
     {
-      "key": "奴娜",
+      "key": "奴娜TV",
       "name": "奴娜",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
       "changeable": 1,
-      "ext": "https://www.nntv.in/api.php/v1.vod"
+      "ext": "https://www.nntv.in/api.php/v1.vod",
+      "categories": [
+        "日韩剧",
+        "内地剧",
+        "港台泰",
+        "短剧",
+        "综艺"
+      ]
+    },
+    {
+      "key": "闪影",
+      "name": "闪影",
+      "type": 3,
+      "api": "csp_AppYs",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod",
+      "categories": [
+        "电影",
+        "剧集",
+        "短剧",
+        "综艺",
+        "动漫"
+      ]
     },
     {
       "key": "恋鱼",
@@ -178,21 +189,6 @@
       "changeable": 1,
       "api": "csp_AppFox",
       "ext": "http://app.hktvyb.cc"
-    },
-    {
-      "key": "影匣",
-      "name": "影匣",
-      "type": 3,
-      "api": "csp_AppQi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxhqj.txt",
-        "dataKey": "kj37zs29q22jk96t",
-        "dataIv": "kj37zs29q22jk96t",
-        "init": "initV122",
-        "ua": "okhttp/3.10.0"
-      }
     },
     {
       "key": "爱影",
@@ -498,6 +494,16 @@
       }
     },
     {
+      "key": "观影",
+      "name": "观影",
+      "type": 3,
+      "api": "./py/观影.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "人人",
       "name": "人人",
       "type": 3,
@@ -679,6 +685,13 @@
       }
     },
     {
+      "key": "皮皮",
+      "name": "皮皮",
+      "type": 3,
+      "api": "./py/皮皮虾.py",
+      "ext": "http://38.55.237.41:8762"
+    },
+    {
       "key": "优质资源",
       "name": "优质",
       "type": 3,
@@ -721,6 +734,18 @@
         "请求头": "User-Agent$MOBILE_UA",
         "编码": "UTF-8",
         "分类url": "https://m.ycblcw.com/;;!H"
+      }
+    },
+    {
+      "key": "黄瓜影视",
+      "name": "黄瓜",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.pjqdz.com/;;!H"
       }
     },
     {

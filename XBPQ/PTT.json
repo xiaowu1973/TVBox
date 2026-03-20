@@ -7,7 +7,7 @@
   "播放请求头": "",
   "嗅探词": ".mp4#.m3u8",
   "过滤词": "",
-  "主页url": "https://ptt.red/zh-hans/p/",
+  "主页url": "https://ptt.red/zh-hans/",
   "首页": "120",
   "起始页": "1",
   "分类url": "/zh-hans/p/{cateId}{class}?page={catePg}&{area}&{year}&{by};;mrc",

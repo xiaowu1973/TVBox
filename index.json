@@ -8,16 +8,22 @@
       "ua": "okhttp/5.3.2"
     },
     {
-      "name": "酒店",
+      "name": "秒连",
       "type": 0,
-      "url": "http://129.211.14.102:50085/sub?tv.sohu.blog=txt",
-      "ua": "okhttp/5.3.2"
+      "url": "https://gitee.com/huluxiaansheng/zby1.0.1/raw/master/秒连TV1.0.1.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "壹米",
+      "name": "最强央卫(EXO)",
       "type": 0,
-      "ua": "okhttp/5.3.2",
-      "url": "https://gitee.com/yimi321/tv/raw/master/tv.png"
+      "url": "https://gitee.com/fuleishu/fulei/raw/master/zhiboceshi/iptv.m3u",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "ua": "okhttp/3.15,AptvPlayer/1.4.0,okHttp/Mod-1.0.0",
+      "playerType": 2,
+      "timeout": 10
     },
     {
       "name": "提督直播",
@@ -35,6 +41,14 @@
       "url": "https://125.208.22.159:8889/down/47dlyghbNXgh",
       "playerType": 1,
       "ua": "okhttp/4.18",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "新直播",
+      "type": 0,
+      "url": "http://47.120.41.246:8899/xinzb.txt",
+      "playerType": 1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -197,6 +211,30 @@
       "ext": "http://app.hktvyb.cc"
     },
     {
+      "key": "火猫",
+      "name": "火猫",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_AppFox",
+      "ext": {
+        "host": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/fox.json"
+      }
+    },
+    {
+      "key": "云朵",
+      "name": "云朵",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://yd4kcms.yd4k.top",
+        "dataKey": "Tpmm9FD99lJ8Dexa",
+        "dataIv": "Tpmm9FD99lJ8Dexa"
+      }
+    },
+    {
       "key": "爱影",
       "name": "爱影",
       "type": 3,
@@ -353,6 +391,19 @@
         "url": "https://qjappcms410.xy4k.com",
         "dataKey": "mC6kG4mI1uM8tS4o",
         "dataIv": "mC6kG4mI1uM8tS4o"
+      }
+    },
+    {
+      "key": "不错",
+      "name": "不错",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://zbc4kmcs.zbc4k.app",
+        "dataKey": "vE4kR7cF6jS6jH7a",
+        "dataIv": "vE4kR7cF6jS6jH7a"
       }
     },
     {
@@ -729,6 +780,30 @@
       "ext": "./js/腾讯视频.js"
     },
     {
+      "key": "星辰影视",
+      "name": "星辰",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.sdconglin.com/;;!H"
+      }
+    },
+    {
+      "key": "来看点播",
+      "name": "来看",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://lkvod.org/;;!H"
+      }
+    },
+    {
       "key": "全看影视",
       "name": "全看",
       "type": 3,
@@ -737,7 +812,7 @@
       "ext": {
         "请求头": "User-Agent$MOBILE_UA",
         "编码": "UTF-8",
-        "分类url": "https://www.qkwaa.com//;;!H"
+        "分类url": "https://www.qkwaa.com/;;!H"
       }
     },
     {
@@ -1329,6 +1404,80 @@
         "header": {
           "User-Agent": "okhttp/4.9.1"
         }
+      }
+    },
+    {
+      "name": "私域",
+      "type": 1,
+      "url": "http://shybot.top/v2/video/jx/?shykey=4595a71a4e7712568edcfa43949236b42fcfcb04997788ebe7984d6da2c6a51c&url="
+    },
+    {
+      "name": "无名",
+      "type": 1,
+      "url": "http://mg.itufm.top/mg.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905",
+          "QD4K",
+          "iyf",
+          "duanju",
+          "gzcj",
+          "GTV",
+          "GZYS",
+          "weggz",
+          "Ace"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "虾米",
+      "url": "https://jx.xmflv.cc/?url=",
+      "type": 0,
+      "ext": {
+        "flag": [
+          "qiyi",
+          "imgo",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "qq 预告及花絮",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "leshi",
+          "mgtv",
+          "芒果",
+          "sohu",
+          "xigua",
+          "fun",
+          "风行"
+        ]
+      },
+      "header": {
+        "User-Agent": "Mozilla/5.0"
       }
     },
     {

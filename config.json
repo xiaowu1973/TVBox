@@ -914,14 +914,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/速影TV.json"
-    },
-    {
-      "key": "追剧大师",
-      "name": "追剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/PTT.json"
-    },	  
+    },    	  
 	{
 	  "key": "小鸭子看看",
 	  "name": "看看",
@@ -932,7 +925,19 @@
 	  "ratio": 1.33
 	  },
 	  "changeable": 1
-	},	  	  
+	},
+    {
+       "key": "影探资源",
+       "name": "影探",
+       "type": 3,
+       "api": "./py/影探资源.py",
+       "searchable": 1,
+       "quickSearch": 1,
+       "filterable": 1,
+       "changeable": 1,
+       "playerType": 2,
+       "ext": "0"
+    },	  
     {
        "key": "采集合集py",
        "name": "采集",
@@ -944,13 +949,6 @@
        "changeable": 1,
        "playerType": 2,
        "ext": "0"
-    },
-    {
-      "key": "采集之王",
-      "name": "采王",
-      "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/采集之王.js?type=url&params=../json/采集静态.json$1$1"
     },	  
     {
       "key": "茅台资源",

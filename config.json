@@ -894,13 +894,34 @@
 		"分类url":"http://22hre.dgzhongde.com/;;!H"
 	  }      
     },
+	{
+	  "key":"8090电影",
+	  "name":"8090",
+	  "type": 3,
+	  "api":"csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "ext": {
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8", 		
+		"分类url":"https://www.8090cc.com/;;!H"
+	  }
+	},	  
     {
       "key": "速影TV",
       "name": "速影",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/速影TV.json"
-    },    	  
+    },
+    {
+      "key": "追剧大师",
+      "name": "追剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/追剧大师.json"
+    },	  
 	{
 	  "key": "小鸭子看看",
 	  "name": "看看",
@@ -1008,11 +1029,22 @@
       ]
     },
     {
-      "key": "追剧大师",
-      "name": "追剧",
-      "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/PTT[优].js"
+      "key":"优优资源",
+      "name":"优优",
+      "type":1,
+      "api":"https://www.yyzywcj.com/api.php/provide/vod/?ac=list",
+      "searchable":1,
+      "quickSearch":1,
+	  "original_api": "https://www.yyzywcj.com/api.php/provide/vod",
+	  "header": {
+		"User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-G973F) AppleWebKit/537.36",
+		"Accept": "application/json, */*",
+		"Connection": "close"
+	  },
+	  "ext": "https://www.yyzywcj.com",
+	  "playerType": 1,
+	  "playUrl": ""
+	},
     },	  
     {
       "key": "妲己视频",
@@ -1046,31 +1078,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60
-    },
-	{
-	  "key":"花都影视",
-	  "name":"花都",
-	  "type":3,
-	  "playerType":2,
-	  "api":"csp_XBPQ",
-	  "searchable":1,
-	  "quickSearch":1,
-	  "filterable":1,
-	  "ext":{
-		"站名":"花都影视",
-		"主页url":"https://rb.huaduys.org",
-		"数组":"w-thumb img-shadow&&/a>",
-		"图片":"data-original=\"&&\"",
-		"标题":"title=\"&&\"",
-		"副标题":"",
-		"链接":"href=\"&&\"[替换:voddetail>>vodplay#.html>>-1-1.html]",
-		"跳转播放链接":"var playUrl = '&&'",
-		"直接播放":"1",
-		"嗅探词":"index.m3u8",
-		"分类":"有码$1#中字有码$6#骑兵有码$7#无码$2#中字无码$8#步兵无码$9#国产$3#糖心$13#国产传媒$11#国产精品$10#欧美$4#动漫$5#中字动漫$14#3D动漫$15",
-		"分类url":"/vodshow/{cateId}-----{letter}---{catePg}---.html"
-	  }
-	},
+    },   	
 	{
 	  "key":"小姨子",
 	  "name":"小姨子",

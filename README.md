@@ -38,11 +38,19 @@ PG： https://tvbox.catvod.com/jsm.json
 
 OK影视下载地址
 
+https://pan.quark.cn/s/de15b29d06ab#/list/share
+
 蜂蜜影视下载地址
+
+https://pan.quark.cn/s/dbb8599d1a0d#/list/share
 
 影视仓下载地址
 
+https://pan.quark.cn/s/5b22c647669d#/list/share
+
 TVBox_黑盒和白盒下载地址
+
+https://pan.quark.cn/s/4670b8ee41a0#/list/share
 
 
 

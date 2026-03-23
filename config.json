@@ -2,9 +2,9 @@
   "spider": "./spider.jar",
   "lives": [
     {
-      "name": "前缘",
+      "name": "全球直播",
       "type": 0,
-      "url": "https://gitee.com/jin-xueling/cinematography/raw/master/json.txt",
+      "url": "./json/全球直播源.txt",
       "ua": "okhttp/5.3.2"
     },
     {

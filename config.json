@@ -2,20 +2,6 @@
   "spider": "./spider.jar",
   "lives": [
     {
-      "name": "全球直播",
-      "type": 0,
-      "url": "./json/全球直播源.txt",
-      "ua": "okhttp/5.3.2"
-    },
-    {
-      "name": "秒连",
-      "type": 0,
-      "url": "https://gitee.com/huluxiaansheng/zby1.0.1/raw/master/秒连TV1.0.1.txt",
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
       "name": "最强央卫(EXO)",
       "type": 0,
       "url": "https://gitee.com/fuleishu/fulei/raw/master/zhiboceshi/iptv.m3u",

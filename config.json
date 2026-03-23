@@ -949,7 +949,15 @@
        "changeable": 1,
        "playerType": 2,
        "ext": "0"
-    },	  
+    },
+    {
+      "key":"快车资源",
+      "name":"快车",
+      "type":1,
+      "api":"https://caiji.kuaichezy.org/api.php/provide/vod/?ac=list",
+      "searchable":1,
+      "quickSearch":1
+    },	
     {
       "key": "茅台资源",
       "name": "茅台",

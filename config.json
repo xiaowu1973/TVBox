@@ -95,17 +95,6 @@
 	    "key": "ygcnbcvybqqckwqy",
 	    "iv": "1583560747143708"
       }
-    },
-    {
-      "key": "即看影视",
-      "name": "即看",
-      "type": 3,
-      "api": "./py/skapp.py",
-      "ext": {
-        "host": "https://skyappdata-1321528676.cos.accelerate.myqcloud.com/4kapp/appipr.txt",
-	    "key": "ygcnbckhcuvygdyb",
-	    "iv": "4023892775143708"
-      }
     },	  
     {
       "key": "无水印采集",
@@ -835,6 +824,20 @@
 		"简介":"简介：&&</div>",
 		"分类url":"https://xayfsj.com/vodshow/{cateId}--------{catePg}---{year}.html",
 		"分类":"电影$1#电视剧$2#综艺$3#动漫$4#动画片$35#短剧$36#"
+	  }
+	},
+	{
+	  "key":"即看影视",
+	  "name":"即看",
+	  "type": 3,
+	  "api":"csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "ext": {
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8", 		  
+		"分类url":"https://www.jkan.app/;;!H"
 	  }
 	},	  
 	{

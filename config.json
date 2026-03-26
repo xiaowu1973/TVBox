@@ -836,7 +836,7 @@
 		"分类url":"https://xayfsj.com/vodshow/{cateId}--------{catePg}---{year}.html",
 		"分类":"电影$1#电视剧$2#综艺$3#动漫$4#动画片$35#短剧$36#"
 	  }
-	},
+	},	  
 	{
 	  "key":"麻豆影视",
 	  "name":"麻豆",
@@ -1050,22 +1050,22 @@
       ]
     },
     {
-      "key":"优优资源",
-      "name":"优优",
-      "type":1,
-      "api":"https://www.yyzywcj.com/api.php/provide/vod/?ac=list",
-      "searchable":1,
-      "quickSearch":1,
-	  "original_api": "https://www.yyzywcj.com/api.php/provide/vod",
-	  "header": {
-		"User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-G973F) AppleWebKit/537.36",
-		"Accept": "application/json, */*",
-		"Connection": "close"
-	  },
-	  "ext": "https://www.yyzywcj.com",
-	  "playerType": 1,
-	  "playUrl": ""
-    },	  
+	  "key":"逍遥",
+	  "name":"逍遥",
+	  "type":3,
+	  "api":"csp_XBPQ",
+	  "ext":{
+		"请求头": "User-Agent$MOBILE_UA",
+		"编码": "UTF-8",
+		"主页url": "http://www.9y9r.com/so-show/36-----------.html",
+		"数组": "lazyload\"&amp;&amp;&amp;&amp;<!--",
+		"链接": "href=\"&&\"",
+		"简介":"简介：&&</div>",
+		"跳转播放链接": "var player_*\"url\":\"&&\"",
+		"分类url":"http://www.9y9r.com/so-show/36-{cateId}-{by}---------{year}.html",
+		"分类":"大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
+	  }
+	},    	  
     {
       "key": "妲己视频",
       "name": "妲己",

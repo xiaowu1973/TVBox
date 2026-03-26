@@ -883,6 +883,19 @@
         "编码":"UTF-8",       
         "分类url":"http://www.du88.cc/;;!H"
       }
+    },
+    {
+      "key":"九九逍遥",
+      "name":"九九",
+      "type":3,
+      "api":"csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "searchable":1,
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",       
+        "分类url":"http://www.9y9r.com/;;!H"
+      }
     },	  
 	{
 	  "key":"8090电影",

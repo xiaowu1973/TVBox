@@ -18,7 +18,7 @@ PG： https://tvbox.catvod.com/jsm.json
 
 肥猫：http://肥猫.com
 
-小米：https://mitvbox.xyz/小米/DEMO.json
+小米：https://cnb.cool/xiaomideyun/xiaomideyun/-/git/raw/main/mi.json
 
 摸鱼儿：http://我不是.摸鱼儿.com
 

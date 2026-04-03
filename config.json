@@ -880,13 +880,26 @@
       }
     },
     {
+      "key":"九剧场",
+      "name":"九剧",
+      "type":3,
+      "api":"csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "searchable":1,
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",       
+        "分类url":"https://ninetheater.com/;;!H"
+      }
+    },	  
+    {
       "key":"九九逍遥",
       "name":"九九",
       "type":3,
       "api":"csp_XBPQ",
       "searchable":1,
       "ext":{
-		"分类url":"https://ninetheater.com/so-show/{cateid}-{area}-------{catepg}---.html",
+		"分类url":"http://www.9y9r.com/so-show/{cateid}-{area}-------{catepg}---.html",
 		"分类":"电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$30#日韩精品$36"    
       }
     },	  	  

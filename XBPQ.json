@@ -1,0 +1,570 @@
+{
+  "spider": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+  "wallpaper": "https://www.wexwp.cc/bizhi.php",
+  "sites": [
+    {
+      "key": "豆豆",
+      "name": "豆瓣 ",
+      "type": 3,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "api": "csp_Douban",
+      "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "searchable": 0
+    },
+    {
+      "key": "config",
+      "name": "配置",
+      "type": 3,
+      "api": "csp_Config",
+      "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "searchable": 0
+    },
+    {
+      "key": "1905",
+      "name": "1905",
+      "type": 3,
+      "api": "csp_Web1905",
+      "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "久久",
+      "name": "久久",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://99cms.jj99.icu:8199/api.php/app/"
+    },
+    {
+      "key": "奴娜",
+      "name": "奴娜",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.nntv.in/api.php/v1.vod"
+    },
+    {
+      "key": "闪影",
+      "name": "闪影",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
+    },
+    {
+      "key": "极影",
+      "name": "极影",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://101.201.171.207:802/api.php/app/"
+    },
+    {
+      "key": "晓米",
+      "name": "晓米",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://111.170.58.23:802/api.php/app/"
+    },
+    {
+      "key": "超前",
+      "name": "超前",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": "http://chaoqianys.top:91/api.php/app/"
+    },
+    {
+      "key": "量子资源",
+      "name": "量子",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "海外剧"
+      ]
+    },
+    {
+      "key": "优质资源",
+      "name": "优质",
+      "type": 1,
+      "api": "https://api.yzzy-api.com/inc/apijson.php?ac=list",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "动画片",
+	"海外剧",
+	"音乐",
+	"倫理片"  
+      ]
+    },
+    {
+      "key": "茅台资源",
+      "name": "茅台",
+      "type": 1,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "海外剧"
+      ]
+    },
+    {
+      "key": "神马影视",
+      "name": "神马",
+      "type": 1,
+      "api": "https://www.vod38.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "科幻片",
+        "恐怖片",
+        "战争片",
+        "纪录片",
+        "国产剧",
+        "海外剧",
+        "理论片",
+        "邵氏片",
+        "动画片"
+      ]
+    },
+    {
+      "key": "猫眼资源",
+      "name": "猫眼",
+      "type": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "科幻片",
+        "恐怖片",
+        "战争片",
+        "纪录片",
+        "历史片",
+        "国产剧",
+        "香港剧",
+        "惊悚片",
+        "悬疑片",
+        "伦理片"
+      ]
+    },
+    {
+      "key": "夸克影视",
+      "name": "夸克",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.quarktv.cc/;;!H",
+        "搜索url": "https://www.quarktv.cc/search/-------------.html?wd={wd}"
+      }
+    },
+    {
+      "key": "来看点播",
+      "name": "来看",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://lkvod.org/;;!H"
+      }
+    },
+    {
+      "key": "全看影视",
+      "name": "全看",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.qkwaa.com/;;!H"
+      }
+    },
+    {
+      "key": "即看影视",
+      "name": "即看",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.jkan.app/;;!H"
+      }
+    },
+    {
+      "key": "8090电影",
+      "name": "8090",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.8090cc.com/;;!H"
+      }
+    },
+    {
+      "key":"九剧场",
+      "name":"九剧",
+      "type":3,
+      "api":"csp_XBPQ",
+      "searchable":1,
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",       
+        "分类url":"https://ninetheater.com/;;!H"
+      }
+    },
+    {
+      "key": "屁屁影院",
+      "name": "屁屁",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.parrothatch.com/;;!H"
+      }
+    },
+    {
+      "key": "酷云影院",
+      "name": "酷云",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://kuyun123.com/;;!H"
+      }
+    },
+    {
+      "key":"枝枝影视",
+      "name":"枝枝",
+      "type":3,
+      "api":"csp_XBPQ",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://zzoc.cc/;;!"
+      }
+    },
+    {
+      "key":"电影小镇",
+      "name":"小镇",
+      "type":3,
+      "api":"csp_XBPQ",
+      "searchable":1,
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",       
+        "分类url":"http://www.du88.cc/;;!"
+      }
+    },
+    {
+      "key": "地瓜影院",
+      "name": "地瓜",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8", 		
+	"分类url":"http://22hre.dgzhongde.com/;;!H"
+      }      
+    },
+    {
+      "key": "速影TV",
+      "name": "速影",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/速影TV.json"
+    },
+    {
+      "key": "小鸭子看看",
+      "name": "看看",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net:5052/?sp=小鸭子看看"
+    },
+    {
+      "key": "数字",
+      "name": "数字",
+      "type": 3,
+      "api": "./py/AppGet.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://app1-0-0.87333.cc",
+        "api": "/api.php/getappapi",
+        "datakey": "VwsHxkCViDXEExWa",
+        "dataiv": "VwsHxkCViDXEExWa"
+      }
+    },  
+    {
+      "key": "米搜",
+      "name": "米搜",
+      "type": 3,
+      "api": "csp_MiSou",
+       "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "timeout": 60
+    },
+    {
+      "key": "音海",
+      "name": "音海",
+      "type": 3,
+      "api": "csp_Yinhai",
+       "jar": "./jars/spider.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "盘搜",
+      "name": "盘搜",
+      "type": 3,
+      "api": "csp_PanSou",
+      "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "混合",
+      "name": "混合",
+      "type": 3,
+      "api": "csp_HunHePan",
+      "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "timeout": 60
+    },
+    {
+      "key": "天翼",
+      "name": "天翼",
+      "type": 3,
+      "api": "csp_TianYiSo",
+      "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "timeout": 60
+    },
+    {
+      "key": "趣盘",
+      "name": "趣盘",
+      "type": 3,
+      "api": "csp_QuPanSo",
+      "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "timeout": 60
+    },
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "filterable": 0,
+      "changeable": 0,
+      "api": "csp_Push",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": ""
+    }
+  ],
+  "parses": [
+    {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "影视聚合",
+      "type": 3,
+      "url": "影视"
+    },
+    {
+      "name": "牛牛",
+      "type": 1,
+      "url": "https://zy.qiaoji8.com/xiafan.php?url=",
+      "ext": {
+        "flag": [
+          "QD4K",
+          "iyf",
+          "duanju",
+          "gzcj",
+          "GTV",
+          "GZYS",
+          "weggz",
+          "Ace"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "",
+      "type": 0,
+      "url": ""
+    }
+  ],
+  "rules": [
+    {
+      "name": "农民",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "豆瓣图片",
+      "hosts": [
+        "doubanio.com"
+      ],
+      "regex": [
+        "view/photo",
+        "m_ratio_poster",
+        "public",
+        "jpg"
+      ],
+      "referer": "https://www.douban.com/"
+    },
+    {
+      "name": "火山",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "抖音",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "磁力广告",
+      "hosts": [
+        "magnet"
+      ],
+      "regex": [
+        "更多",
+        "请访问",
+        "example",
+        "社 區",
+        "x u u",
+        "直 播",
+        "更 新",
+        "社 区",
+        "有趣",
+        "有 趣",
+        "英皇体育",
+        "全中文AV在线",
+        "澳门皇冠赌场",
+        "哥哥快来",
+        "美女荷官",
+        "裸聊",
+        "新片首发",
+        "UUE29"
+      ]
+    },
+    {
+      "name": "饭团点击",
+      "hosts": [
+        "dadagui",
+        "freeok",
+        "dadagui"
+      ],
+      "script": [
+        "document.querySelector(\"#playleftiframe\").contentWindow.document.querySelector(\"#start\").click();"
+      ]
+    },
+    {
+      "name": "毛驴点击",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"
+      ]
+    }
+  ],
+  "logo": "https://wkphoto.bj.bcebos.com/bba1cd11728b47106798119ad3cec3fdfc032335.jpg",
+  "lives": [
+    {
+      "name": "📺平台直播",
+      "type": 0,
+      "url": "",
+      "ua": "okhttp/3.15",
+      "playerType": 2
+    }
+  ]
+}

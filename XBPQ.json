@@ -368,16 +368,6 @@
       "timeout": 60
     },
     {
-      "key": "音海",
-      "name": "音海",
-      "type": 3,
-      "api": "csp_Yinhai",
-       "jar": "./jars/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "盘搜",
       "name": "盘搜",
       "type": 3,

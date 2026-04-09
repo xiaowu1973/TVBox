@@ -10,7 +10,7 @@
       "filterable": 0,
       "changeable": 0,
       "api": "csp_Douban",
-      "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "jar": "./spider.jar;md5;c274ba22924db3e2718f745721bd624c",
       "searchable": 0
     },
     {
@@ -18,7 +18,7 @@
       "name": "配置",
       "type": 3,
       "api": "csp_Config",
-      "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "jar": "./spider.jar;md5;c274ba22924db3e2718f745721bd624c",
       "searchable": 0
     },
     {
@@ -26,7 +26,7 @@
       "name": "1905",
       "type": 3,
       "api": "csp_Web1905",
-      "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "jar": "./spider.jar;md5;c274ba22924db3e2718f745721bd624c",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0
@@ -361,7 +361,7 @@
       "name": "米搜",
       "type": 3,
       "api": "csp_MiSou",
-       "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+       "jar": "./spider.jar;md5;c274ba22924db3e2718f745721bd624c",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
@@ -372,7 +372,7 @@
       "name": "盘搜",
       "type": 3,
       "api": "csp_PanSou",
-      "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "jar": "./spider.jar;md5;c274ba22924db3e2718f745721bd624c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -382,7 +382,7 @@
       "name": "混合",
       "type": 3,
       "api": "csp_HunHePan",
-      "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "jar": "./spider.jar;md5;c274ba22924db3e2718f745721bd624c",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
@@ -393,7 +393,7 @@
       "name": "天翼",
       "type": 3,
       "api": "csp_TianYiSo",
-      "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "jar": "./spider.jar;md5;c274ba22924db3e2718f745721bd624c",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
@@ -404,7 +404,7 @@
       "name": "趣盘",
       "type": 3,
       "api": "csp_QuPanSo",
-      "jar": "./spider.jar;md5;52d3cbc368cd1ebb627896ea81f7a0d6",
+      "jar": "./spider.jar;md5;c274ba22924db3e2718f745721bd624c",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,

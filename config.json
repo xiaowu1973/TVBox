@@ -986,11 +986,10 @@
       "style": {
         "type": "list",
         "ratio": 1.433
-      },
-      "ext": "./json/aliShare.json"
+      }
     },
     {
-      "key": "夸克云盘",
+      "key": "夸克网盘",
       "name": "夸克",
       "type": 3,
       "api": "csp_PanQuark",
@@ -1000,28 +999,26 @@
       "style": {
         "type": "list",
         "ratio": 1.433
-      },
-      "ext": "./json/quarkShare.json"
+      }
     },
     {
-      "key": "UC云盘",
+      "key": "UC网盘",
       "name": "UC",
       "type": 3,
-      "api": "csp_PanUc",
+      "api": "csp_PanUC",
       "searchable": 0,
       "filterable": 0,
       "changeable": 0,
       "style": {
         "type": "list",
         "ratio": 1.433
-      },
-      "ext": "./json/ucShare.json"
+      }
     },
     {
-      "key": "百度云盘",
+      "key": "百度网盘",
       "name": "百度",
       "type": 3,
-      "api": "csp_PanBaiDu",
+      "api": "csp_PanBaidu",
       "searchable": 0,
       "filterable": 0,
       "changeable": 0,
@@ -1051,6 +1048,26 @@
       "timeout": 60
     },
     {
+      "key": "兄弟",
+      "name": "兄弟",
+      "type": 3,
+      "api": "csp_XiongdiPan",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "timeout": 60
+    },
+    {
+      "key": "九七",
+      "name": "九七",
+      "type": 3,
+      "api": "csp_97Sou",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "timeout": 60
+    },
+    {
       "key": "百酷",
       "name": "百酷",
       "type": 3,
@@ -1065,16 +1082,6 @@
       "name": "米搜",
       "type": 3,
       "api": "csp_MiSou",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "timeout": 60
-    },
-    {
-      "key": "酷乐",
-      "name": "酷乐",
-      "type": 3,
-      "api": "csp_KuLe",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
@@ -1101,16 +1108,6 @@
       "timeout": 60
     },
     {
-      "key": "兄弟",
-      "name": "兄弟",
-      "type": 3,
-      "api": "csp_XiongDiPan",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "timeout": 60
-    },
-    {
       "key": "天翼",
       "name": "天翼",
       "type": 3,
@@ -1129,7 +1126,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "timeout": 60
-    },    
+    },        
     {
       "key": "AList",
       "name": "AList",

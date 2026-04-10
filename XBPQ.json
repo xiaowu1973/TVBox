@@ -260,7 +260,8 @@
       "type": 3,
       "api": "./py/AppGet.py",
       "searchable": 1,
-      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,      
       "ext": {
         "host": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
 		"api": "/api.php/getappapi",
@@ -274,7 +275,8 @@
       "type": 3,
       "api": "./py/AppGet.py",
       "searchable": 1,
-      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,      
       "ext": {
         "host": "https://shangjihuoke.com",
         "api": "/api.php/getappapi",
@@ -288,7 +290,8 @@
       "type": 3,
       "api": "./py/AppGet.py",
       "searchable": 1,
-      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,      
       "ext": {
         "host": "http://app1-0-0.87333.cc",
 		"api": "/api.php/getappapi",
@@ -297,12 +300,28 @@
       }
     },
     {
+      "key": "数字",
+      "name": "数字",
+      "type": 3,
+      "api": "./py/AppGet.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://app1-0-0.87333.cc",
+        "api": "/api.php/getappapi",
+        "datakey": "VwsHxkCViDXEExWa",
+        "dataiv": "VwsHxkCViDXEExWa"
+      }
+    },	  
+    {
       "key": "灵虎",
       "name": "灵虎",
       "type": 3,
       "api": "./py/AppGet.py",
       "searchable": 1,
-      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,      
       "ext": {
         "host": "https://bind.315999.xyz/89.txt",
 		"api": "/api.php/getappapi",
@@ -316,7 +335,8 @@
       "type": 3,
       "api": "./py/AppGet.py",
       "searchable": 1,
-      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,      
       "ext": {
         "host": "http://rqxk.gdata.fun",
 		"api": "/api.php/getappapi",
@@ -446,17 +466,6 @@
         "编码": "UTF-8",
         "分类url": "https://www.quarktv.cc/;;!H",
         "搜索url": "https://www.quarktv.cc/search/-------------.html?wd={wd}"
-      }
-    },
-    {
-      "key": "来看点播",
-      "name": "来看",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://lkvod.org/;;!H"
       }
     },
     {

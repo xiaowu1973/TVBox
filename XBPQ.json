@@ -1,6 +1,6 @@
 {
   "spider": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-  "wallpaper": "https://www.wexwp.cc/bizhi.php",
+  "wallpaper": "",
   "sites": [
     {
       "key": "豆豆",
@@ -258,11 +258,12 @@
       "key": "茉莉",
       "name": "茉莉",
       "type": 3,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
+        "host": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
+		"api": "/api.php/getappapi",
         "dataKey": "88689667dce61725",
         "dataIv": "88689667dce61725"
       }
@@ -271,11 +272,12 @@
       "key": "段友",
       "name": "段友",
       "type": 3,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "url": "https://shangjihuoke.com",
+        "host": "https://shangjihuoke.com",
+        "api": "/api.php/getappapi",
         "dataKey": "8E2DC386FD452D05",
         "dataIv": "8E2DC386FD452D05"
       }
@@ -284,11 +286,12 @@
       "key": "黑猫",
       "name": "黑猫",
       "type": 3,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "url": "http://app1-0-0.87333.cc",
+        "host": "http://app1-0-0.87333.cc",
+		"api": "/api.php/getappapi",
         "dataKey": "VwsHxkCViDXEExWa",
         "dataIv": "VwsHxkCViDXEExWa"
       }
@@ -297,11 +300,12 @@
       "key": "灵虎",
       "name": "灵虎",
       "type": 3,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "site": "https://bind.315999.xyz/89.txt",
+        "host": "https://bind.315999.xyz/89.txt",
+		"api": "/api.php/getappapi",
         "dataKey": "#getapp@TMD@2025",
         "dataIv": "#getapp@TMD@2025"
       }
@@ -310,11 +314,12 @@
       "key": "瑞奇",
       "name": "瑞奇",
       "type": 3,
-      "api": "csp_AppGet",
+      "api": "./py/AppGet.py",
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "url": "http://rqxk.gdata.fun",
+        "host": "http://rqxk.gdata.fun",
+		"api": "/api.php/getappapi",
         "dataKey": "yangruiqiYsapp00",
         "dataIv": "yangruiqiYsapp00"
       }

@@ -752,6 +752,26 @@
       "quickSearch":1
     },
     {
+      "key":"九剧场",
+      "name":"剧场",
+      "type":3,
+      "api":"csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "主页url": "http://www.9y9r.com/",
+        "数组": "fed-list-pics&&</li>",
+        "标题": "<a*>&&<",
+        "图片": "data-original=\"&&\"",
+        "副标题": "center\">&&</",
+        "链接": "href=\"&&\"",
+        "简介": "",
+        "跳转播放链接": "var player_*\"url\":\"&&\"",
+        "分类url": "http://www.9y9r.com/so-show/{cateId}-{area}--{class}-{lang}----{catePg}---{year}.html",
+        "分类": "电影$1&电视剧$2&综艺$3&动漫$4&爽文短剧$30&日韩精品$36"
+      }	  
+    },
+    {
       "key": "夸父",
       "name": "夸父",
       "type": 3,

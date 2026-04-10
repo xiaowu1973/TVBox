@@ -782,8 +782,8 @@
       "api":"csp_XBPQ",
       "searchable":1,
       "ext":{
-		"分类url":"http://www.9y9r.com/so-show/{cateid}-{area}--{calss}-----{catePg}---.html",
-		"分类":"电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$30#日韩精品$36"    
+		"分类url":"http://www.9y9r.com/so-show/{cateid}-{area}-------{catepg}---.html",
+		"分类":"日韩精品$36"    
       }
     },	  	  
     {

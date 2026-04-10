@@ -764,28 +764,44 @@
     },
     {
       "key":"九剧场",
-      "name":"九剧",
+      "name":"剧场",
       "type":3,
       "api":"csp_XBPQ",
-	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "searchable":1,
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",       
-        "分类url":"https://ninetheater.com/;;!H"
-      }
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "主页url": "https://ninetheater.com/",
+        "数组": "fed-list-pics&&</li>",
+        "标题": "<a*>&&<",
+        "图片": "data-original=\"&&\"",
+        "副标题": "center\">&&</",
+        "链接": "href=\"&&\"",
+        "简介": "",
+        "跳转播放链接": "var player_*\"url\":\"&&\"",
+        "分类url": "https://ninetheater.com/so-show/{cateId}-{area}--{class}-{lang}----{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$30#日韩精品$36"
+      }	  
     },	  
     {
       "key":"九九逍遥",
-      "name":"九九",
+      "name":"逍遥",
       "type":3,
-      "api":"csp_XBPQ",
-      "searchable":1,
-      "ext":{
-		"分类url":"http://www.9y9r.com/so-show/{cateId}-{area}--{class}-{lang}----{catePg}---{year}.html",
-		"分类":"电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$30#日韩精品$36"    
-      }
-    },	  	  
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "主页url": "http://www.9y9r.com/so-show/36-----------.html",
+        "数组": "lazyload\"&&</a",
+        "标题": "title=\"&&\"",
+        "图片": "data-original=\"&&\"",
+        "副标题": "text-right\">&&</",
+        "链接": "href=\"&&\"",
+        "简介": "",
+        "跳转播放链接": "var player_*\"url\":\"&&\"",
+        "分类url": "http://www.9y9r.com/so-show/36-{cateId}-{by}------{catePg}---{year}.html",
+        "分类": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
+      }      
+    },	  
     {
       "key": "地瓜影院",
       "name": "地瓜",

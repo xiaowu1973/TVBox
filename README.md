@@ -28,6 +28,8 @@ PG： https://tvbox.catvod.com/jsm.json
 
 林中小屋：https://8815.kstore.vip/tvbox/Ace
 
+刘公子: http://gzy.lzo.publicvm.com/
+
 巧技：http://cdn.qiaoji8.com/tvbox.json
 
 王二小：https://9280.kstore.vip/newwex.json

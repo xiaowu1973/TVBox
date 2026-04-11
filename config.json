@@ -136,7 +136,15 @@
           "url": "http://220.134.196.147:1888"
         }
       ]
-    },		  
+    },
+    {
+      "name": "达人频道",
+      "type": 0,
+      "url": "./json/达人频道.txt",
+      "ua": "okhttp/3.15",
+      "epg": "",
+      "logo": ""
+    },	  
     {
       "name": "潘多拉",
       "type": 0,
@@ -144,6 +152,36 @@
       "ua": "okhttp/3.15",
       "epg": "",
       "logo": ""
+    },
+    {
+      "name": "XtreamCode",
+      "api": "csp_XtreamCode",
+	  "jar": "./jars/custom_spider.jar",
+      "url": "http://iptv.icsnleb.com:25461/player_api.php?username=12&password=12",
+      "epg": "http://iptv.icsnleb.com:25461/xmltv.php?username=12&password=12",
+      "ext": {
+        "live": true,
+        "vod": true,
+        "formats": [
+          "m3u8",
+          "ts"
+        ]
+      }
+    },
+    {
+      "name": "MQiTV",
+      "api": "csp_MQiTV",
+	  "jar": "./jars/custom_spider.jar",		
+      "ext": [
+        {
+          "name": "Hotel A",
+          "url": "https://127.0.0.1:4433"
+        },
+        {
+          "name": "Hotel B",
+          "url": "http://127.0.0.1"
+        }
+      ]
     }	  
   ],
   "sites": [
@@ -459,6 +497,18 @@
         "dataIv": "mC6kG4mI1uM8tS4o"
       }
     },
+    {
+      "key": "坚果",
+      "name": "坚果",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "site": "https://qiliniao-1331306839.cos.ap-chengdu.myqcloud.com/jg.txt",
+        "dataKey": "2015692015692015",
+        "dataIv": "2015692015692015"
+      }
+    },	  
     {
       "key": "王子",
       "name": "王子",
@@ -1044,7 +1094,7 @@
     },	  
     {
       "key": "Vf视频",
-      "name": "VF",
+      "name": "国外",
       "type": 3,
       "api": "./py/Vf.py",
       "searchable": 1,

@@ -46,6 +46,11 @@
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
+    {
+      "name": "达人频道",
+      "type": 0,
+      "url": "./json/_经典剧场.txt"
+    },	  
 	{
 	  "name": "台湾节点MQ",
 	  "api": "csp_MQiTV",
@@ -140,10 +145,11 @@
     {
       "name": "达人频道",
       "type": 0,
-      "url": "./json/达人频道.txt",
-      "ua": "okhttp/3.15",
-      "epg": "",
-      "logo": ""
+      "url": "./json/达人频道.txt"
+    },
+    {
+      "name": "精品合集",
+      "url": "https://raw.githubusercontent.com/atsushi444/iptv/refs/heads/main/ttt.m3u"
     },	  
     {
       "name": "潘多拉",

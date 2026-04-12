@@ -925,7 +925,7 @@
         "链接": "href=\"&&\"",
         "简介": "",
         "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "分类url": "https://ninetheater.com/so-show/{cateid}-{cateId}-{by}------{catePg}---{year}.html",
+        "分类url": "https://ninetheater.com/so-show/{cateId}-{by}------{catePg}---{year}.html",
         "分类": "电影$1&电视剧$2&综艺$3&动漫$4&爽文短剧$30&日韩精品$36"
       }	  
     },	  

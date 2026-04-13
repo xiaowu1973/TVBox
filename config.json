@@ -252,18 +252,7 @@
         "其他综艺",
         "纪录片"
       ]
-    },	  
-    {
-      "key": "五大采集平台",
-      "name": "采集",
-      "type": 1,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2,
-      "ext": "http://39.105.18.5:5565/api.php/app/"
-    },	  
+    },	  	  
     {
       "key": "热播影视",
       "name": "热播",

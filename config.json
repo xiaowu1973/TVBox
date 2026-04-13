@@ -139,7 +139,21 @@
 	    "key": "ygcnbcvybqqckwqy",
 	    "iv": "1583560747143708"
       }
-    },	  
+    },
+	{
+	  "key":"火猫",
+	  "name":"火猫",
+	  "type":3,
+	  "api":"./js/AppNox.min.js",
+	  "ext":{
+		"host":"https://jp5.ggtvb.cc",
+		"signature":"11:05:5B:0E:DD:14:6A:96:38:28:CB:29:7D:5F:04:57:3F:D6:EC:6A:C4:54:4F:4D:44:72:0A:C1:8E:DD:A9:58",
+		"package":"cc.xzsc.user",
+		"verCode":"12",
+		"verName":"5.2",
+		"deviceId":"ee0b3ae17bbf6218"
+	  }
+	},
     {
       "key": "无水印采集",
       "name": "纯净",

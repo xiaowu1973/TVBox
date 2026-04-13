@@ -522,16 +522,26 @@
       "ext": "https://vip.wwgz.cn:5200"
     },
     {
+	  "key":"飞流视频",
+	  "name":"飞流",
+	  "type":3,
+	  "api":"csp_XBPQ",
+	  "ext":{
+		"简介":"description\":\"&&\"",  
+		"分类url":"https://www.flixflop.com/explore/{cateId}?page={catePg}&language={lang}&area={area}&genre={class}&sort={by}&year={year}",
+		"分类":"电影$151438147786375168#电视剧$151438147794763777#综艺$151438147807346691#动漫$151438147807346690#体育$151438147807346693#电影解说$204814944317734918#短剧$331153971999670710"
+	  }
+	},
+    {
 	  "key":"嘟嘟影院",
 	  "name":"嘟嘟",
 	  "type":3,
 	  "api":"csp_XBPQ",
-	  "ext":{
-		"简介":"简介：&&</div>",  
+	  "ext":{ 
 		"分类url":"https://www.tygsqws.com/dds/{cateId}/page/{catePg}.html",
 		"分类":"嘟嘟电影$dianying#国产剧$guochanju#天天美剧$meiju#韩剧大全$hanju#日剧全集$riju#动画片$dongman#综艺秀$zongyi#"
 	  }
-	},
+	},	  
     {
 	  "key":"酷影聚",
 	  "name":"酷影",
@@ -565,6 +575,56 @@
 		"分类":"电影$1#电视剧$2#综艺$3#动漫$4#动画片$35#短剧$36#"
 	  }
 	},
+    {
+	  "key":"晚秋影视",
+	  "name":"晚秋",
+	  "type":3,
+	  "api":"csp_XBPQ",
+	  "ext":{
+		"简介":"detail col-pd\">&&</div>",
+		"分类url":"https://wap.0757111.com/show/{cateId}--------{catePg}---.html",
+		"分类":"电影$1#电视剧$2#综艺$3#动漫$4#短剧$36#"
+	  }
+	},	  
+    {
+	  "key":"白嫖者联盟",
+	  "name":"白嫖",
+	  "type":3,
+	  "api":"csp_XBPQ",
+	  "ext":{
+		"请求头": "User-Agent$MOBILE_UA",
+		"编码": "UTF-8",
+		"数组": "module-item-pic&&span></div>",
+		"标题": "title=\"&&\"",
+		"副标题": "<div class=\"module-item-text\">&&</div>",
+		"图片": "data-src=\"&&\"",
+		"播放链接": "href=\"&&\"",
+		"线路数组": "data-dropdown&&</div>",
+		"线路标题": "<span>&&</span",
+		"播放数组": "<div class=\"module-blocklist&&</div>",
+		"播放列表": "<a&&</a>",
+		"播放标题": "<span>&&<",
+		"跳转播放链接": "var player_*\"url\":\"&&\"",
+		"搜索url": "https://188mv.cc/vodsearch/{wd}----------{pg}---.html",
+		"简介":"video-info-item video-info-content vod_content\">&&</div>",
+		"分类url":"https://188mv.cc/vodtype/{cateId}-{catePg}.html",
+		"分类":"电影$1#剧集$2#综艺$3#动漫$4#短剧$39#体育$34#"
+	  }
+	},	  
+	{
+	  "key":"飞行影院",
+	  "name":"飞行",
+	  "type": 3,
+	  "api":"csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "ext": {
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8", 		  
+		"分类url":"https://www.tomato-china.net/;;!H"
+	  }
+	},	  
 	{
 	  "key":"即看影视",
 	  "name":"即看",
@@ -578,7 +638,19 @@
         "编码":"UTF-8", 		  
 		"分类url":"https://www.jkan.app/;;!H"
 	  }
-	},	  	  
+	},
+    {
+      "key":"风车影视",
+      "name":"风车",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://tv.bz800hqw.com/;;!H"
+      }
+    },	  
     {
       "key":"枝枝影视",
       "name":"枝枝",
@@ -591,6 +663,18 @@
         "分类url":"https://zzoc.cc/;;!H"
       }
     },
+    {
+      "key":"无极影视",
+      "name":"无极",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://www.xiaomange.com/;;!H"
+      }
+    },	  
     {
       "key":"123酷播",
       "name":"酷播",
@@ -673,33 +757,6 @@
         "分类url": "http://www.9y9r.com/so-show/36-{cateId}-{by}------{catePg}---{year}.html",
         "分类": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
       }      
-    },
-    {
-      "key": "段老师",
-      "name": "段老师",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://www.duanlaoshi.cc",
-        "数组": "video-card\"&&</a",
-        "标题": "title\">&&<",
-        "图片": "src=\"&&\"",
-        "副标题": "</i>&&<",
-        "链接": "href=\"&&\"",
-        "简介": "description\" content=\"&&\"",
-        "线路标题": "",
-        "播放数组": "const validUrls&&;[替换:\\[\">>表接#\",\">>接表表接#\"\\]>>接表]",
-        "播放列表": "表&&表",
-        "播放标题": "接&&接",
-        "播放链接": "接&&接",
-        "分类url": "https://www.duanlaoshi.cc/{cateId}/index_{catePg}.html[https://www.duanlaoshi.cc/{cateId}/]",
-        "分类二次截取": "id=\"navbarNav&&</ul>",
-        "分类数组": "<a&&/a",
-        "分类标题": ">&&<[不包含:首页#标签]",
-        "分类ID": "data-nav=\"&&\""
-      }
     },	
     {
       "key": "地瓜影院",
@@ -725,6 +782,20 @@
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8", 		
 		"分类url":"https://www.8090cc.com/;;!H"
+	  }
+	},
+	{
+	  "key":"青楼坊",
+	  "name":"青楼",
+	  "type": 3,
+	  "api":"csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "ext": {
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8", 		
+		"分类url":"https://www.mtv55.xyz/;;!H"
 	  }
 	},	  
     {

@@ -520,18 +520,7 @@
       "type": 3,
       "api": "csp_Wwys",
       "ext": "https://vip.wwgz.cn:5200"
-    },
-    {
-	  "key":"飞流视频",
-	  "name":"飞流",
-	  "type":3,
-	  "api":"csp_XBPQ",
-	  "ext":{
-		"简介":"description\":\"&&\"",  
-		"分类url":"https://www.flixflop.com/explore/{cateId}?page={catePg}&language={lang}&area={area}&genre={class}&sort={by}&year={year}",
-		"分类":"电影$151438147786375168#电视剧$151438147794763777#综艺$151438147807346691#动漫$151438147807346690#体育$151438147807346693#电影解说$204814944317734918#短剧$331153971999670710"
-	  }
-	},	  
+    },	  
     {
 	  "key":"嘟嘟影院",
 	  "name":"嘟嘟",
@@ -609,6 +598,20 @@
 		"简介":"video-info-item video-info-content vod_content\">&&</div>",
 		"分类url":"https://188mv.cc/vodtype/{cateId}-{catePg}.html",
 		"分类":"电影$1#剧集$2#综艺$3#动漫$4#短剧$39#体育$34#"
+	  }
+	},
+	{
+	  "key":"飞流视频",
+	  "name":"飞流",
+	  "type": 3,
+	  "api":"csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "ext": {
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8", 		  
+		"分类url":"https://www.flixflop.com/;;!H"
 	  }
 	},
 	{
@@ -838,20 +841,6 @@
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8", 		
 		"分类url":"https://avxq148.cc/;;!H"
-	  }
-	},
-	{
-	  "key":"AV网站",
-	  "name":"五八",
-	  "type": 3,
-	  "api":"csp_XBPQ",
-	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-	  "searchable":1,
-	  "quickSearch":1,
-	  "ext": {
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8", 		
-		"分类url":"https://owo58.cc/;;!H"
 	  }
 	},	  
     {

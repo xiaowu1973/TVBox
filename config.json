@@ -655,8 +655,8 @@
       }
     },
     {
-	  "key":"吃瓜影视",
-	  "name":"吃瓜",
+	  "key":"吃瓜影视0",
+	  "name":"吃瓜0",
 	  "type":3,
 	  "api":"csp_XBPQ",
 	  "ext":{
@@ -665,7 +665,19 @@
 		"分类url":"https://www.chiguafilm.com/index.php/vod/show/area/{area}/by/time/id/{cateId}/page/{catePg}/year/{year}.html",
 		"分类":"电影$1#连续剧$2#综艺$3#动漫$4#啄木鸟$29#福利$24#经典$37"
 	  }
-	},	  
+	},
+    {
+      "key":"吃瓜影视",
+      "name":"吃瓜",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://www.chiguafilm.com/;;!H"
+      }
+    },	  
     {
       "key":"莲花影院",
       "name":"莲花",

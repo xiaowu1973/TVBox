@@ -588,96 +588,7 @@
 		"分类url":"https://188mv.cc/vodtype/{cateId}-{catePg}.html",
 		"分类":"电影$1#剧集$2#综艺$3#动漫$4#短剧$39#体育$34#"
 	  }
-	},	  
-	{
-	  "key":"酷客影院",
-	  "name":"酷客",
-	  "type": 3,
-	  "api":"csp_XBPQ",
-	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-	  "searchable":1,
-	  "quickSearch":1,
-	  "ext": {
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8", 		  
-		"分类url":"http://www.taojudy.tv/;;!H"
-	  }
 	},	  	  
-	{
-	  "key":"飞行影院",
-	  "name":"飞行",
-	  "type": 3,
-	  "api":"csp_XBPQ",
-	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-	  "searchable":1,
-	  "quickSearch":1,
-	  "ext": {
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8", 		  
-		"分类url":"https://www.tomato-china.net/;;!H"
-	  }
-	},	  
-    {
-      "key":"风车影视",
-      "name":"风车",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",
-        "分类url":"https://tv.bz800hqw.com/;;!H"
-      }
-    },	  
-    {
-      "key":"无极影视",
-      "name":"无极",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",
-        "分类url":"https://www.xiaomange.com/;;!H"
-      }
-    },	  
-    {
-      "key":"123酷播",
-      "name":"酷播",
-      "type":3,
-      "api":"csp_XBPQ",
-	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "searchable":1,
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",       
-        "分类url":"https://123kubo.tv/;;!H"
-      }
-    },
-    {
-      "key":"吃瓜影视",
-      "name":"吃瓜",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",
-        "分类url":"https://www.chiguafilm.com/;;!H"
-      }
-    },	  
-    {
-      "key":"莲花影院",
-      "name":"莲花",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",
-        "分类url":"https://www.xslh.org/;;!H"
-      }
-    },
     {
       "key":"枝枝影视",
       "name":"枝枝",
@@ -741,7 +652,19 @@
         "编码": "UTF-8",
         "分类url": "https://www.parrothatch.com/;;!H"
       }
-    },	  	  
+    },
+    {
+      "key":"莲花影院",
+      "name":"莲花",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://www.xslh.org/;;!H"
+      }
+    },	  
     {
       "key":"九九逍遥",
       "name":"逍遥",

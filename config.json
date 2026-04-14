@@ -588,20 +588,6 @@
 		"分类url":"https://188mv.cc/vodtype/{cateId}-{catePg}.html",
 		"分类":"电影$1#剧集$2#综艺$3#动漫$4#短剧$39#体育$34#"
 	  }
-	},
-	{
-	  "key":"晚秋影视",
-	  "name":"晚秋",
-	  "type": 3,
-	  "api":"csp_XBPQ",
-	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-	  "searchable":1,
-	  "quickSearch":1,
-	  "ext": {
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8", 		  
-		"分类url":"https://wap.0757111.com/;;!H"
-	  }
 	},	  
 	{
 	  "key":"飞流视频",
@@ -630,21 +616,7 @@
         "编码":"UTF-8", 		  
 		"分类url":"http://www.taojudy.tv/;;!H"
 	  }
-	},	  
-	{
-	  "key":"零三影院",
-	  "name":"零三",
-	  "type": 3,
-	  "api":"csp_XBPQ",
-	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-	  "searchable":1,
-	  "quickSearch":1,
-	  "ext": {
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8", 		  
-		"分类url":"https://www.03yy.live/;;!H"
-	  }
-	},	  
+	},	  	  
 	{
 	  "key":"飞行影院",
 	  "name":"飞行",

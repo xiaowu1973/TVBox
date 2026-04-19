@@ -375,6 +375,32 @@
       }
     },
     {
+      "key": "金都",
+      "name": "金都",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://cmm.jindou11.top",
+        "dataKey": "weyuhgiohgsytwhj",
+        "dataIv": "weyuhgiohgsytwhj"
+      }
+    },
+    {
+      "key": "猎豹",
+      "name": "猎豹",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://444421.xyz",
+        "dataKey": "#getapp@TMD@2025",
+        "dataIv": "#getapp@TMD@2025"
+      }
+    },	  
+    {
       "key": "映画",
       "name": "映画",
       "type": 3,

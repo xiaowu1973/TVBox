@@ -26,6 +26,8 @@ PG： https://tvbox.catvod.com/jsm.json
 
 讴歌：https://欧歌.v.nxog.top/m
 
+vox：http://rihou.cc:88/demoabc.json
+
 林中小屋：https://8815.kstore.vip/tvbox/Ace
 
 刘公子: http://gzy.lzo.publicvm.com/

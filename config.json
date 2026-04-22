@@ -493,16 +493,7 @@
         "datakey": "VwsHxkCViDXEExWa",
         "dataiv": "VwsHxkCViDXEExWa"
       }
-    },    	  	  
-    {
-      "key": "移动",
-      "name": "移动",
-      "type": 3,
-      "api": "csp_YDjisu",
-	  "jar":"./jars/og.jar;md5;5af5edf697f25b99eb189fb800e1d098",
-      "searchable": 1,
-      "quickSearch": 1
-    },	  
+    },    	  	  	  
     {
       "key": "独播影视",
       "name": "独播",
@@ -662,7 +653,7 @@
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",       
-        "分类url":"https://ninetheater.com/;;!H"
+        "分类url":"http://www.9y9r.com/;;!H"
       }
     },
     {
@@ -834,7 +825,19 @@
 	  "ratio": 1.33
 	  },
 	  "changeable": 1
-	},	  
+	},
+    {
+       "key": "PTT短剧",
+       "name": "短剧",
+       "type": 3,
+       "api": "./py/PTT短剧.py",
+       "searchable": 1,
+       "quickSearch": 1,
+       "filterable": 1,
+       "changeable": 1,
+       "playerType": 2,
+       "ext": "0"
+    },	  
     {
        "key": "采集合集py",
        "name": "采集",

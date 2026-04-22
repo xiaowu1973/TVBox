@@ -790,20 +790,6 @@
 	  }
 	},
 	{
-	  "key":"青楼坊",
-	  "name":"青楼",
-	  "type": 3,
-	  "api":"csp_XBPQ",
-	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-	  "searchable":1,
-	  "quickSearch":1,
-	  "ext": {
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8", 		
-		"分类url":"https://www.mtv55.xyz/;;!H"
-	  }
-	},
-	{
 	  "key":"AV星球",
 	  "name":"星球",
 	  "type": 3,
@@ -814,7 +800,7 @@
 	  "ext": {
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8", 		
-		"分类url":"https://avxq148.cc/;;!H"
+		"分类url":"https://avxq148.cc/;;!"
 	  }
 	},	  
     {
@@ -823,6 +809,20 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/速影TV.json"
+    },
+    {
+      "key": "唐人影视",
+      "name": "唐人",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/唐人影视.json"
+    },
+    {
+      "key": "红果影院",
+      "name": "红果",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/红果影院.json"
     },	  
 	{
 	  "key": "小鸭子看看",

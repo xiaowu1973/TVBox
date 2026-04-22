@@ -708,7 +708,29 @@
         "分类url": "http://www.9y9r.com/so-show/36-{cateId}-{by}------{catePg}---{year}.html",
         "分类": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
       }      
-    },	
+    },
+    {
+      "key":"豆花逍遥",
+      "name":"豆花",
+      "type":3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "主页url": "https://www.widiz.com/haokan/36.html",
+        "数组": "lazyload\"&&</a",
+        "标题": "title=\"&&\"",
+        "图片": "data-original=\"&&\"",
+        "副标题": "pic-tag-h\">&&</",
+        "链接": "href=\"&&\"",
+        "简介": "",
+        "跳转播放链接": "var player_*\"url\":\"&&\"",
+        "分类url": "http://zhenyuan.widiz.com/show/36-{cateId}-------{catePg}---.html;;mrc",
+        "分类": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大",
+		"分类值": "*",
+		"筛选": "1"
+      }      
+    },	  
     {
       "key": "地瓜影院",
       "name": "地瓜",

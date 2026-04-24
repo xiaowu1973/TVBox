@@ -30,7 +30,9 @@ vox：http://rihou.cc:88/demoabc.json
 
 林中小屋：https://8815.kstore.vip/tvbox/Ace
 
-刘公子: http://gzy.lzo.publicvm.com/
+枫斗tv：http://枫斗.top/tv
+
+刘公子: https://my5353.com/liugongzi
 
 巧技：http://cdn.qiaoji8.com/tvbox.json
 

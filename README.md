@@ -6,6 +6,20 @@ https://github.akams.cn/
 
 https://www.metools.info/other/md5368.html
 
+TVBOX/影视接口解密
+
+接口解密一 ： https://jm.n13.club/
+
+接口解密二 ： https://tools.v1.mk/
+
+base64解码：https://tool.oschina.net/encrypt?type=3
+
+AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
+
+16进制解码：http://www.cyeam.com/tool/hexdecode
+
+接口解密 http://饭太硬.ml/jm/
+
 配置接口
 
 OK ： http://ok213.top/tv

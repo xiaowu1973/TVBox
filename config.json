@@ -802,6 +802,13 @@
       "ext": "./XBPQ/速影TV.json"
     },
     {
+      "key": "神秘电影",
+      "name": "神秘",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/神秘电影.json"
+    },	  
+    {
       "key": "唐人影视",
       "name": "唐人",
       "type": 3,

@@ -723,6 +723,19 @@
       "ext": "./XBPQ/旺旺影视.json"
     },
     {
+      "key":"八号影视",
+      "name":"八号",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "searchable":1,
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",       
+        "分类url":"https://www.bahaotv.com/;;!"
+      }
+    },
+    {
       "key":"秋霞影视",
       "name":"秋霞",
       "type":3,

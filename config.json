@@ -535,17 +535,7 @@
       "type": 3,
       "api": "csp_Wwys",
       "ext": "https://vip.wwgz.cn:5200"
-    },	  
-    {
-	  "key":"嘟嘟影院",
-	  "name":"嘟嘟",
-	  "type":3,
-	  "api":"csp_XBPQ",
-	  "ext":{ 
-		"分类url":"https://www.tygsqws.com/dds/{cateId}/page/{catePg}.html",
-		"分类":"嘟嘟电影$dianying#国产剧$guochanju#天天美剧$meiju#韩剧大全$hanju#日剧全集$riju#动画片$dongman#综艺秀$zongyi#"
-	  }
-	},	  
+    },	  	  
     {
 	  "key":"酷影聚",
 	  "name":"酷影",
@@ -644,19 +634,6 @@
 	  }
 	},	  
     {
-      "key":"九九影视",
-      "name":"九九",
-      "type":3,
-      "api":"csp_XBPQ",
-	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "searchable":1,
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",       
-        "分类url":"http://www.9y9r.com/;;!H"
-      }
-    },
-    {
       "key": "屁屁影院",
       "name": "屁屁",
       "type": 3,
@@ -699,60 +676,6 @@
         "分类url": "http://www.9y9r.com/so-show/36-{cateId}-{by}------{catePg}---{year}.html",
         "分类": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
       }      
-    },
-    {
-      "key":"豆花逍遥",
-      "name":"豆花",
-      "type":3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://www.widiz.com/haokan/36.html",
-        "数组": "lazyload\"&&</a",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "pic-tag-h\">&&</",
-        "链接": "href=\"&&\"",
-        "简介": "",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "分类url": "http://zhenyuan.widiz.com/show/36-{cateId}-------{catePg}---.html;;mrc",
-        "分类": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大",
-		"分类值": "*",
-		"筛选": "1"
-      }      
-    },
-    {
-      "key": "北京影院",
-      "name": "北京",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "主页url": "http://www.lncxbj.com",
-        "分类url": "http://www.lncxbj.com/hdshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#伦理$30#短剧$40#电影解说$39",
-        "类型": "动作片$7#喜剧片$8#爱情片$9#科幻片$10#恐怖片$11#剧情片$12#犯罪片$29#战争片$13||国产剧$14#港剧$15#台湾剧$16#韩剧$17#日剧$18#泰剧$31#欧美剧$19#海外剧$20||大陆综艺$21#日韩综艺$22#港台综艺$23#欧美综艺$24||国产动漫$25#日本动漫$26#欧美动漫$27#海外动漫$28||空||空||空||空",
-        "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影||古装&战争&青春偶像&喜剧&家庭&犯罪&动作&奇幻&剧情&历史&经典&乡村&情景&商战&网剧&其他||选秀&情感&访谈&播报&旅游&音乐&美食&纪实&曲艺&生活&游戏互动&财经&求职||情感&科幻&热血&推理&搞笑&冒险&萝莉&校园&动作&机战&运动&战争&少年&少女&社会&原创&亲子&益智&励志&其他||空||空||喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影",
-        "剧情值": "*",
-        "数组": "p:div[class*=\"myui-vodlist__box\"]",
-        "标题": "p:a->title",
-        "副标题": "p:span->text+(+p:span->text[含序号:3]+)",
-        "图片": "p:a->data-original",
-        "链接": "p:a->href",
-        "影片年代": "p:p[class*=\"text-muted hidden-xs\"] a->text",
-        "影片地区": "p:p[class*=\"text-muted hidden-xs\"] a->text",
-        "影片类型": "p:p[class*=\"text-muted\"] a->text",
-        "状态": "p:p[class*=\"text-muted\"] span->text",
-        "导演": "p:p[class*=\"text-muted\"] a->text",
-        "主演": "p:p[class*=\"text-muted\"] a->text",
-        "简介": "p:.desc text-collapse hidden-sm hidden-xs->text",
-        "线路数组": "p:.nav-tabs li[不包含:同]",
-        "线路标题": "p:a->text",
-        "播放数组": "p:.myui-content__list",
-        "播放列表": "p:a",
-        "播放标题": "p:a->text",
-        "播放链接": "p:a->href"
-      }
     },	  
     {
       "key": "地瓜影院",
@@ -800,13 +723,6 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/速影TV.json"
-    },
-    {
-      "key": "神秘电影",
-      "name": "神秘",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/神秘电影.json"
     },	  
     {
       "key": "唐人影视",

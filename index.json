@@ -314,36 +314,6 @@
       "ext": "https://qpcj.69mini.com/api.php/app/"
     },
     {
-      "key": "大米",
-      "name": "大米",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.dmo6o1a9a3.shop/api.php/app/"
-    },
-    {
-      "key": "酷九",
-      "name": "酷九",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.55z9g0t0p3.shop/api.php/app/"
-    },
-    {
-      "key": "空气",
-      "name": "空气",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.airfun.fun/xgapp.php/v2/"
-    },
-    {
       "key":"咕噜画",
       "name":"咕噜",
       "type":3,
@@ -365,16 +335,18 @@
       "ext": "http://app.hktvyb.cc"
     },
     {
-      "key": "火狐",
-      "name": "火狐",
+      "key": "首发",
+      "name": "首发",
       "type": 3,
-      "api": "csp_AppGet",
+      "api": "csp_AppQi",
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "url": "http://huohu.yihn.cc",
-        "dataKey": "huohushipingetap",
-        "dataIv": "huohushipingetap"
+        "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/600.txt",
+        "dataKey": "FTgP4Gq8zPiqbt7M",
+        "dataIv": "FTgP4Gq8zPiqbt7M",
+        "init": "initV122",
+        "ua": "okhttp/3.10.0"
       }
     },
     {
@@ -723,6 +695,20 @@
       "ext": "./XBPQ/旺旺影视.json"
     },
     {
+      "key": "柒月影视",
+      "name": "柒月",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/柒月影视.json"
+    },
+    {
+      "key": "小镇影视",
+      "name": "小镇",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/小镇影视.json"
+    },
+    {
       "key":"八号影视",
       "name":"八号",
       "type":3,
@@ -758,19 +744,6 @@
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",
         "分类url":"https://zzoc.cc/;;!"
-      }
-    },
-    {
-      "key":"电影小镇",
-      "name":"小镇",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "searchable":1,
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",       
-        "分类url":"http://www.du88.cc/;;!"
       }
     },
     {
@@ -836,32 +809,6 @@
       }
     },
     {
-      "key": "屁屁影院",
-      "name": "屁屁",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://www.parrothatch.com/;;!H",
-        "地区": ""
-      }
-    },
-    {
-      "key": "酷云影院",
-      "name": "酷云",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://kuyun123.com/;;!H",
-        "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
-      }
-    },
-    {
       "key":"九九影视",
       "name":"九九",
       "type":3,
@@ -888,6 +835,20 @@
         "分类url":"http://www.lncxbj.com/;;!H",
         "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
       }
+    },
+    {
+      "key": "猫眼视频",
+      "name": "猫眼",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/猫眼视频.json"
+    },
+    {
+      "key": "速影TV",
+      "name": "速影",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/速影TV.json"
     },
     {
       "key": "优质资源",

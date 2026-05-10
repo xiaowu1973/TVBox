@@ -695,18 +695,24 @@
       "ext": "./XBPQ/旺旺影视.json"
     },
     {
-      "key": "柒月影视",
-      "name": "柒月",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/柒月影视.json"
-    },
-    {
       "key": "小镇影视",
       "name": "小镇",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/小镇影视.json"
+    },
+    {
+      "key":"柒月影视",
+      "name":"柒月",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "searchable":1,
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",       
+        "分类url":"https://ys.ggww.net/;;!"
+      }
     },
     {
       "key":"八号影视",

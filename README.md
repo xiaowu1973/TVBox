@@ -32,11 +32,7 @@ PG： https://tvbox.catvod.com/jsm.json
 
 肥猫：http://肥猫.com
 
-小米：https://cnb.cool/xiaomideyun/xiaomideyun/-/git/raw/main/mi.json
-
 摸鱼儿：http://我不是.摸鱼儿.com
-
-潇洒：https://9877.kstore.space/AnotherD/api.json
 
 讴歌：https://欧歌.v.nxog.top/m
 

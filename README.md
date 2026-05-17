@@ -20,35 +20,31 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 接口解密 http://饭太硬.ml/jm/
 
-配置接口
+#    🍓GitHub 大佬接口 
 
-OK ： http://ok213.top/tv
+* 摸鱼线路："http://我不是.摸鱼儿.com"
 
-真心：https://tvbox.catvod.com/FongMi.json
+* 潇洒线路："https://qist.ugigc.dpdns.org/xiaosa/api.json"
 
-PG： https://tvbox.catvod.com/jsm.json
+* 王二线路："https://d.kstore.dev/download/9280/wex.json"
 
-饭太硬：https://www.饭太硬.com/tv
+* 多多线路："https://yydsys.netlify.app/config.json"
 
-肥猫：http://肥猫.com
+* 刘公子线："https://gzy.lzo.publicvm.com"
 
-摸鱼儿：http://我不是.摸鱼儿.com
+* 巧技线路："http://cdn.qiaoji8.com/tvbox.json"
 
-讴歌：https://欧歌.v.nxog.top/m
+* 圥忈仓库："https://gitlab.com/dokiss1/tvbox/"
 
-vox：http://rihou.cc:88/demoabc.json
+* 讴歌线路："https://欧歌.v.nxog.top/m"
 
-林中小屋：https://8815.kstore.vip/tvbox/Ace
+* vox线路："http://rihou.cc:88/demoabc.json"
 
-枫斗tv：http://枫斗.top/tv
+* 林中小屋："https://8815.kstore.vip/tvbox/Ace"
 
-刘公子: https://my5353.com/liugongzi
+* 枫斗tv："http://枫斗.top/tv"
 
-巧技：http://cdn.qiaoji8.com/tvbox.json
-
-王二小：https://9280.kstore.vip/newwex.json
-
-南风：https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/XC.json
+* 刘公子: "https://my5353.com/liugongzi"
 
 影视软件下载地址
 

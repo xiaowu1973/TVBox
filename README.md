@@ -26,6 +26,8 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 * 潇洒线路："https://qist.ugigc.dpdns.org/xiaosa/api.json"
 
+* 《潇洒》2 "https://9877.kstore.space/ONE/one.json"
+
 * 王二线路："https://d.kstore.dev/download/9280/wex.json"
 
 * 多多线路："https://yydsys.netlify.app/config.json"

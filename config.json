@@ -47,6 +47,12 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
+      "name": "xx视频",
+      "type": 0,
+      "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com/woshishiq1/hipy-drpy/main/FGBLH/xxx视频资源",
+      "ua": "okhttp/3.15"
+    },	  
+    {
       "name": "经典剧场",
       "type": 0,
       "url": "./json/经典剧场.txt"
@@ -228,27 +234,6 @@
 		"海外剧",
 		"音乐",
 		"倫理片"  
-      ]
-    },
-    {
-      "key": "蓝光",
-      "name": "臻彩",
-      "type": 2,
-      "api": "http://b9.lhy888.cn/api.php/provide/vod/?ac=list",
-      "playUrl": "json:http://xy.183933.xyz/xiayede.php?key=hy1992&url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫",
-        "少儿",
-        "短剧",
-        "学堂",
-        "其他综艺",
-        "纪录片"
       ]
     },	  	  
     {

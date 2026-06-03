@@ -32,7 +32,7 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 * 多多线路："https://yydsys.netlify.app/config.json"
 
-* 刘公子线："https://gzy.lzo.publicvm.com"
+* 网盘资源："https://8.163.122.228/2025128/json/YsBox/无jar网盘.json"
 
 * 巧技线路："http://cdn.qiaoji8.com/tvbox.json"
 

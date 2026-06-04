@@ -8,9 +8,9 @@ https://www.metools.info/other/md5368.html
 
 TVBOX/影视接口解密
 
-接口解密一 ： https://jm.n13.club/
+接口解密 ： https://jm.n13.club/
 
-接口解密二 ： https://tools.v1.mk/
+接口助手 ： https://bjq.catvod.site/
 
 base64解码：https://tool.oschina.net/encrypt?type=3
 

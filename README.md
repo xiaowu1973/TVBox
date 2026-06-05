@@ -46,6 +46,8 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 * 枫斗tv："http://枫斗.top/tv"
 
+* 幸福资源: "http://150.158.52.248/tgyg/bbm.json"
+
 * 刘公子: "https://my5353.com/liugongzi"
 
 影视软件下载地址

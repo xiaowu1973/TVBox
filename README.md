@@ -38,7 +38,7 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 * 圥忈仓库："https://gitlab.com/dokiss1/tvbox/"
 
-* 讴歌线路："https://欧歌.v.nxog.top/m"
+* 讴歌线路："http://tv.nxog.top/m"
 
 * vox线路："http://rihou.cc:88/demoabc.json"
 

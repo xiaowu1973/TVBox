@@ -30,7 +30,7 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 * 王二线路："https://d.kstore.dev/download/9280/wex.json"
 
-* 多多线路："https://yydsys.netlify.app/config.json"
+* 东离线路："https://gh-proxy.org/https://github.com/xiaowu1973/dongliTV/blob/main/api.json"
 
 * 网盘资源："https://8.163.122.228/2025128/json/YsBox/无jar网盘.json"
 

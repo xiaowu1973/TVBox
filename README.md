@@ -36,7 +36,7 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 * 巧技线路："http://cdn.qiaoji8.com/tvbox.json"
 
-* 圥忈仓库："https://gitlab.com/dokiss1/tvbox/"
+* 无名："https://s3.hi168.com/hi168-29669-8467sl9x/api.json"
 
 * 讴歌线路："http://tv.nxog.top/m"
 

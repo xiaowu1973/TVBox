@@ -32,8 +32,6 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 * 东离线路："https://gh-proxy.org/https://github.com/xiaowu1973/dongliTV/blob/main/api.json"
 
-* 网盘资源："https://8.163.122.228/2025128/json/YsBox/无jar网盘.json"
-
 * 巧技线路："http://cdn.qiaoji8.com/tvbox.json"
 
 * 无名："https://s3.hi168.com/hi168-29669-8467sl9x/api.json"

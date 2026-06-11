@@ -467,22 +467,7 @@
         "dataKey": "#getapp@TMD@2025",
         "dataIv": "#getapp@TMD@2025"
       }
-    },        	  
-    {
-      "key": "数字",
-      "name": "数字",
-      "type": 3,
-      "api": "./py/AppGet.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "http://app1-0-0.87333.cc",
-        "api": "/api.php/getappapi",
-        "datakey": "VwsHxkCViDXEExWa",
-        "dataiv": "VwsHxkCViDXEExWa"
-      }
-    },    	  	  	  
+    },        	      	  	  	  
     {
       "key": "独播影视",
       "name": "独播",

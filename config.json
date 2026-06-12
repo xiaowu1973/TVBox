@@ -214,31 +214,6 @@
         "欧美剧",
         "海外剧"
       ]
-    },
-    {
-      "key": "优质资源",
-      "name": "优质",
-      "type": 1,
-      "api": "https://api.yzzy-api.com/inc/apijson.php?ac=list",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "记录片",
-        "台湾剧",
-        "香港剧",
-        "欧美剧",
-        "动画片",
-		"海外剧",
-		"音乐",
-		"倫理片"  
-      ]
     },	  	  
     {
       "key": "热播影视",
@@ -482,25 +457,7 @@
       "type": 3,
       "api": "csp_SaoHuo",
       "ext": "https://shdy5.us"
-    },
-    {
-      "key": "农民影视",
-      "name": "农民",
-      "type": 3,
-      "api": "csp_Wwys",
-      "ext": "https://vip.wwgz.cn:5200"
-    },	  	  
-    {
-	  "key":"酷影聚",
-	  "name":"酷影",
-	  "type":3,
-	  "api":"csp_XBPQ",
-	  "ext":{
-		"简介":"简介：&&</div>",
-		"分类url":"https://kuyingju.com/index.php/vod/show/id/{cateId}/page/{catePg}/year/{year}.html",
-		"分类":"电影$1#连续剧$2#综艺$3#动漫$4#短剧$46#"
-	  }
-	},	  
+    },	  	  	  
     {
 	  "key":"猎狼影视",
 	  "name":"猎狼",
@@ -524,8 +481,8 @@
 	  }
 	},	  
     {
-	  "key":"白嫖者联盟",
-	  "name":"白嫖",
+	  "key":"低端影院",
+	  "name":"低端",
 	  "type":3,
 	  "api":"csp_XBPQ",
 	  "ext":{
@@ -610,27 +567,19 @@
         "编码":"UTF-8",
         "分类url":"https://www.xslh.org/;;!H"
       }
-    },	  
+    },
     {
       "key":"九九逍遥",
       "name":"逍遥",
       "type":3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "http://www.9y9r.com/so-show/36-----------.html",
-        "数组": "lazyload\"&&</a",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "text-right\">&&</",
-        "链接": "href=\"&&\"",
-        "简介": "",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "分类url": "http://www.9y9r.com/so-show/36-{cateId}-{by}------{catePg}---{year}.html",
-        "分类": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
-      }      
-    },
+      "api":"csp_XBPQ",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"http://www.9y9r.com/;;!H"
+      }
+    },	  
     {
       "key": "免费影院",
       "name": "免费",
@@ -640,7 +589,7 @@
 	  "ext": {
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8", 		
-		"分类url":"https://www.hangtong168.com/;;!H"
+		"分类url":"https://www.hangtong168.com/"
 	  }      
     },	  
     {
@@ -668,20 +617,6 @@
         "编码":"UTF-8", 		
 		"分类url":"https://www.8090cc.com/;;!H"
 	  }
-	},
-	{
-	  "key":"AV星球",
-	  "name":"星球",
-	  "type": 3,
-	  "api":"csp_XBPQ",
-	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-	  "searchable":1,
-	  "quickSearch":1,
-	  "ext": {
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8", 		
-		"分类url":"https://avxq148.cc/;;!"
-	  }
 	},	  
     {
       "key": "速影TV",
@@ -690,13 +625,6 @@
       "api": "csp_XBPQ",
       "ext": "./XBPQ/速影TV.json"
     },	  
-    {
-      "key": "唐人影视",
-      "name": "唐人",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/唐人影视.json"
-    },
     {
       "key": "窜天猴",
       "name": "天猴",
@@ -710,30 +638,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/红果影院.json"
-    },	  
-	{
-	  "key": "小鸭子看看",
-	  "name": "看看",
-	  "type": 4,
-	  "api": "http://zhangqun1818.serv00.net:5052/?sp=小鸭子看看",
-	  "style": {
-	  "type": "rect",
-	  "ratio": 1.33
-	  },
-	  "changeable": 1
-	},
-    {
-       "key": "PTT短剧",
-       "name": "短剧",
-       "type": 3,
-       "api": "./py/PTT短剧.py",
-       "searchable": 1,
-       "quickSearch": 1,
-       "filterable": 1,
-       "changeable": 1,
-       "playerType": 2,
-       "ext": "0"
-    },	  
+    },	  	  
     {
        "key": "采集合集py",
        "name": "采集",
@@ -871,7 +776,7 @@
       "timeout": 60
     },	  
     {
-      "key": "Vf视频",
+      "key": "文艺复兴",
       "name": "国外",
       "type": 3,
       "api": "./py/Vf.py",

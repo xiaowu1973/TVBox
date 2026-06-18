@@ -284,7 +284,7 @@
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/600.txt",
+        "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/601.txt",
         "dataKey": "FTgP4Gq8zPiqbt7M",
         "dataIv": "FTgP4Gq8zPiqbt7M",
         "init": "initV122",
@@ -473,21 +473,6 @@
 	"host": "https://kankelm.cn:2024/appdomain.txt",
 	"key": "ygcnbcvybqqckwqy",
 	"iv": "1583560747143708"
-      }
-    },
-    {
-      "key": "袋鼠影视",
-      "name": "袋鼠",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "简介": "plot\">&&</div>",
-        "请求头": "手机",
-        "副标题": "note textbg\">&&</span>",
-        "线路数组": "#playlist&&</a>",
-        "线路标题": "title=\"&&\"",
-        "分类url": "https://daishuys.com/search.php?page={catePg}&searchtype=5&tid={cateId}&area={area}&year={year}&jq={class}",
-        "分类": "短剧$28#电视剧$2#电影$1#动漫$4#综艺$3"
       }
     },
     {
@@ -848,7 +833,7 @@
     },
     {
       "key": "七猫高清",
-      "name": "神秘",
+      "name": "七猫",
       "type": 3,
       "api": "./py/七猫高清.py",
       "searchable": 1,

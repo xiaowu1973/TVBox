@@ -34,8 +34,6 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 * 巧技线路："http://cdn.qiaoji8.com/tvbox.json"
 
-* 无名："https://s3.hi168.com/hi168-29669-8467sl9x/api.json"
-
 * 讴歌线路："http://tv.nxog.top/m"
 
 * vox线路："http://rihou.cc:88/demoabc.json"
@@ -45,8 +43,6 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 * 枫斗tv："http://枫斗.top/tv"
 
 * 幸福资源: "http://150.158.52.248/tgyg/bbm.json"
-
-* 刘公子: "https://my5353.com/liugongzi"
 
 影视软件下载地址
 

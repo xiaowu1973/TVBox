@@ -42,6 +42,8 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 * 枫斗tv："http://枫斗.top/tv"
 
+* t4接口："http://189.1.224.165:4676/proxy.php?code=duanwu"
+
 * 幸福资源: "http://150.158.52.248/tgyg/bbm.json"
 
 影视软件下载地址

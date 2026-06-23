@@ -429,19 +429,6 @@
       }
     },
     {
-      "key": "灵虎",
-      "name": "灵虎",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": "https://bind.315999.xyz/89.txt",
-        "dataKey": "#getapp@TMD@2025",
-        "dataIv": "#getapp@TMD@2025"
-      }
-    },
-    {
       "key": "独播影视",
       "name": "独播",
       "type": 3,
@@ -812,6 +799,13 @@
       "api": "csp_XBPQ",
       "ext": "./XBPQ/追剧大师.json"
     },
+    {
+      "key": "花都影视",
+      "name": "花都",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/花都影视.json"
+    },	  
     {
       "key": "窜天猴",
       "name": "天猴",

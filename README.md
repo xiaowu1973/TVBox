@@ -28,6 +28,8 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 * 《潇洒》2 "https://9877.kstore.space/ONE/one.json"
 
+* 小米线路："http://bobohome.ignorelist.com:20247/🍙小米/"
+
 * 王二线路："https://d.kstore.dev/download/9280/wex.json"
 
 * 东离线路："https://gh-proxy.org/https://github.com/xiaowu1973/dongliTV/blob/main/api.json"

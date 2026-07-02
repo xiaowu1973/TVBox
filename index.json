@@ -865,7 +865,53 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60
-    }, 
+    },
+    {
+      "key": "桃花资源",
+      "name": "桃花",
+      "type": 1,
+      "api": "https://thzy1.me/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 0
+    },
+    {
+      "key": "乐播资源",
+      "name": "乐播",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 0
+    },
+    {
+      "key": "玉兔资源",
+      "name": "玉兔",
+      "type": 1,
+      "api": "https://apilsbzy1.com/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 0
+    },
+    {
+      "key": "滴滴资源",
+      "name": "滴滴",
+      "type": 1,
+      "api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },	  
+    {
+      "key": "鲨鱼资源",
+      "name": "鲨鱼",
+      "type": 1,
+      "api": "https://shayuzy.com/api.php/provide/vod/?ac=list",
+      "playUrl": "https://shayujx.com/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },	  
     {
       "key": "阿里云盘",
       "name": "阿里",

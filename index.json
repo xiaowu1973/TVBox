@@ -153,14 +153,6 @@
       }
     },
     {
-      "key":"评书",
-      "name":"评书",
-      "type":4,
-      "api":"https://catbox.n13.club/t9/suishenting.php",
-      "searchable":0,
-      "quickSearch":0
-    },
-    {
       "key": "1905",
       "name": "1905",
       "type": 3,
@@ -277,6 +269,57 @@
       "ext": "http://app.hktvyb.cc"
     },
     {
+      "name": "橘汁",
+      "key": "Juzhi",
+      "type": 3,
+      "jar": "http://150.158.52.248/tgyg/lib/Juzhi_spider.jar",
+      "api": "csp_Juzhi",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {
+        "host": "",
+        "site": "http://150.158.52.248/tgyg/lib/az5.txt",
+        "version": "3.0.1.9"
+      }
+    },
+    {
+      "key": "三八资源",
+      "name": "三八",
+      "type": 1,
+      "api": "https://vod38.com/api.php/provide/vod",
+      "categories": [
+        "邵氏片",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "纪录片",
+        "动画片",
+        "国产剧",
+        "港剧",
+        "台剧",
+        "日剧",
+        "泰剧",
+        "韩剧",
+        "欧美剧",
+        "海外剧",
+        "短剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "港台动漫",
+        "日韩动漫",
+        "欧美动漫"
+      ]
+    },	  
+    {
       "key": "首发",
       "name": "首发",
       "type": 3,
@@ -308,20 +351,6 @@
       }
     },
     {
-      "key": "老鹰",
-      "name": "老鹰",
-      "type": 3,
-      "api": "csp_AppQi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt",
-        "dataKey": "zxPtEUDGVllIUhDB",
-        "dataIv": "zxPtEUDGVllIUhDB",
-        "ua": "okhttp/3.10.0"
-      }
-    },
-    {
       "key": "蓝鹰",
       "name": "蓝鹰",
       "type": 3,
@@ -347,32 +376,6 @@
         "url": "https://xiaolu.pwwhu.cn",
         "dataKey": "x5Bep6Q78VCeYnPS",
         "dataIv": "x5Bep6Q78VCeYnPS"
-      }
-    },
-    {
-      "key": "猎豹",
-      "name": "猎豹",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "url": "https://444421.xyz",
-        "dataKey": "#getapp@TMD@2025",
-        "dataIv": "#getapp@TMD@2025"
-      }
-    },
-    {
-      "key": "映画",
-      "name": "映画",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "url": "https://cms140.yhg.one/",
-        "dataKey": "bM7iC9eA3oZ1nB7z",
-        "dataIv": "bM7iC9eA3oZ1nB7z"
       }
     },
     {

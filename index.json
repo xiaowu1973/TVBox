@@ -464,26 +464,6 @@
       }
     },
     {
-      "key": "享趣视频",
-      "name": "享趣",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://www.xqkk.live/",
-        "数组": "lazyload\"&&</a",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "<span class=\"pic-text text-right\">&&</span>",
-        "链接": "href=\"&&\"",
-        "简介": "",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "分类url": "https://www.xqkk.live/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$39#少儿$41#"
-      }
-    },
-    {
       "key": "秒播影视",
       "name": "秒播",
       "type": 3,
@@ -534,20 +514,6 @@
       }
     },
     {
-      "key": "龛影影视",
-      "name": "龛影",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "分类url": "https://www.kanying.me/menu/1/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}",
-        "分类": "电影$1#剧集$2#动漫$4#综艺$3",
-        "简介": ""
-      }
-    },
-    {
       "key": "旺旺影视",
       "name": "旺旺",
       "type": 3,
@@ -584,19 +550,6 @@
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",       
         "分类url":"https://www.kxyytv.com/;;!"
-      }
-    },
-    {
-      "key":"柒月影视",
-      "name":"柒月",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "searchable":1,
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",       
-        "分类url":"https://ys.ggww.net/;;!Z"
       }
     },
     {
@@ -737,6 +690,47 @@
       }
     },
     {
+      "key": "真不卡影院",
+      "name": "不卡",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "主页url": "https://www.sobods.com/vodshow/20-----------.html",
+        "图片代理": "0",
+        "分类url": "https://www.sobods.com/vodshow/20-{cateId}-------{catePg}---.html",
+        "分类": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大",
+        "分类值": "*",
+        "数组": "默认--lazyload&&</a||搜索--lazyload&&</a",
+        "标题": "title=\"&&\"",
+        "图片": "data-original=\"&&\"",
+        "副标题": "right\">&&<",
+        "链接": "href=\"&&\"",
+        "影片年代": "年份：&&</a",
+        "影片地区": "地区：&&</a",
+        "影片类型": "类型：&&</a",
+        "状态": "更新：&&</p",
+        "导演": "导演：&&</p",
+        "主演": "主演：&&</p",
+        "简介": "col-pd\">&&</p",
+        "线路二次截取": "",
+        "线路数组": "<h3&&/h3>",
+        "线路标题": "src=*>&&<",
+        "播放数组": "playlist clearfix&&</ul>",
+        "倒序": "0",
+        "播放列表": "<a&&/a>",
+        "播放标题": ">&&<",
+        "播放链接": "href=\"&&\"",
+        "跳转播放链接": "var player_*\"url\":\"&&\"",
+        "搜索模式": "1",
+        "搜索url": "https://www.sobods.com/vodsearch/{wd}----------{pg}---.html"
+      }
+    },	  
+    {
       "key":"九九影视",
       "name":"九九",
       "type":3,
@@ -792,13 +786,6 @@
       "api": "csp_XBPQ",
       "ext": "./XBPQ/花都影视.json"
     },	  
-    {
-      "key": "窜天猴",
-      "name": "天猴",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/窜天猴.json"
-    },
     {
       "key":"91仓库",
       "name":"仓库",
@@ -867,6 +854,29 @@
       "timeout": 60
     },
     {
+      "key": "快递",
+      "name": "快递",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "主页url": "https://www.xjjkdfw.sbs/",
+        "数组": "thumbnail-group clearfix&&</li",
+        "标题": ">&&<",
+        "图片": "original=\"&&\"",
+        "链接": "href=\"&&\"[替换:voddetail>>vodplay#.html>>-1-1.html]",
+        "分类url": "https://www.xjjkdfw.sbs/vodtype/{cateId}/page/{catePg}.html",
+        "分类二次截取": "<div class=\"area\">&&</div",
+        "分类数组": "<a&&/a>",
+        "分类标题": ">&&<",
+        "分类ID": "/vodtype/&&.html"
+      }
+    },	  
+    {
       "key": "桃花资源",
       "name": "桃花",
       "type": 1,
@@ -875,6 +885,15 @@
       "searchable": 1,
       "filterable": 0
     },
+    {
+      "key": "仓库资源",
+      "name": "仓库",
+      "type": 1,
+      "api": "https://hsckzy.vip/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 0
+    },	  
     {
       "key": "乐播资源",
       "name": "乐播",
@@ -893,6 +912,15 @@
       "searchable": 1,
       "filterable": 0
     },
+    {
+      "key": "细胞资源",
+      "name": "细胞",
+      "type": 1,
+      "api": "https://www.xxibaozyw.com/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 0
+    },	  
     {
       "key": "滴滴资源",
       "name": "滴滴",

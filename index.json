@@ -405,37 +405,14 @@
       }
     },
     {
-      "key": "独播影视",
-      "name": "独播",
-      "type": 3,
-      "api": "csp_Duboku"
-    },
-    {
-      "key": "指南",
-      "name": "指南",
-      "type": 3,
-      "api": "csp_4KZhinan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 60
-    },
-    {
-      "key": "人人",
-      "name": "人人",
-      "type": 3,
-      "api": "csp_RenRen",
-      "timeout": 60
-    },
-    {
       "key": "看客联盟",
       "name": "看客",
       "type": 3,
       "api": "./py/skapp.py",
       "ext": {
-	"host": "https://kankelm.cn:2024/appdomain.txt",
-	"key": "ygcnbcvybqqckwqy",
-	"iv": "1583560747143708"
+	   "host": "https://kankelm.cn:2024/appdomain.txt",
+	   "key": "ygcnbcvybqqckwqy",
+	   "iv": "1583560747143708"
       }
     },
     {
@@ -568,19 +545,6 @@
       }
     },
     {
-      "key":"琥珀影视",
-      "name":"琥珀",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "searchable":1,
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",       
-        "分类url":"https://www.lvaedtech.com/;;!"
-      }
-    },
-    {
       "key": "全看影视",
       "name": "全看",
       "type": 3,
@@ -603,19 +567,6 @@
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",       
         "分类url":"https://www.xiaozhupeiqi.cc/;;!H"
-      }
-    },
-    {
-      "key":"欧乐影院",
-      "name":"欧乐",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "searchable":1,
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",       
-        "分类url":"https://www.oleol.com/;;!H"
       }
     },
     {
@@ -797,20 +748,9 @@
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",
-        "分类url":"https://8day.icu/vod/show/id/20/;;!H"
+        "分类url":"https://8day.icu/vod/show/id/20/;;!"
       }
-    },	  
-    {
-      "key": "七猫高清",
-      "name": "七猫",
-      "type": 3,
-      "api": "./py/七猫高清.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "filterable": 0,
-      "timeout": 60
-    },	
+    },	  	
     {
       "key": "神秘影院",
       "name": "神秘",

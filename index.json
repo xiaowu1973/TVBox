@@ -686,6 +686,20 @@
       }
     },
     {
+      "key":"八天",
+      "name":"八天",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "searchable":1,
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",       
+        "分类url":"https://8day.icu/;;!H",
+        "分类": "日本无码&日本有码&华语AV&网红主播&禁漫"
+      }
+    },	  
+    {
       "key":"北京影院",
       "name":"北京",
       "type":3,
@@ -750,19 +764,7 @@
         "编码":"UTF-8",
         "分类url":"https://av8d.me/;;!H"
       }
-    },	  
-    {
-      "key":"八天",
-      "name":"八天",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",
-        "分类url":"https://8day.icu/vod/show/id/20/;;!"
-      }
-    },	  	
+    },	  	  	
     {
       "key": "神秘影院",
       "name": "神秘",

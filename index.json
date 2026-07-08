@@ -718,7 +718,7 @@
       "name": "追剧",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./XBPQ/追剧大师.json"
+      "ext": "./XBPQ/PTT视频.json"
     },
     {
       "key": "花都影视",

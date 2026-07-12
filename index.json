@@ -702,7 +702,7 @@
       "name": "追剧",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./XBPQ/PTT视频.json"
+      "ext": "./XBPQ/追剧大师.json"
     },
     {
       "key": "花都影视",
@@ -787,21 +787,12 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
-    },
-    {
-      "key": "滴滴资源",
-      "name": "滴滴",
-      "type": 1,
-      "api": "https://api.ddapi.cc/api.php/provide/vod/at/json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },	  
     {
       "key": "蕃茄",
       "name": "蕃茄",
       "type": 1,
-      "api": "https://fqzy.me//api.php/provide/vod/",
+      "api": "https://fqzy.me/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1
@@ -877,16 +868,7 @@
       "quickSearch": 1,
       "searchable": 1,
       "filterable": 0
-    },	  
-    {
-      "key": "滴滴资源",
-      "name": "滴滴",
-      "type": 1,
-      "api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },	  
+    },	  	  
     {
       "key": "鲨鱼资源",
       "name": "鲨鱼",

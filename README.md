@@ -26,8 +26,6 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 * 潇洒线路："https://qist.ugigc.dpdns.org/xiaosa/api.json"
 
-* 《潇洒》2 "https://9877.kstore.space/ONE/one.json"
-
 * 肥猫线路 "https://jk.catvod.site/"
 
 * 小米线路："http://bobohome.ignorelist.com:20247/🍙小米/"
@@ -36,13 +34,9 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 * 东离线路："https://gh-proxy.org/https://github.com/xiaowu1973/dongliTV/blob/main/api.json"
 
-* 巧技线路："http://cdn.qiaoji8.com/tvbox.json"
-
 * 讴歌线路："http://tv.nxog.top/m"
 
 * vox线路："http://rihou.cc:88/demoabc.json"
-
-* 林中小屋："https://8815.kstore.vip/tvbox/Ace"
 
 * 枫斗tv："http://枫斗.top/tv"
 

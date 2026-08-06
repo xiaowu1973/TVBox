@@ -228,7 +228,7 @@
     },	  
     {
       "key": "蓝鹰",
-      "name": "蓝鹰 • APP",
+      "name": "蓝鹰",
       "type": 3,
       "api": "csp_AppQi",
       "searchable": 1,
@@ -243,7 +243,7 @@
     },
     {
       "key": "不戳",
-      "name": "不戳 • APP",
+      "name": "不戳",
       "type": 3,
       "api": "csp_AppGet",
       "searchable": 1,
@@ -256,7 +256,7 @@
     },
     {
       "key": "魔方",
-      "name": "魔方 • APP",
+      "name": "魔方",
       "type": 3,
       "api": "csp_AppGet",
       "searchable": 1,
@@ -269,7 +269,7 @@
     },
     {
       "key": "王子",
-      "name": "王子 • APP",
+      "name": "王子",
       "type": 3,
       "api": "csp_AppGet",
       "searchable": 1,
@@ -282,7 +282,7 @@
     },
     {
       "key": "茉莉",
-      "name": "茉莉 • APP",
+      "name": "茉莉",
       "type": 3,
       "api": "csp_AppGet",
       "searchable": 1,

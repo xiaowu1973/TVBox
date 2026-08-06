@@ -36,7 +36,7 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 * 讴歌线路："http://tv.nxog.top/m"
 
-* vox线路："http://rihou.cc:88/demoabc.json"
+* 集多线路："http://rihou.cc:88/demoabc.json"
 
 * 枫斗tv："http://枫斗.top/tv"
 

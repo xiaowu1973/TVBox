@@ -168,6 +168,63 @@
       "api": "csp_Gz360"
     },
     {
+      "key": "一起影视",
+      "name": "一起",
+      "type": 3,
+      "api": "csp_AppYQK",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "三秋影视",
+      "name": "三秋",
+      "type": 3,
+      "api": "csp_App3Q",
+      "ext": {
+        "host": "https://asd123sx23xdacsx.top",
+        "finger": "SF-C3B2B41F6EFFFF9869176CF68F6790E8F07506FC88632C94B4F5F0430D5498CA",
+        "updateId": "38b0ddfd-9aa3-8e42-5c92-a7fddd3d36e7",
+        "deviceBrand": "vivo",
+        "deviceModel": "V2309A",
+        "pkg": "com.sunshine.tv",
+        "sk": "SK-thanks",
+        "ver": "6"
+      }
+    },
+    {
+      "key": "马猴影视",
+      "name": "马猴",
+      "type": 3,
+      "api": "csp_App3Q",
+      "ext": {
+        "host": "https://45.150.167.18:8000",
+        "finger": "SF-A962FEC75DA28D7514F2A16580334272A78AC0A8429F10C94F47C1BAFC876E3F",
+        "updateId": "43c1ef69-3748-aaeb-317f-c621c77653ee",
+        "deviceBrand": "vivo",
+        "deviceModel": "V2309A",
+        "pkg": "com.damahou.tv",
+        "sk": "SK-woniu-thanks",
+        "ver": "1"
+      }
+    },
+    {
+      "key": "云朵影视",
+      "name": "云朵",
+      "type": 3,
+      "api": "csp_App3Q",
+      "ext": {
+        "host": "https://ds3xy2yunsa.xyz",
+        "finger": "SF-F5F11CB15897115AE6BCFE063C288F730CA865588F572C780A3E8477D0DD3776",
+        "updateId": "175070c3-075c-468b-950a-bf575769f4f1",
+        "deviceBrand": "vivo",
+        "deviceModel": "V2309A",
+        "pkg": "com.tvcloud.io",
+        "sk": "SK-sk_13oXDZ7u9j2Tk1c0cawWVFfO",
+        "ver": "1"
+      }
+    },	  
+    {
       "key": "量子资源",
       "name": "量子",
       "type": 1,
@@ -209,22 +266,6 @@
       "changeable": 1,
       "api": "csp_AppFox",
       "ext": "http://app.hktvyb.cc"
-    },
-    {
-      "name": "橘汁",
-      "key": "Juzhi",
-      "type": 3,
-      "jar": "http://150.158.52.248/tgyg/lib/Juzhi_spider.jar",
-      "api": "csp_Juzhi",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": {
-        "host": "",
-        "site": "http://150.158.52.248/tgyg/lib/az5.txt",
-        "version": "3.0.1.9"
-      }
     },	  
     {
       "key": "蓝鹰",
@@ -305,6 +346,32 @@
       }
     },
     {
+      "key": "屠夫影院",
+      "name": "屠夫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+        "线路数组": "class=\"dvdyy-content__playlist clearfix column6\">&&</ul>",
+        "分类url": "http://k.jsgshtl.com/s/{cateId}/area/{area}/lang/{lang}/page/{catePg}/year/{year}.html",
+        "简介": ""
+      }
+    },	  
+    {
+      "key": "即看影视",
+      "name": "即看",
+      "type": 3,
+      "api": "csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",		
+	  "ext": {
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8", 		
+		"分类url":"https://www.jkz.app/;;!H"
+	  }      
+    },	  
+    {
       "key": "地瓜影院",
       "name": "地瓜",
       "type": 3,
@@ -327,31 +394,6 @@
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",       
         "分类url":"https://www.kxyytv.com/;;!"
-      }
-    },
-    {
-      "key":"秋霞影视",
-      "name":"秋霞",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "searchable":1,
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",       
-        "分类url":"https://m.lqhonggan.com/;;!"
-      }
-    },
-    {
-      "key":"枝枝影视",
-      "name":"枝枝",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",
-        "分类url":"https://zzoc.cc/;;!"
       }
     },
     {
@@ -405,18 +447,6 @@
       }
     },	  
     {
-      "key": "即看影视",
-      "name": "即看",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://www.jkan.com/;;!H"
-      }
-    },
-    {
       "key": "飞星视频",
       "name": "飞星",
       "type": 3,
@@ -428,6 +458,18 @@
         "分类url": "http://www.tdsc888.com/;;!H"
       }
     },
+    {
+      "key": "真不卡",
+      "name": "不卡",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.sobods.com/;;!H"
+      }
+    },	  
     {
       "key": "真不卡影院",
       "name": "不卡",
@@ -510,21 +552,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/速影TV.json"
-    },
-    {
-      "key": "三八影院",
-      "name": "神马",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/三八影院.json"
     },	  
-    {
-      "key": "追剧大师",
-      "name": "追剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/追剧大师.json"
-    },
     {
       "key": "花都影视",
       "name": "花都",
@@ -537,23 +565,10 @@
       "name":"仓库",
       "type":3,
       "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",
         "分类url":"https://996624.xyz/{cateId}/page/{catePg}/;;z"
-      }
-    },
-    {
-      "key":"橘子影城",
-      "name":"影城",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",
-        "分类url":"https://av8d.me/;;!H"
       }
     },	  	  	
     {
@@ -599,52 +614,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60
-    },
-    {
-      "key": "155資源",
-      "name": "155",
-      "type": 1,
-      "api": "https://155api.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },	  
-    {
-      "key": "蕃茄",
-      "name": "蕃茄",
-      "type": 1,
-      "api": "https://fqzy.me/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "jkun资源",
-      "name": "jkun",
-      "type": 1,
-      "api": "https://jkunzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },	  
-    {
-      "key": "奥斯卡",
-      "name": "奥卡",
-      "type": 1,
-      "api": "https://aosikazy.com/api.php/provide/vod/",
-      "quickSearch": 1,
-      "searchable": 1,
-      "filterable": 0
-    },
-    {
-      "key": "七天",
-      "name": "七天",
-      "type": 1,
-      "api": "https://8day.icu/api.php/provide/vod/at/json/",
-      "quickSearch": 1,
-      "searchable": 1,
-      "filterable": 0
-    },	  
+    },	  	  	  
     {
       "key": "仓库资源",
       "name": "仓库",
@@ -662,35 +632,7 @@
       "quickSearch": 1,
       "searchable": 1,
       "filterable": 0
-    },
-    {
-      "key": "玉兔资源",
-      "name": "玉兔",
-      "type": 1,
-      "api": "https://apilsbzy1.com/api.php/provide/vod/",
-      "quickSearch": 1,
-      "searchable": 1,
-      "filterable": 0
-    },
-    {
-      "key": "细胞资源",
-      "name": "细胞",
-      "type": 1,
-      "api": "https://www.xxibaozyw.com/api.php/provide/vod/",
-      "quickSearch": 1,
-      "searchable": 1,
-      "filterable": 0
-    },	  	  
-    {
-      "key": "鲨鱼资源",
-      "name": "鲨鱼",
-      "type": 1,
-      "api": "https://shayuzy.com/api.php/provide/vod/?ac=list",
-      "playUrl": "https://shayujx.com/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },	  
+    },	  	  	  
     {
       "key": "阿里云盘",
       "name": "阿里",

@@ -12,45 +12,12 @@
       "timeout": 10
     },
     {
-      "name": "提督直播",
+      "name": "Collect-IPTV",
       "type": 0,
-      "url": "http://ko.zoho.to//ii/提督道.txt",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "name": "全能直播",
-      "type": 0,
-      "url": "https://125.208.22.159:8889/down/47dlyghbNXgh",
-      "playerType": 1,
-      "ua": "okhttp/4.18",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "新直播",
-      "type": 0,
-      "url": "http://47.120.41.246:8899/xinzb.txt",
+      "url": "https://v4.gh-proxy.org/https://github.com/zilong7728/Collect-IPTV/blob/main/best_sorted.m3u8",
       "playerType": 1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },    	  
-    {
-      "name": "港台直播",
-      "type": 0,
-      "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com/woshishiq1/hipy-drpy/main/FGBLH/港台大陆",
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "xx视频",
-      "type": 0,
-      "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com/woshishiq1/hipy-drpy/main/FGBLH/xxx视频资源",
-      "ua": "okhttp/3.15"
     },	  
     {
       "name": "经典剧场",
@@ -65,10 +32,6 @@
     {
       "name": "精品合集",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/atsushi444/iptv/refs/heads/main/ttt.m3u"
-    },
-    {
-      "name": "MQiTV",
-      "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com/xiaowu1973/hipy-drpy/main/yihad168/MQiTV.txt"
     },	  
     {
       "name": "潘多拉",
@@ -77,58 +40,6 @@
       "ua": "okhttp/3.15",
       "epg": "",
       "logo": ""
-    },
-    {
-      "name": "全能直播",
-      "type": 0,
-      "url": "https://125.208.22.159:8889/down/47dlyghbNXgh",
-      "playerType": 1,
-      "ua": "okhttp/4.18",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "Collect-IPTV",
-      "type": 0,
-      "url": "https://hk.gh-proxy.org/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u8",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "北京联通",
-      "type": 1,
-      "url": "https://www.lequxiang.com.cn/down.php/377017d93a234658902c8ae358790359.txt",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "name": "最强央卫(EXO)",
-      "type": 0,
-      "url": "https://gitee.com/fuleishu/fulei/raw/master/zhiboceshi/iptv.m3u",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "ua": "okhttp/3.15,AptvPlayer/1.4.0,okHttp/Mod-1.0.0",
-      "playerType": 2,
-      "timeout": 10
-    },
-    {
-      "name": "新直播",
-      "type": 0,
-      "url": "http://47.120.41.246:8899/xinzb.txt",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "综合直播",
-      "type": 0,
-      "playerType": 2,
-      "url": "https://ds65.tv1288.xyz",
-      "ua": "bingcha/1.1 (mianfeifenxiang) "
     }
   ],
   "sites": [

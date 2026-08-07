@@ -225,28 +225,6 @@
       }
     },	  
     {
-      "key": "量子资源",
-      "name": "量子",
-      "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "记录片",
-        "台湾剧",
-        "香港剧",
-        "欧美剧",
-        "海外剧"
-      ]
-    },
-    {
       "key": "热播影视",
       "name": "热播",
       "type": 3,
@@ -469,48 +447,7 @@
         "编码": "UTF-8",
         "分类url": "https://www.sobods.com/;;!H"
       }
-    },	  
-    {
-      "key": "真不卡影院",
-      "name": "不卡",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://www.sobods.com/vodshow/20-----------.html",
-        "图片代理": "0",
-        "分类url": "https://www.sobods.com/vodshow/20-{cateId}-------{catePg}---.html",
-        "分类": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大",
-        "分类值": "*",
-        "数组": "默认--lazyload&&</a||搜索--lazyload&&</a",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "right\">&&<",
-        "链接": "href=\"&&\"",
-        "影片年代": "年份：&&</a",
-        "影片地区": "地区：&&</a",
-        "影片类型": "类型：&&</a",
-        "状态": "更新：&&</p",
-        "导演": "导演：&&</p",
-        "主演": "主演：&&</p",
-        "简介": "col-pd\">&&</p",
-        "线路二次截取": "",
-        "线路数组": "<h3&&/h3>",
-        "线路标题": "src=*>&&<",
-        "播放数组": "playlist clearfix&&</ul>",
-        "倒序": "0",
-        "播放列表": "<a&&/a>",
-        "播放标题": ">&&<",
-        "播放链接": "href=\"&&\"",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "搜索模式": "1",
-        "搜索url": "https://www.sobods.com/vodsearch/{wd}----------{pg}---.html"
-      }
-    },	  
+    },	  	  
     {
       "key":"九九影视",
       "name":"九九",
@@ -540,6 +477,19 @@
       }
     },
     {
+      "key":"花都影视",
+      "name":"花都",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "searchable":1,
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",       
+        "分类url":"https://hd29.huaduys.org/;;!z"
+      }
+    },	  
+    {
       "key": "猫眼视频",
       "name": "猫眼",
       "type": 3,
@@ -552,19 +502,13 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/速影TV.json"
-    },	  
-    {
-      "key": "花都影视",
-      "name": "花都",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/花都影视.json"
-    },	  
+    },	  	  
     {
       "key":"91仓库",
-      "name":"仓库",
+      "name":"九一",
       "type":3,
       "api":"csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",
@@ -603,27 +547,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60
-    },	  
-    {
-      "key": "文艺复兴",
-      "name": "国外",
-      "type": 3,
-      "api": "./py/Vf.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "filterable": 0,
-      "timeout": 60
-    },	  	  	  
-    {
-      "key": "仓库资源",
-      "name": "仓库",
-      "type": 1,
-      "api": "https://hsckzy.vip/api.php/provide/vod/",
-      "quickSearch": 1,
-      "searchable": 1,
-      "filterable": 0
-    },	  
+    },	  	  
     {
       "key": "乐播资源",
       "name": "乐播",

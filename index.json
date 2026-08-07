@@ -386,19 +386,6 @@
         "分类url":"http://www.lncxbj.com/;;!H",
         "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
       }
-    },
-    {
-      "key":"花都影视",
-      "name":"花都",
-      "type":3,
-      "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "searchable":1,
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",       
-        "分类url":"https://hd29.huaduys.org/;;!z"
-      }
     },	  
     {
       "key": "猫眼视频",

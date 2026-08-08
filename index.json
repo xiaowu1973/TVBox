@@ -757,7 +757,7 @@
     },
     {
       "key": "索尼资源",
-      "name": "索尼资源┃刺桐",
+      "name": "索尼",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/",
       "url": "https://jkk.zyzqcb.cc/jkk.php?url=",
@@ -793,7 +793,7 @@
     },
     {
       "key": "暴风影视",
-      "name": "暴风影视┃刺桐",
+      "name": "暴风",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "url": "https://jkk.zyzqcb.cc/jkk.php?url=",
@@ -820,7 +820,7 @@
     },
     {
       "key": "天堂资源",
-      "name": "天堂资源┃刺桐",
+      "name": "天堂",
       "type": 1,
       "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
       "url": "https://jkk.zyzqcb.cc/jkk.php?url=",
@@ -980,7 +980,7 @@
     },
     {
       "key": "魔都资源",
-      "name": "魔都动漫┃刺桐",
+      "name": "魔都",
       "type": 1,
       "api": "https://caiji.moduapi.cc/api.php/provide/vod/",
       "url": "https://jkk.zyzqcb.cc/jkk.php?url=",

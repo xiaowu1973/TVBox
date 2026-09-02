@@ -40,14 +40,6 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 <p align="right"><a href="#精选资源">返回分类导航</a></p>
 
-### 直播源
-
-| 资源 | 简介 | 推荐指数 | 状态 | 检测时间 |
-| --- | --- | :---: | :---: | :---: |
-| [IPTV-org](<https://github.com/iptv-org/iptv>) | 社区维护的公开 IPTV 频道集合 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:iptv-org -->🟢&#8288;可&#8288;访问<!-- /availability:iptv-org --> | <!-- availability-date:iptv-org -->2026&#8209;09&#8209;02<!-- /availability-date:iptv-org --> |
-
-<p align="right"><a href="#精选资源">返回分类导航</a></p>
-
 * 潇洒线路："https://qist.ugigc.dpdns.org/xiaosa/api.json"
 
 

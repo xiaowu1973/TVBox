@@ -22,6 +22,7 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 | 资源 | 地址 | 推荐指数 | 状态 | 检测时间 |
 | --- | --- | :---: | :---: | :---: |
+| [潇洒线路](<https://qist.ugigc.dpdns.org/xiaosa/api.json>) | `https://qist.ugigc.dpdns.org/xiaosa/api.json` | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:xiao-sa-xian-lu -->🟢&#8288;可&#8288;访问<!-- /availability:xiao-sa-xian-lu --> | <!-- availability-date:xiao-sa-xian-lu -->2026&#8209;09&#8209;02<!-- /availability-date:xiao-sa-xian-lu --> | 
 | [饭太硬](<https://www.饭太硬.cc>) | `http://www.饭太硬.net/tv` | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:fan-tai-ying -->🟢&#8288;可&#8288;访问<!-- /availability:fan-tai-ying --> | <!-- availability-date:fan-tai-ying -->2026&#8209;09&#8209;02<!-- /availability-date:fan-tai-ying --> |
 | [摸鱼儿](<https://www.小不点.com/>) | `http://摸鱼儿.cc` | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:mo-yu-er -->🟢&#8288;可&#8288;访问<!-- /availability:mo-yu-er --> | <!-- availability-date:mo-yu-er -->2026&#8209;09&#8209;02<!-- /availability-date:mo-yu-er --> |
 | [王二小](<https://www.王二小放牛娃.top>) | `http://new.王二小放牛娃.top` | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:wang-er-xiao -->🟢&#8288;可&#8288;访问<!-- /availability:wang-er-xiao --> | <!-- availability-date:wang-er-xiao -->2026&#8209;09&#8209;02<!-- /availability-date:wang-er-xiao --> |
@@ -39,8 +40,6 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 | [小盒子](<https://www.xhztv.pro/>) | 专业 TV 工具箱，免费好用 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:xiao-he-zi -->🟢&#8288;可&#8288;访问<!-- /availability:xiao-he-zi --> | <!-- availability-date:xiao-he-zi -->2026&#8209;09&#8209;02<!-- /availability-date:xiao-he-zi --> |
 
 <p align="right"><a href="#精选资源">返回分类导航</a></p>
-
-* 潇洒线路："https://qist.ugigc.dpdns.org/xiaosa/api.json"
 
 
 影视软件下载地址

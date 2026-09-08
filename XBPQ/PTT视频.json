@@ -19,18 +19,15 @@
 "过滤词": "",
 
 
-"主页url": "https://ptt.co/zh-cn",
+"主页url": "https://ptt.co/zh-cn/p/",
 
 "首页": "120",
 
 "起始页": "1",
 
-"分类url": "/zh-hans/p/{cateId}{class}?page={catePg}&{area}&{year}&{by};;mrc",
+"分类url": "/zh-cn/p/{cateId}{class}?page={catePg}&{area}&{year}&{by};;mrc",
 
-"分类": "电影&剧集&综艺&动漫&短剧&体育",
-
-"分类值": "1&3&2&4&66&53",
-
+"分类": "电视剧$3#电影$1#动漫$4#综艺$2#短剧$66#体育$53#",
 
 "二次截取": "",
 

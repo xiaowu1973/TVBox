@@ -6,19 +6,11 @@ https://github.akams.cn/
 
 https://www.metools.info/other/md5368.html
 
-TVBOX/影视接口解密
-
-接口解密 ： https://jm.n13.club/
-
-接口助手 ： https://bjq.catvod.site/
-
 base64解码：https://tool.oschina.net/encrypt?type=3
 
 AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 16进制解码：http://www.cyeam.com/tool/hexdecode
-
-接口解密 http://饭太硬.ml/jm/
 
 | 资源 | 地址 | 推荐指数 | 状态 | 检测时间 |
 | --- | --- | :---: | :---: | :---: |

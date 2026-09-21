@@ -905,7 +905,7 @@
     },
     {
       "key": "觅盘",
-      "name": "觅盘,
+      "name": "觅盘",
       "type": 3,
       "api": "csp_MiPan",
       "searchable": 1,

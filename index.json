@@ -157,18 +157,20 @@
       }
     },	  
     {
-      "key":"北京影院",
-      "name":"北京",
-      "type":3,
-      "api":"csp_XBPQ",
-      "searchable":1,
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",       
-        "分类url":"http://www.lncxbj.com/;;!H",
-        "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
+      "key": "北京影院",
+      "name": "北京",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "简介：&&</div>",
+        "请求头": "手机",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "线路数组": "#playlist&&</a>",
+        "线路标题": "title=\"&&\"",
+        "分类url": "http://www.lncxbj.com/hdshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$40#伦理片$30#电影解说$39"
       }
-    },	  
+    },    	  
     {
       "key": "猫眼视频",
       "name": "猫眼",
@@ -182,7 +184,22 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/速影TV.json"
-    },	  	  
+    },
+    {
+      "key": "VIP影视",
+      "name": "VIP",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "简介：&&</div>",
+        "请求头": "手机",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "线路数组": "#playlist&&</a>",
+        "线路标题": "title=\"&&\"",
+        "分类url": "https://www.vipdy.vip/s/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "分类": "电影$dianying#剧集$juji#综艺$zongyi#综艺$dongman#体育$tiyu#福利片$fulipian#"
+      }
+    },	  
     {
       "key":"91仓库",
       "name":"九一",
@@ -199,17 +216,6 @@
       "name": "神秘",
       "type": 3,
       "api": "./py/神秘影院.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "filterable": 0,
-      "timeout": 60
-    },
-    {
-      "key": "Vf影院",
-      "name": "国外",
-      "type": 3,
-      "api": "./py/Vf.py",
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,

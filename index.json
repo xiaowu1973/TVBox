@@ -142,29 +142,7 @@
         "编码":"UTF-8",
         "分类url": "https://888mov.com/;;!H"
       }
-    },	  
-    {
-      "key": "飞星视频",
-      "name": "飞星",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "http://www.tdsc888.com/;;!H"
-      }
-    },
-    {
-      "key": "真不卡",
-      "name": "不卡",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://www.sobods.com/;;!H"
-      }
-    },	  	  
+    },	  	  	  
     {
       "key":"九九影视",
       "name":"九九",

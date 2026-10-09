@@ -2,7 +2,7 @@
   "spider": "./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
   "lives": [
     {
-      "name": "最强央卫(EXO)",
+      "name": "最强央卫",
       "type": 0,
       "url": "https://gitee.com/fuleishu/fulei/raw/master/zhiboceshi/iptv.m3u",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
@@ -10,14 +10,6 @@
       "ua": "okhttp/3.15,AptvPlayer/1.4.0,okHttp/Mod-1.0.0",
       "playerType": 2,
       "timeout": 10
-    },
-    {
-      "name": "Collect-IPTV",
-      "type": 0,
-      "url": "https://v4.gh-proxy.org/https://github.com/zilong7728/Collect-IPTV/blob/main/best_sorted.m3u8",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "经典剧场",
@@ -44,17 +36,14 @@
   ],
   "sites": [
     {
-      "key": "1905影视",
-      "name": "1905",
+      "key": "drpy_js_豆瓣",
+      "name": "豆瓣",
       "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类": "电影$n_1#微电影$n_1_c_922#系列电影$n_2#纪录片$c_927#晚会$n_1_c_586#独家$n_1_c_178#综艺$n_1_c_1024#体育$n_1_c_1053#",
-        "分类url": "https://www.1905.com/vod/list/{cateId}/o3p{catePg}.html",
-        "简介": ""
-      }
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/drpy.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
     },
     {
       "key": "看客联盟",
@@ -71,7 +60,7 @@
       "key": "采集合集",
       "name": "采集",
       "type": 3,
-      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/tvbox18/blob/master/py/%E9%87%87%E9%9B%86%E8%81%9A%E5%90%88%E6%88%90%E4%BA%BA.py"
+      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/tvbox18/blob/master/py/采集聚合成人.py"
     },
     {
       "key": "屠夫影院",
@@ -102,8 +91,8 @@
       }
     },
     {
-      "key": "橘子影视",
-      "name": "橘子",
+      "key": "莲花影院",
+      "name": "莲花",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -184,6 +173,13 @@
       "ext": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/XBPQ/%E9%80%9F%E5%BD%B1TV.json"
     },
     {
+      "key": "PTT线上看",
+      "name": "PTT",
+      "type": 3,
+      "api": "./py/PTT线上看.py",
+      "ext": ""
+    },
+    {
       "key": "py_shaofu36",
       "name": "喝了",
       "type": 3,
@@ -206,13 +202,13 @@
       "key": "妲己视频",
       "name": "妲己",
       "type": 3,
-      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/py/%E5%A6%B2%E5%B7%B1%E8%A7%86%E9%A2%91.py"
+      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/py/妲己视频.py"
     },
     {
       "key": "熊猫秒播",
       "name": "熊猫",
       "type": 3,
-      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/py/%E7%86%8A%E7%8C%AB%E7%A7%92%E6%92%AD.py"
+      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/py/熊猫秒播.py"
     },
     {
       "key": "极品少女",
@@ -225,6 +221,12 @@
       "name": "乐土",
       "type": 3,
       "api": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/py/丝袜乐土.py"
+    },
+    {
+      "key": "怦然心动",
+      "name": "心动",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/tvbox18/blob/master/py/怦然心动.py"
     },
     {
       "key": "优质资源",

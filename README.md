@@ -16,9 +16,9 @@ AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
 
 潇洒接口
 
-[1]: https://9877.kstore.space/sun.json
+https://9877.kstore.space/sun.json
 
-[2]: https://qist.ugigc.dpdns.org/xiaosa/api.json
+https://qist.ugigc.dpdns.org/xiaosa/api.json
 
 
 影视软件下载地址

@@ -6,11 +6,6 @@ https://github.akams.cn/
 
 https://www.metools.info/other/md5368.html
 
-base64解码：https://tool.oschina.net/encrypt?type=3
-
-AES cbc解密:https://the-x.cn/zh-cn/cryptography/Aes.aspx
-
-16进制解码：http://www.cyeam.com/tool/hexdecode
 
 | 资源 | 地址 |
 

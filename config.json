@@ -1,6 +1,24 @@
 {
-  "spider": "https://gh-proxy.org/https://github.com/caliph21/caliph21.github.io/blob/main/xiaosa/spider.jar;md5;f48f35cca82088f7ac467b9b7e343d85",
+  "spider": "./spider.jar",
   "lives": [
+    {
+      "name": "最强直播",
+      "type": 0,
+      "url": "https://gh-proxy.org/https://github.com/cluntop/tvbox/blob/main/lib/iptv.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "catchup": {
+        "type": "append",
+        "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+      }
+    },
+    {
+      "name": "AI直播",
+      "type": 0,
+      "ua": "okhttp/3.15",
+      "url": "https://gh-proxy.org/https://github.com/zilong7728/Collect-IPTV/blob/main/best_sorted.m3u8"
+    },
     {
       "name": "央卫港台",
       "type": 0,
@@ -10,9 +28,15 @@
       "ua": "okhttp/5.3.2"
     },
     {
+      "name": "咪咕直播",
+      "type": 1,
+      "ua": "okhttp/3.15",
+      "url": "http://www.52top.com.cn:678/downloads/migu.txt"
+    },
+    {
       "name": "IPTV直播",
       "type": 0,
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/pyapk/1/refs/heads/main/zby",
+      "url": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/json/潘多拉.txt",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "ua": "okhttp/5.3.2"
@@ -20,7 +44,12 @@
     {
       "name": "经典剧场",
       "type": 0,
-      "url": "./json/经典剧场.txt"
+      "url": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/json/经典剧场.txt"
+    },
+    {
+      "name": "提督直播",
+      "type": 0,
+      "url": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/json/提督道.json"
     },
     {
       "name": "最强央卫",
@@ -87,6 +116,16 @@
       "name": "1905",
       "type": 3,
       "api": "csp_Web1905",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "西瓜视频",
+      "name": "西瓜",
+      "type": 3,
+      "api": "csp_AmuXiguaV2",
+      "jar": "./xigua.jar",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0
@@ -337,6 +376,12 @@
       }
     },
     {
+      "key": "鬼片之家",
+      "name": "鬼片",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/py/鬼片之家.py"
+    },
+    {
       "key": "袋鼠影视",
       "name": "袋鼠",
       "type": 3,
@@ -347,6 +392,12 @@
       "name": "懂片",
       "type": 3,
       "api": "https://gh-proxy.org/https://github.com/xiaowu1973/kjh998/blob/main/py/懂片帝AI.py"
+    },
+    {
+      "key": "不卡影视",
+      "name": "不卡",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://github.com/wzxxcz/wzxxcz/blob/maing/py/不卡影视.py"
     },
     {
       "key": "6V电影网",

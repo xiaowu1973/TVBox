@@ -399,6 +399,12 @@
       "searchable": 1
     },
     {
+      "key": "小蜜蜂影院",
+      "name": "蜜蜂",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/kjh998/blob/main/py/小蜜蜂影院.py"
+    },
+    {
       "key": "爱听音乐",
       "name": "爱听",
       "type": 3,
@@ -541,6 +547,44 @@
       }
     },
     {
+      "key": "兄弟影视",
+      "name": "兄弟",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "嗅探词": ".m3u8?#sns-creator-preview.xhscdn.com#.m3u8#47.96.255.149#v3-cold-src.toutiaovod.com#38.61.5.6:11301#tvcms.aikanhd.vip#.mp4",
+        "过滤词": "/dmku.brovod.top/#xdad.m3u8",
+        "影片年代": "<divclass=\"module-info-tag\">&&</div>",
+        "影片状态": "备注：&&</div>",
+        "影片类型": "module-info-tag\">&&立即播放",
+        "线路数组": "data-dropdown-value=&&</div>",
+        "线路标题": "<span>&&</span>",
+        "分类url": "https://www.brovod.com/show/{cateId}-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}",
+        "分类": "电影$Movies#剧集$TV#动漫$Anime#综艺$Shows#纪录片$Documentaries#短剧$Snaps#"
+      }
+    },
+    {
+      "key": "猴哥影视",
+      "name": "猴哥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "主页url": "https://www.wxxkdp.com/",
+        "副标题": "module-item-note&&</div>",
+        "主演": "主演：&&</a>",
+        "线路数组": "\"vod_play_from\":&&",
+        "线路标题": "title=\"&&\"",
+        "跳转播放链接": "varurlDecode(var player_*url\":\"&&\")",
+        "分类url": "https://www.wxxkdp.com/vodtype/{cateId}.html",
+        "分类": "电影$1#剧集$2#动漫$4#综艺$3#动作片$6#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#电视剧$2#国产剧$25#香港剧$15#泰国剧$14#韩国剧$16#台湾剧$22#日本剧$23#欧美剧$24#海外剧$13#综艺$3#动漫$4"
+      }
+    },
+    {
       "key": "新时代影视",
       "name": "时代",
       "type": 3,
@@ -621,14 +665,45 @@
       "name": "屁屁",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./XBPQ/屁屁影院.json"
+      "ext": {
+        "简介": "简介：&&</div>",
+        "请求头": "手机",
+        "主页url": "https://www.parrothatch.com/",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "线路数组": "#playlist&&</a>",
+        "线路标题": "title=\"&&\"",
+        "分类url": "https://www.parrothatch.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#伦理片$36"
+      }
     },
     {
       "key": "速影TV",
       "name": "速影",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./XBPQ/速影TV.json"
+      "ext": {
+        "站名": "速影",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "标题": "title=\"&&\"",
+        "图片": "background-image: url('&&'",
+        "链接": "href=\"&&\"",
+        "数组": "stui-vodlist__box\">&&</div>",
+        "线路数组": "title\">&&</h3>",
+        "线路标题": "<span>&&</span>",
+        "副标题": "pic-text text-right\">&&</span>",
+        "播放标题": ">&&</",
+        "播放链接": "href='&&'",
+        "播放列表": "<a&&</a",
+        "跳转播放链接": "",
+        "播放数组": "stui-content__playlist&&</ul>",
+        "简介": "简介：</span>&&</p >",
+        "搜索url": "https://xn--94qq85au3qyvbe13c.com/vodsearch/{wd}----------{pg}---.html",
+        "搜索模式": "1",
+        "嗅探词": ".m3u8#.mp4",
+        "分类url": "https://xn--94qq85au3qyvbe13c.com/movie-type-id-{cateId}-pg-{catePg}---{year}--{letter}--area-{area}-{lang}-.html",
+        "分类": "电影$1#连续剧$2#综艺$3#动漫$4#伦理片$22"
+      }
     },
     {
       "key": "急救教学",

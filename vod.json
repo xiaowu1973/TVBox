@@ -60,20 +60,6 @@
         "type": "append",
         "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
       }
-    },
-    {
-      "name": "MQiTV",
-      "api": "csp_MQiTV",
-      "ext": [
-        {
-          "name": "Hotel A",
-          "url": "https://127.0.0.1:4433"
-        },
-        {
-          "name": "Hotel B",
-          "url": "http://127.0.0.1"
-        }
-      ]
     }
   ],
   "sites": [

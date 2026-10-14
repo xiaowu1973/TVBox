@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;f48f35cca82088f7ac467b9b7e343d85",
+  "spider": "./spider.jar;md5;7d204aeb2bc2d6c89aaa18460492b67d",
   "lives": [
     {
       "name": "最强直播",
@@ -18,14 +18,6 @@
       "type": 0,
       "ua": "okhttp/3.15",
       "url": "https://gh-proxy.org/https://github.com/zilong7728/Collect-IPTV/blob/main/best_sorted.m3u8"
-    },
-    {
-      "name": "央卫港台",
-      "type": 0,
-      "url": "https://ds65.tv1288.xyz",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "ua": "okhttp/5.3.2"
     },
     {
       "name": "咪咕直播",
@@ -93,37 +85,20 @@
       "filterable": 0
     },
     {
-      "key": "热播影视",
-      "name": "热播",
+      "key": "马猴影视",
+      "name": "马猴",
       "type": 3,
-      "api": "csp_AppRJ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
+      "api": "csp_App3Q",
       "ext": {
-        "url": "http://v.rbotv.cn"
+        "host": "https://45.150.167.18:8000",
+        "finger": "SF-A962FEC75DA28D7514F2A16580334272A78AC0A8429F10C94F47C1BAFC876E3F",
+        "updateId": "43c1ef69-3748-aaeb-317f-c621c77653ee",
+        "deviceBrand": "vivo",
+        "deviceModel": "V2309A",
+        "pkg": "com.damahou.tv",
+        "sk": "SK-woniu-thanks",
+        "ver": "1"
       }
-    },
-    {
-      "key": "一起影视",
-      "name": "一起",
-      "type": 3,
-      "api": "csp_AppYQK",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "咕噜咕噜",
-      "name": "咕噜",
-      "type": 3,
-      "api": "./py/咕噜咕噜.py"
-    },
-    {
-      "key": "电影人生",
-      "name": "人生",
-      "type": 3,
-      "api": "./py/电影人生.py"
     },
     {
       "key": "布布",
@@ -225,7 +200,28 @@
         "dataKey": "88689667dce61725",
         "dataIv": "88689667dce61725"
       }
-    },   
+    }, 
+     {
+      "key": "热播影视",
+      "name": "热播",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "url": "http://v.rbotv.cn"
+      }
+    },
+    {
+      "key": "一起影视",
+      "name": "一起",
+      "type": 3,
+      "api": "csp_AppYQK",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    }, 
     {
       "key": "独播影视",
       "name": "独播",
@@ -262,6 +258,18 @@
         "n": "哔哩合集",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       }
+    },
+    {
+      "key": "咕噜咕噜",
+      "name": "咕噜",
+      "type": 3,
+      "api": "./py/咕噜咕噜.py"
+    },
+    {
+      "key": "电影人生",
+      "name": "人生",
+      "type": 3,
+      "api": "./py/电影人生.py"
     },
     {
       "key": "九霄视频",
@@ -364,6 +372,12 @@
       "name": "蜜蜂",
       "type": 3,
       "api": "https://gh-proxy.org/https://github.com/xiaowu1973/kjh998/blob/main/py/小蜜蜂影院.py"
+    },
+    {
+      "key": "采集合集",
+      "name": "聚合",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/py/%E9%87%87%E9%9B%86%E5%90%88%E9%9B%86.py"
     },
     {
       "key": "兄弟影视",

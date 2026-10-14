@@ -36,14 +36,6 @@
       "url": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/json/提督道.json"
     },
     {
-      "name": "央卫港台",
-      "type": 0,
-      "url": "https://ds65.tv1288.xyz",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "ua": "okhttp/5.3.2"
-    },
-    {
       "name": "咪咕直播",
       "type": 1,
       "ua": "okhttp/3.15",
@@ -397,6 +389,12 @@
       "type": 3,
       "api": "./py/嘀嗒影视.py",
       "searchable": 1
+    },
+    {
+      "key": "采集合集",
+      "name": "聚合",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/py/%E9%87%87%E9%9B%86%E5%90%88%E9%9B%86.py"
     },
     {
       "key": "小蜜蜂影院",

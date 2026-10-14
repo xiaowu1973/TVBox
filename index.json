@@ -1,5 +1,5 @@
 {
-  "spider": "./XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+  "spider": "./spider.jar;md5",
   "lives": [
     {
       "name": "最强央卫",
@@ -14,24 +14,24 @@
     {
       "name": "经典剧场",
       "type": 0,
-      "url": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/json/%E7%BB%8F%E5%85%B8%E5%89%A7%E5%9C%BA.txt"
+      "url": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/json/经典剧场.txt"
     },
     {
       "name": "达人频道",
       "type": 0,
-      "url": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/json/%E8%BE%BE%E4%BA%BA%E9%A2%91%E9%81%93.json"
+      "url": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/json/达人频道.json"
     },
     {
       "name": "精品合集",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/atsushi444/iptv/refs/heads/main/ttt.m3u"
     },
     {
-      "name": "潘多拉",
+      "name": "IPTV直播",
       "type": 0,
-      "url": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/json/live.txt",
-      "ua": "okhttp/3.15",
-      "epg": "",
-      "logo": ""
+      "url": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/json/潘多拉.txt",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "ua": "okhttp/5.3.2"
     }
   ],
   "sites": [
@@ -55,12 +55,6 @@
         "key": "ygcnbcvybqqckwqy",
         "iv": "1583560747143708"
       }
-    },
-    {
-      "key": "采集合集",
-      "name": "采集",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/tvbox18/blob/master/py/采集聚合成人.py"
     },
     {
       "key": "屠夫影院",
@@ -91,99 +85,44 @@
       }
     },
     {
-      "key": "莲花影院",
-      "name": "莲花",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://www.xslh.org/;;!H"
-      }
-    },
-    {
-      "key": "橘子影视",
-      "name": "橘子",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://www.xiaozhupeiqi.cc/;;!H"
-      }
-    },
-    {
-      "key": "888影视",
-      "name": "888",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://888mov.com/;;!H"
-      }
-    },
-    {
-      "key": "九九影视",
-      "name": "九九",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "http://www.9y9r.com/;;!H",
-        "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
-      }
-    },
-    {
       "key": "北京影院",
       "name": "北京",
       "type": 3,
       "api": "csp_XBPQ",
-      "searchable": 1,
       "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "http://www.lncxbj.com/;;!H",
-        "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
+        "简介": "简介：&&</div>",
+        "请求头": "手机",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "线路数组": "#playlist&&</a>",
+        "线路标题": "title=\"&&\"",
+        "分类url": "http://www.lncxbj.com/hdshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$40#伦理片$30#电影解说$39"
       }
-    },
-    {
-      "key": "猫眼视频",
-      "name": "猫眼",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/XBPQ/%E7%8C%AB%E7%9C%BC%E8%A7%86%E9%A2%91.json"
-    },
-    {
-      "key": "神马影院",
-      "name": "神马",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/XBPQ/%E4%B8%89%E5%85%AB%E5%BD%B1%E9%99%A2.json"
     },
     {
       "key": "速影TV",
       "name": "速影",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/XBPQ/%E9%80%9F%E5%BD%B1TV.json"
+      "ext": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/XBPQ/速影TV.json"
+    },
+    {
+      "key": "采集合集",
+      "name": "采集",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/tvbox18/blob/master/py/采集聚合成人.py"
+    },
+    {
+      "key": "精英突击",
+      "name": "突击",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/tvbox18/blob/master/py/精英突击.py"
     },
     {
       "key": "PTT线上看",
       "name": "PTT",
       "type": 3,
       "api": "./py/PTT线上看.py",
-      "ext": ""
-    },
-    {
-      "key": "py_shaofu36",
-      "name": "喝了",
-      "type": 3,
-      "api": "./py/shaofu36.py",
       "ext": ""
     },
     {
@@ -196,7 +135,7 @@
       "key": "花都影视",
       "name": "花都",
       "type": 3,
-      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/py/花都影视.py"
+      "api": "./py/花都影视.py"
     },
     {
       "key": "妲己视频",
@@ -209,24 +148,6 @@
       "name": "熊猫",
       "type": 3,
       "api": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/py/熊猫秒播.py"
-    },
-    {
-      "key": "极品少女",
-      "name": "极品",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/py/极品少女.py"
-    },
-    {
-      "key": "丝袜乐土",
-      "name": "乐土",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/py/丝袜乐土.py"
-    },
-    {
-      "key": "怦然心动",
-      "name": "心动",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/tvbox18/blob/master/py/怦然心动.py"
     },
     {
       "key": "优质资源",

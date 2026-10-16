@@ -4,7 +4,7 @@
     {
       "name": "最强央卫",
       "type": 0,
-      "url": "https://raw.gitcode.com/abac1984/Video-interface/blobs/78444d04ad0c43c776d91a5c0a54b90e35020c90/iptv.m3u",
+      "url": "https://gh-proxy.org/https://github.com/pyapk/1/blob/main/zby",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "ua": "okhttp/3.15,AptvPlayer/1.4.0,okHttp/Mod-1.0.0",
@@ -12,15 +12,19 @@
       "timeout": 10
     },
     {
-      "name": "AI直播",
+      "name": "IPTV",
       "type": 0,
-      "ua": "okhttp/3.15",
-      "url": "https://gh-proxy.org/https://github.com/zilong7728/Collect-IPTV/blob/main/best_sorted.m3u8"
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "ua": "okhttp/3.15,AptvPlayer/1.4.0,okHttp/Mod-1.0.0",
+      "playerType": 2,
+      "timeout": 10
     },
     {
-      "name": "IPTV直播",
+      "name": "TV直播",
       "type": 0,
-      "url": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/json/潘多拉.txt",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "ua": "okhttp/5.3.2"
@@ -289,6 +293,12 @@
       "filterable": 0
     },
     {
+      "key": "华数TV",
+      "name": "华数",
+      "type": 3,
+      "api": "./py/华数TV.py"
+    },
+    {
       "key": "咕噜咕噜",
       "name": "咕噜",
       "type": 3,
@@ -324,6 +334,12 @@
 	"key": "ygcnbcvybqqckwqy",
 	"iv": "1583560747143708"
       }
+    },
+    {
+      "key": "开心影院",
+      "name": "开心",
+      "type": 3,
+      "api": "./js/开心影院.js"
     },
     {
       "key": "不卡影视",
@@ -394,7 +410,7 @@
       "key": "采集合集",
       "name": "聚合",
       "type": 3,
-      "api": "https://gh-proxy.org/https://github.com/xiaowu1973/TVBox/blob/main/py/%E9%87%87%E9%9B%86%E5%90%88%E9%9B%86.py"
+      "api": "./py/采集聚合.py"
     },
     {
       "key": "小蜜蜂影院",

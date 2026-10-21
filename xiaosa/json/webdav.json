@@ -1,0 +1,11 @@
+{
+    "vodPic": "https://img.meituan.net/content/fbd69c6772ea1da9a198e07f0476fced7864.webp",
+    "drives": [
+        {
+            "name": "七米藍",
+            "server": "https://al.chirmyram.com/dav",
+            "user": "alist",
+            "pass": "alist"
+        }
+    ]
+}

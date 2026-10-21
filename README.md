@@ -7,11 +7,14 @@ https://github.akams.cn/
 https://www.metools.info/other/md5368.html
 
 
-潇洒接口
+影视接口
 
 https://9877.kstore.space/sun.json
 
 https://qist.ugigc.dpdns.org/xiaosa/api.json
+
+https://8815.kstore.vip/tvbox/wmz
+
 
 
 影视软件下载地址

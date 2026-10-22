@@ -1,8 +1,20 @@
 {
-    "vodPic": "https://img.meituan.net/content/a05346f9a44fa891c49ea458a3bf9ccd3474.webp",
-    "drives":[
+    "vodPic": "https://rogsoft.ddnsto.com/softcenter/softcenter/res/icon-alist.png",
+    "drives": [
         {
-            "name": "🌌七米蓝🌌",
+            "name": "小雅",
+            "server": "http://alist.xiaoya.pro"
+        },
+        {
+            "name": "触光",
+            "server": "https://pan.ichuguang.com"
+        },
+        {
+            "name": "魔都云",
+            "server": "https://cdn.modupan.com"
+        },
+        {
+            "name": "七米蓝",
             "server": "https://al.chirmyram.com"
         }
     ]

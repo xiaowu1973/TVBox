@@ -237,14 +237,22 @@
       ]
     },
     {
-      "key": "猫眼资源",
-      "name": "猫眼",
-      "type": 1,
-      "api": "https://api.maoyanapi.top/api.php/provide/vod/",
-      "url": "https://jx.maoyanjx.top/player/?url=",
-      "fenlei": "电影|连续剧|综艺|动漫|短剧",
-      "searchable": 1,
-      "quickSearch": 1
+      "key":"猫眼资源",
+      "name":"猫眼",
+      "type":1,
+      "api":"https://api.maoyanapi.top/api.php/provide/vod",
+      "playUrl":"https://jx.maoyanjx.top/player/?url=",
+      "搜索url":"https://www.maoyanzy.com/index.php/vod/search.html?wd={wd}",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"西瓜资源",
+      "name":"西瓜",
+      "type":1,
+      "api":"https://xiguazy.tv/api.php/provide/vod/",
+      "searchable":1,
+      "quickSearch":1
     },
     {
       "key": "牛牛资源",
